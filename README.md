@@ -1,6 +1,6 @@
 # OPIc Question Bank
 
-A simple, static bilingual (English / Korean) question bank for practicing the OPIc speaking test, organized by topic and by monthly lesson.
+A simple, static bilingual (English / Korean) question bank for practicing the OPIc speaking test, organized by topic and by month.
 
 **Live site:** https://jaeukmoon.github.io/opic-site/
 
@@ -8,7 +8,7 @@ A simple, static bilingual (English / Korean) question bank for practicing the O
 
 - A single-page static site (no build step, no dependencies) driven by `data/questions.json`.
 - **Questions only.** It contains OPIc exam question prompts and their Korean translations — no model answers, scripts, or strategies. It is a prompt bank for self-practice.
-- Features: topic sidebar with counts, English/Korean search, question-type badges (description / past experience / comparison / routine / role play / current issue), per-question topic tags on the monthly sections, dark mode, and a toggle to hide the Korean translation for speaking practice.
+- Features: topic sidebar with counts, English/Korean search, question-type badges (description / past experience / comparison / routine / role play / current issue), per-question topic tags on the monthly sets, dark mode, and a toggle to hide the Korean translation for speaking practice.
 
 ## Structure
 

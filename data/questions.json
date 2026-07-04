@@ -266,9 +266,9 @@
       ]
     },
     {
-      "id": "lesson-2025-08",
-      "nameKo": "SR 수업 25.08",
-      "nameEn": "Lesson 2025-08 (Aug)",
+      "id": "set-2025-08",
+      "nameKo": "기출 모음 25.08",
+      "nameEn": "Question Set · 2025.08",
       "questions": [
         {"en": "You indicated in the survey that you like to spend vacation at home. Who do you like to meet when you stay home for vacation? Why do you like to meet those people?", "ko": "배경설문에서 당신은 휴가를 집에서 보내는 것을 선호한다고 언급하셨습니다. 휴가 동안 집에 있을 때 누구를 만나고 싶으신가요? 그분들을 만나고 싶은 이유는 무엇인가요?", "type": "description", "topicHint": "집에서 보내는 휴가"},
         {"en": "What do you usually do when you stay home for vacation? Are there any particular things you like to do?", "ko": "집에서 휴가를 보낼 때는 주로 무엇을 하시나요? 특별히 선호하는 활동이 있나요?", "type": "routine", "topicHint": "집에서 보내는 휴가"},
@@ -327,9 +327,9 @@
       ]
     },
     {
-      "id": "lesson-2025-09",
-      "nameKo": "SR 수업 25.09",
-      "nameEn": "Lesson 2025-09 (Sept)",
+      "id": "set-2025-09",
+      "nameKo": "기출 모음 25.09",
+      "nameEn": "Question Set · 2025.09",
       "questions": [
         {"en": "I would like to know where you live. Describe your house in detail. What does it look like? How many rooms do you have? Which is your favorite room at home? And what do you usually do there?", "ko": "당신이 살고 있는 곳에 대해 말해보세요. 집의 모습과 구조를 자세히 설명하고, 방이 몇 개 있는지 이야기해보세요. 집에서 가장 좋아하는 방은 어디인지, 그곳에서 주로 무엇을 하는지도 말해보세요.", "type": "description", "topicHint": "집"},
         {"en": "Tell me about the things that you normally do at home. What are your responsibilities at home? And what do your family members do at home? Give me all the details.", "ko": "당신이 집에서 평소에 하는 일에 대해 이야기해보세요. 집에서 맡고 있는 책임은 무엇인지, 가족들은 집에서 어떤 일을 하는지도 설명해보세요. 가능한 한 자세히 말해보세요.", "type": "routine", "topicHint": "집"},
@@ -356,9 +356,9 @@
       ]
     },
     {
-      "id": "lesson-2025-10",
-      "nameKo": "SR 수업 25.10",
-      "nameEn": "Lesson 2025-10 (Oct)",
+      "id": "set-2025-10",
+      "nameKo": "기출 모음 25.10",
+      "nameEn": "Question Set · 2025.10",
       "questions": [
         {"en": "I'd like to give you a situation and ask you to act it out. You read about a professional nutritionist that helps people improve their diet. Call the nutritionist's office and ask 3 or 4 questions to get more information.", "ko": "당신은 식단 개선을 돕는 전문 영양사에 대해 알게 되었습니다. 그 영양사 사무실에 전화해서, 더 많은 정보를 얻기 위해 질문 3-4가지를 해보세요.", "type": "roleplay", "topicHint": "롤플레이 (영양사)"},
         {"en": "You have an appointment to meet with a nutritionist to help you make your diet healthier. However, on the day of the meeting, your boss asks you to work late. Call the nutritionist, explain the situation and offer two to three alternatives.", "ko": "당신은 건강한 식단을 위해 영양사와 상담 예약을 했습니다. 하지만 약속 당일, 상사가 야근을 요청했습니다. 영양사에게 전화해서 상황을 설명하고, 2-3가지 대안을 제시해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (영양사)"},
@@ -381,9 +381,9 @@
       ]
     },
     {
-      "id": "lesson-2025-11",
-      "nameKo": "SR 수업 25.11",
-      "nameEn": "Lesson 2025-11 (Nov)",
+      "id": "set-2025-11",
+      "nameKo": "기출 모음 25.11",
+      "nameEn": "Question Set · 2025.11",
       "questions": [
         {"en": "I'd like to give you a situation and ask you to act it out. You're writing a report on the technology industry. Your friend is an expert in this industry. Call him and ask 3 or 4 questions to know more about this industry.", "ko": "당신은 지금 기술 산업에 대한 보고서를 쓰고 있는데, 마침 친구가 이 분야 전문가입니다. 그 친구에게 전화해서 업계에 대한 정보를 3-4가지 질문해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (기술 리포트)"},
         {"en": "There is a problem which I need you to resolve. Your friend agreed to meet with you to share insights about the industry they work in. However, just a few days before the scheduled meeting, a family emergency comes up. Call your friend, explain what happened, and suggest two or three other ways you could still learn about the industry later.", "ko": "당신이 해결해야 할 문제가 생겼네요. 업계 전문가인 친구가 만나서 정보를 주기로 했는데, 약속 며칠 전 당신에게 급한 집안일이 생겼습니다. 지금 친구에게 전화해서 상황을 설명하고, 나중에라도 정보를 얻을 수 있는 다른 대안 2-3가지를 제시해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (기술 리포트)"},
