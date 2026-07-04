@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OPIc Question Bank</title>
+<style>
+  :root {
+    --bg: #f7f7f8;
+    --card: #ffffff;
+    --text: #1a1a1a;
+    --muted: #6b7280;
+    --accent: #2563eb;
+    --accent-soft: #dbeafe;
+    --border: #e5e7eb;
+  }
+  [data-theme="dark"] {
+    --bg: #111318;
+    --card: #1b1e26;
+    --text: #e8eaed;
+    --muted: #9aa0a6;
+    --accent: #60a5fa;
+    --accent-soft: #1e3a5f;
+    --border: #2d313b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  header h1 { font-size: 1.15rem; }
+  header .controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  #search {
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--text);
+    width: 220px;
+    font-size: 0.9rem;
+  }
+  .btn {
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    border-radius: 8px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .btn.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .layout { display: flex; max-width: 1100px; margin: 0 auto; gap: 20px; padding: 20px; }
+  nav {
+    flex: 0 0 230px;
+    position: sticky;
+    top: 78px;
+    align-self: flex-start;
+    max-height: calc(100vh - 98px);
+    overflow-y: auto;
+  }
+  nav button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 8px 12px;
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--text);
+    cursor: pointer;
+    font-size: 0.92rem;
+  }
+  nav button:hover { background: var(--accent-soft); }
+  nav button.active { background: var(--accent); color: #fff; }
+  nav .count { color: var(--muted); font-size: 0.8rem; margin-left: 4px; }
+  nav button.active .count { color: #e0e7ff; }
+  main { flex: 1; min-width: 0; }
+  .topic-block { margin-bottom: 28px; }
+  .topic-block h2 {
+    font-size: 1.05rem;
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+  }
+  .topic-block h2 .en { color: var(--muted); font-weight: normal; font-size: 0.9rem; margin-left: 8px; }
+  .q {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+  }
+  .q-head { display: flex; align-items: baseline; gap: 8px; }
+  .q .num { color: var(--accent); font-weight: 700; font-size: 0.8rem; flex: 0 0 auto; }
+  .q .en { font-size: 0.98rem; }
+  .q .ko { color: var(--muted); font-size: 0.88rem; margin-top: 4px; padding-left: 26px; }
+  body.hide-ko .q .ko { display: none; }
+  .badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    padding: 1px 7px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    margin-left: 6px;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  .badge.hint { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+  .empty { color: var(--muted); padding: 40px 0; text-align: center; }
+  footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 24px; }
+  @media (max-width: 720px) {
+    .layout { flex-direction: column; }
+    nav { position: static; max-height: none; display: flex; flex-wrap: wrap; gap: 6px; }
+    nav button { width: auto; }
+    #search { width: 150px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>OPIc Question Bank</h1>
+  <div class="controls">
+    <input id="search" type="search" placeholder="문제 검색 (영/한)...">
+    <button id="koToggle" class="btn on" title="한글 번역 표시/숨김">한글</button>
+    <button id="themeToggle" class="btn" title="테마 전환">◐</button>
+  </div>
+</header>
+<div class="layout">
+  <nav id="topicNav"></nav>
+  <main id="content"><div class="empty">Loading...</div></main>
+</div>
+<footer>questions only · 답변 없음 · personal study use</footer>
+<script>
+let DATA = null;
+let activeTopic = 'all';
+
+const TYPE_LABEL = {
+  description: '묘사',
+  past_experience: '과거경험',
+  comparison: '비교',
+  routine: '루틴/습관',
+  roleplay: '롤플레이',
+  current_issue: '시사이슈',
+  general: '일반'
+};
+
+async function load() {
+  const res = await fetch('data/questions.json');
+  DATA = await res.json();
+  document.title = DATA.meta.title;
+  renderNav();
+  render();
+}
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+}
+
+function renderNav() {
+  const nav = document.getElementById('topicNav');
+  const total = DATA.topics.reduce((s, t) => s + t.questions.length, 0);
+  let html = `<button data-id="all" class="active">전체 <span class="count">${total}</span></button>`;
+  for (const t of DATA.topics) {
+    html += `<button data-id="${t.id}">${esc(t.nameKo)} <span class="count">${t.questions.length}</span></button>`;
+  }
+  nav.innerHTML = html;
+  nav.querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
+    activeTopic = b.dataset.id;
+    nav.querySelectorAll('button').forEach(x => x.classList.toggle('active', x === b));
+    render();
+  }));
+}
+
+function render() {
+  const kw = document.getElementById('search').value.trim().toLowerCase();
+  const main = document.getElementById('content');
+  const topics = DATA.topics.filter(t => activeTopic === 'all' || t.id === activeTopic);
+  let html = '';
+  for (const t of topics) {
+    const qs = t.questions.filter(q =>
+      !kw || q.en.toLowerCase().includes(kw) || (q.ko && q.ko.toLowerCase().includes(kw)));
+    if (!qs.length) continue;
+    html += `<section class="topic-block"><h2>${esc(t.nameKo)}<span class="en">${esc(t.nameEn || '')}</span></h2>`;
+    qs.forEach((q, i) => {
+      const badge = q.type ? `<span class="badge">${TYPE_LABEL[q.type] || q.type}</span>` : '';
+      const hint = q.topicHint ? `<span class="badge hint">${esc(q.topicHint)}</span>` : '';
+      html += `<div class="q"><div class="q-head"><span class="num">Q${i + 1}</span><span class="en">${esc(q.en)}${badge}${hint}</span></div>` +
+              (q.ko ? `<div class="ko">${esc(q.ko)}</div>` : '') + `</div>`;
+    });
+    html += `</section>`;
+  }
+  main.innerHTML = html || '<div class="empty">일치하는 문제가 없습니다.</div>';
+}
+
+document.getElementById('search').addEventListener('input', render);
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const root = document.documentElement;
+  const next = root.dataset.theme === 'dark' ? '' : 'dark';
+  if (next) root.dataset.theme = next; else delete root.dataset.theme;
+  localStorage.setItem('opic-theme', next);
+});
+document.getElementById('koToggle').addEventListener('click', (e) => {
+  const hidden = document.body.classList.toggle('hide-ko');
+  e.target.classList.toggle('on', !hidden);
+  localStorage.setItem('opic-hideko', hidden ? '1' : '');
+});
+if (localStorage.getItem('opic-theme') === 'dark') document.documentElement.dataset.theme = 'dark';
+if (localStorage.getItem('opic-hideko') === '1') {
+  document.body.classList.add('hide-ko');
+  document.getElementById('koToggle').classList.remove('on');
+}
+load();
+</script>
+</body>
+</html>
