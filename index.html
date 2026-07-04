@@ -159,6 +159,17 @@
   .strat-step { font-weight: 700; color: var(--accent); font-size: 0.92rem; margin-bottom: 3px; }
   .strat-ko { font-size: 0.95rem; }
   .strat-en { font-size: 0.86rem; color: var(--muted); margin-top: 5px; font-family: ui-monospace, "Cascadia Code", Consolas, monospace; }
+  .strat-skeleton {
+    margin-top: 8px;
+    padding: 10px 12px;
+    background: var(--bg);
+    border: 1px dashed var(--border);
+    border-radius: 8px;
+    font-size: 0.86rem;
+    line-height: 1.75;
+  }
+  .strat-skeleton > div { padding: 1px 0; }
+  .strat-skeleton .lbl { color: var(--accent); font-weight: 600; }
   .empty { color: var(--muted); padding: 40px 0; text-align: center; }
   footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 24px; }
   @media (max-width: 720px) {
@@ -283,7 +294,9 @@ async function loadStrategy() {
     if (s.desc) html += `<p class="strat-desc">${esc(s.desc)}</p>`;
     for (const r of s.rows) {
       html += `<div class="strat-row"><div class="strat-step">${esc(r.step)}</div><div class="strat-ko">${esc(r.ko)}</div>` +
-              (r.en ? `<div class="strat-en">${esc(r.en)}</div>` : '') + `</div>`;
+              (r.en ? `<div class="strat-en">${esc(r.en)}</div>` : '') +
+              (r.skeleton ? `<div class="strat-skeleton">${r.skeleton.map(l => `<div>${esc(l)}</div>`).join('')}</div>` : '') +
+              `</div>`;
     }
     html += `</section>`;
   }

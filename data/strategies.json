@@ -23,12 +23,12 @@
       "nameEn": "By Question Type",
       "desc": "유형마다 두괄식의 순서와 채우는 방식이 조금씩 다르다.",
       "rows": [
-        {"step": "묘사 · Description", "ko": "두괄식: 좋아하는 것(MP) → 그것이 주는 기분(Feeling) → 이유(Why).", "en": ""},
-        {"step": "과거경험 · Past Experience", "ko": "두괄식: 언제·누구랑(MP) → 이유(Why) → 기분(Feeling). 시간·숫자 디테일과 6하원칙이 중요. 흐름: MP → 감정/필러 → 자유 서술 → 마무리.", "en": ""},
-        {"step": "루틴·습관 · Routine / Habit", "ko": "MP에서는 What(무엇을 하는지)이 가장 중요. 행동 예시로 보여주고 whenever를 자주 쓴다. 흐름: What·Why → 행동 예시 → 오감 묘사 → 깨달음 → 마무리.", "en": ""},
-        {"step": "비교 · Comparison", "ko": "시간 비교(과거↔현재): MP(현재만) → 과거 → 현재 → 결론. 비시간 비교: 두 대상을 반대 키워드로 대조(예: 대도시=계획적 ↔ 소도시=즉흥적).", "en": ""},
-        {"step": "롤플레이 · Role Play", "ko": "보통 3문제 세트: ① 정보 요청(질문 3~4개) → ② 문제 상황 해결(상황 설명 + 대안 2~3개 제시) → ③ 관련 과거경험. 전화 통화하듯 자연스럽게.", "en": ""},
-        {"step": "시사이슈 · Current Issue", "ko": "문제 제시 → 원인 → 사람들의 대응/해결. 개인 경험보다 일반론으로 폭넓게.", "en": ""}
+        {"step": "묘사 · Description", "ko": "두괄식: 좋아하는 것(MP) → 그것이 주는 기분(Feeling) → 이유(Why).", "en": "", "skeleton": ["시작: Let me tell you about my favorite ___.", "MP: My favorite ___ is ___. It makes me feel ___.", "이유: That's because ___.", "예시: For example, ___. Also, ___.", "마무리: That's why I really like it."]},
+        {"step": "과거경험 · Past Experience", "ko": "두괄식: 언제·누구랑(MP) → 이유(Why) → 기분(Feeling). 시간·숫자 디테일과 6하원칙이 중요. 흐름: MP → 감정/필러 → 자유 서술 → 마무리.", "en": "", "skeleton": ["시작: Oh, I think I have the perfect story.", "MP: About ___ ago, I ___ with ___.", "이유·감정: We did it because ___, and at that time I felt ___.", "전개: So what happened was ___. And then ___.", "마무리: It was one of the most ___ experiences ever, and I still think about it."]},
+        {"step": "루틴·습관 · Routine / Habit", "ko": "MP에서는 What(무엇을 하는지)이 가장 중요. 행동 예시로 보여주고 whenever를 자주 쓴다. 흐름: What·Why → 행동 예시 → 오감 묘사 → 깨달음 → 마무리.", "en": "", "skeleton": ["MP(What): Whenever I ___, I usually ___.", "이유: I do it because ___.", "행동 예시: For instance, I ___. I also ___.", "오감: While doing it, I can ___ (see / hear / smell ___).", "깨달음: I've realized that ___.", "마무리: So that's pretty much my routine."]},
+        {"step": "비교 · Comparison", "ko": "시간 비교(과거↔현재): MP(현재만) → 과거 → 현재 → 결론. 비시간 비교: 두 대상을 반대 키워드로 대조(예: 대도시=계획적 ↔ 소도시=즉흥적).", "en": "", "skeleton": ["MP(현재): These days, ___.", "과거: But in the past, ___.", "현재: Now, though, ___.", "마무리: That's the big difference between then and now."]},
+        {"step": "롤플레이 · Role Play", "ko": "보통 3문제 세트: ① 정보 요청(질문 3~4개) → ② 문제 상황 해결(상황 설명 + 대안 2~3개 제시) → ③ 관련 과거경험. 전화 통화하듯 자연스럽게.", "en": "", "skeleton": ["인사: Hi, I'm calling about ___.", "질문(①): First, I'd like to know ___? Also, ___? And one more thing, ___?", "문제해결(②): I'm afraid I can't ___ because ___. So, could we ___? If not, maybe ___?", "마무리: Thanks a lot, I really appreciate it."]},
+        {"step": "시사이슈 · Current Issue", "ko": "문제 제시 → 원인 → 사람들의 대응/해결. 개인 경험보다 일반론으로 폭넓게.", "en": "", "skeleton": ["MP: These days, a big issue about ___ is ___.", "원인: This is mainly because ___.", "대응: To deal with it, people ___ / the government ___.", "마무리: Hopefully it'll get better soon."]}
       ]
     },
     {

@@ -11,7 +11,11 @@
       "nameKo": "자기소개",
       "nameEn": "Self-Introduction",
       "questions": [
-        {"en": "Let's start the interview. Tell me something about yourself.", "ko": "인터뷰를 시작하겠습니다. 자신에 대해 이야기해 주세요.", "type": "general"}
+        {
+          "en": "Let's start the interview. Tell me something about yourself.",
+          "ko": "인터뷰를 시작하겠습니다. 자신에 대해 이야기해 주세요.",
+          "type": "general"
+        }
       ]
     },
     {
@@ -19,15 +23,96 @@
       "nameKo": "집, 거주지",
       "nameEn": "Home",
       "questions": [
-        {"en": "Please tell me about your house. Where is it located? What does it look like? Which is your favorite room?", "ko": "당신의 집에 대해 말해 주세요. 어디에 있고, 어떻게 생겼나요? 가장 좋아하는 방은 어디인가요?", "type": "description"},
-        {"en": "What do you usually do at home? Describe your typical routine at home.", "ko": "집에서 주로 무엇을 하나요? 집에서의 일상 루틴을 설명해 주세요.", "type": "routine"},
-        {"en": "Tell me about a special or memorable experience you had at home with your family.", "ko": "가족과 함께 집에서 있었던 특별하거나 기억에 남는 경험을 말해 주세요.", "type": "past_experience"},
-        {"en": "Compare the home you lived in as a child with the one you live in now.", "ko": "어렸을 때 살던 집과 지금 사는 집을 비교해 주세요.", "type": "comparison"},
-        {"en": "Homes have changed a lot over the years. What were they like 5 to 10 years ago, and how are they now?", "ko": "집은 세월에 따라 많이 변했습니다. 5~10년 전에는 어땠고, 지금은 어떤가요?", "type": "comparison"},
-        {"en": "Have you had any problems at home, such as a broken piece of furniture or an appliance? How did you handle it?", "ko": "집에서 가구나 가전제품이 고장 나는 등의 문제가 있었던 적이 있나요? 어떻게 해결했나요?", "type": "past_experience"},
-        {"en": "Tell me about the household appliances in your house. Which is your favorite, and why do you like it the most?", "ko": "집에 있는 가전제품에 대해 말해 주세요. 가장 좋아하는 것은 무엇이고, 왜 가장 좋아하나요?", "type": "description"},
-        {"en": "How have the home appliances that people use changed over the years?", "ko": "사람들이 사용하는 가전제품은 세월에 따라 어떻게 변했나요?", "type": "comparison"},
-        {"en": "Tell me about a time you spent your vacation or days off at home. What did you do?", "ko": "휴가나 쉬는 날을 집에서 보냈던 경험을 말해 주세요. 무엇을 했나요?", "type": "past_experience"}
+        {
+          "en": "Please tell me about your house. Where is it located? What does it look like? Which is your favorite room?",
+          "ko": "당신의 집에 대해 말해 주세요. 어디에 있고, 어떻게 생겼나요? 가장 좋아하는 방은 어디인가요?",
+          "type": "description"
+        },
+        {
+          "en": "What do you usually do at home? Describe your typical routine at home.",
+          "ko": "집에서 주로 무엇을 하나요? 집에서의 일상 루틴을 설명해 주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about a special or memorable experience you had at home with your family.",
+          "ko": "가족과 함께 집에서 있었던 특별하거나 기억에 남는 경험을 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Compare the home you lived in as a child with the one you live in now.",
+          "ko": "어렸을 때 살던 집과 지금 사는 집을 비교해 주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "Homes have changed a lot over the years. What were they like 5 to 10 years ago, and how are they now?",
+          "ko": "집은 세월에 따라 많이 변했습니다. 5~10년 전에는 어땠고, 지금은 어떤가요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Have you had any problems at home, such as a broken piece of furniture or an appliance? How did you handle it?",
+          "ko": "집에서 가구나 가전제품이 고장 나는 등의 문제가 있었던 적이 있나요? 어떻게 해결했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Tell me about the household appliances in your house. Which is your favorite, and why do you like it the most?",
+          "ko": "집에 있는 가전제품에 대해 말해 주세요. 가장 좋아하는 것은 무엇이고, 왜 가장 좋아하나요?",
+          "type": "description"
+        },
+        {
+          "en": "How have the home appliances that people use changed over the years?",
+          "ko": "사람들이 사용하는 가전제품은 세월에 따라 어떻게 변했나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Tell me about a time you spent your vacation or days off at home. What did you do?",
+          "ko": "휴가나 쉬는 날을 집에서 보냈던 경험을 말해 주세요. 무엇을 했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Describe your house in detail. What does it look like? How many rooms do you have? Which is your favorite room, and what do you mostly do there?",
+          "ko": "당신의 집에 대해 자세히 설명해 주세요. 어떻게 생겼나요? 방은 몇 개인가요? 가장 좋아하는 방은 어디이고, 그곳에서 주로 무엇을 하나요?",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about the house or apartment you lived in when you were a child. How is it different from the one you live in now? What are the similarities and differences?",
+          "ko": "어렸을 때 살던 집이나 아파트에 대해 이야기해 주세요. 지금 사는 곳과 어떻게 다른가요? 비슷한 점과 다른 점은 무엇인가요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Have you ever had any problems at home? For instance, a piece of furniture or a home appliance may have been broken or damaged. What was the problem and how did you handle the situation?",
+          "ko": "집에서 문제가 생긴 적이 있나요? 예를 들어 가구나 가전제품이 고장 나거나 망가진 적이요. 어떤 문제였고 그 상황을 어떻게 해결했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "I would like to know where you live. Which is your favorite room at home? What does it look like? What do you mostly do there?",
+          "ko": "어디에 사는지 알려주세요. 집에서 가장 좋아하는 방은 어디인가요? 그 방은 어떻게 생겼나요? 그곳에서 주로 무엇을 하나요?",
+          "type": "description"
+        },
+        {
+          "en": "Now, tell me about the things that you do at home. What are some parts of your daily routine? What is special about each activity?",
+          "ko": "이제 집에서 하는 일들에 대해 이야기해 주세요. 당신의 일상에서 어떤 부분들이 있나요? 각 활동은 무엇이 특별한가요?",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about how you usually clean your house. How often do you clean? What is your favorite part of cleaning the house?",
+          "ko": "평소에 집을 어떻게 청소하는지 이야기해 주세요. 얼마나 자주 청소하나요? 집 청소에서 가장 좋아하는 부분은 무엇인가요?",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about a change you made to your home. What was the change and why did you make that change? What did your home look like afterwards? Give me some details.",
+          "ko": "집에 준 변화에 대해 이야기해 주세요. 어떤 변화였고 왜 그 변화를 주었나요? 그 후 집은 어떤 모습이었나요? 자세히 알려주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Sometimes the issue of too many new homes, or not enough, creates a controversy in a community. Think of a time when an issue regarding housing was in the news in your community, and tell me about it.",
+          "ko": "때때로 새 집이 너무 많거나 부족한 문제가 지역 사회에서 논란을 일으키기도 합니다. 주택과 관련된 이슈가 당신의 지역 뉴스에 나왔던 때를 떠올려 이야기해 주세요.",
+          "type": "current_issue"
+        },
+        {
+          "en": "How has the style of homes changed over the past 5 or 10 years where you live? How is it different from the homes built 10 years ago? What developments or changes have you noticed?",
+          "ko": "당신이 사는 곳에서 지난 5년에서 10년 동안 집의 형태가 어떻게 바뀌었나요? 10년 전에 지어진 집들과는 어떻게 다른가요? 어떤 발전이나 변화를 느꼈나요?",
+          "type": "comparison"
+        }
       ]
     },
     {
@@ -35,7 +120,11 @@
       "nameKo": "나라",
       "nameEn": "Your Country",
       "questions": [
-        {"en": "Describe the geography of your country. Are there mountains, lakes, or rivers? What is your country like?", "ko": "당신 나라의 지리를 설명해 주세요. 산, 호수, 강이 있나요? 당신의 나라는 어떤가요?", "type": "description"}
+        {
+          "en": "Describe the geography of your country. Are there mountains, lakes, or rivers? What is your country like?",
+          "ko": "당신 나라의 지리를 설명해 주세요. 산, 호수, 강이 있나요? 당신의 나라는 어떤가요?",
+          "type": "description"
+        }
       ]
     },
     {
@@ -43,10 +132,81 @@
       "nameKo": "패션, 쇼핑",
       "nameEn": "Fashion & Shopping",
       "questions": [
-        {"en": "Tell me about how people in your country dress. How has fashion changed from the past to now?", "ko": "당신 나라 사람들이 어떻게 옷을 입는지 말해 주세요. 패션은 과거와 비교해 어떻게 변했나요?", "type": "comparison"},
-        {"en": "Tell me about a memorable experience you had when buying clothes.", "ko": "옷을 샀던 경험 중 기억에 남는 것을 말해 주세요.", "type": "past_experience"},
-        {"en": "Describe in detail what you wear to work.", "ko": "직장에 무엇을 입고 가는지 자세히 설명해 주세요.", "type": "description"},
-        {"en": "Where do you usually go shopping? What do you buy there, and what is special about that place?", "ko": "쇼핑하러 주로 어디에 가나요? 거기서 무엇을 사고, 그곳의 특별한 점은 무엇인가요?", "type": "description"}
+        {
+          "en": "Tell me about how people in your country dress. How has fashion changed from the past to now?",
+          "ko": "당신 나라 사람들이 어떻게 옷을 입는지 말해 주세요. 패션은 과거와 비교해 어떻게 변했나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Tell me about a memorable experience you had when buying clothes.",
+          "ko": "옷을 샀던 경험 중 기억에 남는 것을 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Describe in detail what you wear to work.",
+          "ko": "직장에 무엇을 입고 가는지 자세히 설명해 주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Where do you usually go shopping? What do you buy there, and what is special about that place?",
+          "ko": "쇼핑하러 주로 어디에 가나요? 거기서 무엇을 사고, 그곳의 특별한 점은 무엇인가요?",
+          "type": "description"
+        },
+        {
+          "en": "Fashion styles are always changing. Tell me about the different kinds of clothes that were popular when you were younger. What did the styles look like? How were they different from what is popular now?",
+          "ko": "패션 스타일은 항상 변합니다. 당신이 어렸을 때 유행했던 여러 종류의 옷에 대해 이야기해 주세요. 그 스타일은 어떤 모습이었나요? 현재 유행하는 것과는 어떻게 달랐나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Let's talk about your shopping habits. How often do you go shopping? What do you buy most often? Where do you go shopping? Who do you go with?",
+          "ko": "당신의 쇼핑 습관에 대해 이야기해봅시다. 얼마나 자주 쇼핑을 하나요? 무엇을 가장 자주 사나요? 어디로 쇼핑을 가나요? 누구와 함께 가나요?",
+          "type": "routine"
+        },
+        {
+          "en": "Unexpected things happen during a shopping trip. What kind of problems have you personally experienced while shopping? How did you deal with the situation?",
+          "ko": "쇼핑을 하다 보면 예상치 못한 일이 일어납니다. 쇼핑하면서 개인적으로 겪은 문제에는 어떤 것들이 있나요? 그 상황을 어떻게 해결했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "What are some major changes in people's shopping habits? Where do they shop most often? What do people most often buy?",
+          "ko": "사람들의 쇼핑 습관에서 나타난 주요 변화에는 어떤 것들이 있나요? 사람들은 어디에서 가장 자주 쇼핑하나요? 사람들은 무엇을 가장 자주 사나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "When was the last time you went to shop for something? And what did you buy? Who did you go with? What was special about that shopping experience? Give me all the details.",
+          "ko": "마지막으로 무언가를 사러 쇼핑을 간 것이 언제였나요? 그리고 무엇을 샀나요? 누구와 함께 갔나요? 그 쇼핑 경험에서 특별했던 점은 무엇이었나요? 자세히 말해주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Describe a typical shopping day for you. Tell me everything you do from the moment you leave home until you return.",
+          "ko": "당신의 전형적인 쇼핑하는 날을 설명해주세요. 집을 나서는 순간부터 돌아올 때까지 하는 모든 일을 말해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "I would like to know how people dress in your country. What kind of clothes do they wear? What is special about the fashion styles in your country?",
+          "ko": "당신 나라 사람들이 어떻게 옷을 입는지 알고 싶어요. 어떤 종류의 옷을 입나요? 당신 나라의 패션 스타일에서 특별한 점은 무엇인가요?",
+          "type": "description"
+        },
+        {
+          "en": "How have fashion trends in your country changed over the years? Do you think people in your country follow the latest fashions? If so, tell me why.",
+          "ko": "당신 나라의 패션 트렌드는 수년간 어떻게 변해왔나요? 당신 나라 사람들이 최신 유행을 따른다고 생각하나요? 그렇다면 이유를 말해주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "Talk about a time when you went shopping for some clothes. Where did you go and what did you buy? What was memorable about that shopping experience? Tell me everything about the time when you bought some clothes.",
+          "ko": "옷을 사러 쇼핑을 갔던 때에 대해 이야기해주세요. 어디에 갔고 무엇을 샀나요? 그 쇼핑 경험에서 기억에 남는 것은 무엇이었나요? 옷을 샀던 때에 대해 전부 말해주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "What do you do when you go to buy new clothes? Where do you go? Who do you go with? Tell me everything about what you do when you buy clothes.",
+          "ko": "새 옷을 사러 갈 때 무엇을 하나요? 어디로 가나요? 누구와 함께 가나요? 옷을 살 때 하는 일에 대해 전부 말해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "What are some issues people talk about related to fashion items in your country? Why did they become an issue?",
+          "ko": "당신 나라에서 패션 아이템과 관련해 사람들이 이야기하는 이슈에는 어떤 것들이 있나요? 그것들이 왜 이슈가 되었나요?",
+          "type": "current_issue"
+        }
       ]
     },
     {
@@ -54,8 +214,41 @@
       "nameKo": "국내여행",
       "nameEn": "Domestic Travel",
       "questions": [
-        {"en": "Tell me about an unexpected event you experienced during a domestic trip, such as a transportation or accommodation problem.", "ko": "국내 여행 중 교통이나 숙소 문제처럼 예상치 못한 일을 겪었던 경험을 말해 주세요.", "type": "past_experience"},
-        {"en": "Tell me about a memorable or enjoyable experience you had on a domestic trip.", "ko": "국내 여행에서 좋았거나 기억에 남는 경험을 말해 주세요.", "type": "past_experience"}
+        {
+          "en": "Tell me about an unexpected event you experienced during a domestic trip, such as a transportation or accommodation problem.",
+          "ko": "국내 여행 중 교통이나 숙소 문제처럼 예상치 못한 일을 겪었던 경험을 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Tell me about a memorable or enjoyable experience you had on a domestic trip.",
+          "ko": "국내 여행에서 좋았거나 기억에 남는 경험을 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "You indicated that you like to go on trips domestically. Tell me about a place you like to visit the most. Why do you like to visit that place? Describe that location in as much detail as possible.",
+          "ko": "국내 여행을 즐긴다고 하셨는데요. 가장 즐겨 방문하는 장소에 대해 이야기해 주세요. 왜 그곳을 즐겨 방문하나요? 그 장소를 최대한 자세히 묘사해 주세요.",
+          "type": "description"
+        },
+        {
+          "en": "How is traveling today different from the past? What are some difficulties people go through regarding trips? Has traveling become more difficult in any way?",
+          "ko": "오늘날의 여행은 과거와 어떻게 다른가요? 사람들이 여행과 관련해 겪는 어려움은 무엇인가요? 여행이 어떤 면에서든 더 어려워졌나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "What are some issues or concerns people have related to traveling? What do people do to address those issues or concerns?",
+          "ko": "여행과 관련해 사람들이 갖는 문제나 우려는 무엇인가요? 사람들은 그런 문제나 우려에 대처하기 위해 무엇을 하나요?",
+          "type": "current_issue"
+        },
+        {
+          "en": "Talk about a trip you went on when you were young. What do you remember about that trip? Where did you go and who did you go with? What made the trip special?",
+          "ko": "어렸을 때 갔던 여행에 대해 이야기해 주세요. 그 여행에 대해 무엇이 기억나나요? 어디에 갔고 누구와 함께 갔나요? 그 여행을 특별하게 만든 것은 무엇인가요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Unexpected things can happen on trips. Talk about an unforgettable incident that happened on a trip. Why was the experience so memorable? Give me all the details.",
+          "ko": "여행에서는 예상치 못한 일이 일어날 수 있습니다. 여행 중에 있었던 잊지 못할 사건에 대해 이야기해 주세요. 왜 그 경험이 그렇게 기억에 남나요? 자세히 모두 이야기해 주세요.",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -63,8 +256,41 @@
       "nameKo": "공원",
       "nameEn": "Parks",
       "questions": [
-        {"en": "Tell me about two parks you know. What do they have in common, and how are they different?", "ko": "당신이 아는 두 공원에 대해 말해 주세요. 공통점은 무엇이고 어떤 점이 다른가요?", "type": "comparison"},
-        {"en": "Describe your favorite park. What does it look like, and why do you like it?", "ko": "가장 좋아하는 공원을 설명해 주세요. 어떻게 생겼고, 왜 좋아하나요?", "type": "description"}
+        {
+          "en": "Tell me about two parks you know. What do they have in common, and how are they different?",
+          "ko": "당신이 아는 두 공원에 대해 말해 주세요. 공통점은 무엇이고 어떤 점이 다른가요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Describe your favorite park. What does it look like, and why do you like it?",
+          "ko": "가장 좋아하는 공원을 설명해 주세요. 어떻게 생겼고, 왜 좋아하나요?",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about one of the parks that you often visit. What does it look like? Tell me what people usually do there.",
+          "ko": "자주 가는 공원 중 한 곳에 대해 이야기해 주세요. 어떻게 생겼나요? 사람들이 그곳에서 주로 무엇을 하는지 말해 주세요.",
+          "type": "description"
+        },
+        {
+          "en": "When do you go to the park? What do you usually do there, and who do you go with?",
+          "ko": "언제 공원에 가나요? 그곳에서 보통 무엇을 하고, 누구와 함께 가나요?",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about a memorable incident that happened at the park.",
+          "ko": "공원에서 있었던 기억에 남는 일에 대해 이야기해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Pick two popular parks that you know of and tell me about their similarities and differences. Which one do you prefer and why?",
+          "ko": "당신이 아는 인기 있는 공원 두 곳을 골라 그 유사점과 차이점에 대해 이야기해 주세요. 어느 곳을 더 좋아하고 그 이유는 무엇인가요?",
+          "type": "comparison"
+        },
+        {
+          "en": "I'd like to know about one of the issues today's parks are faced with. What are the challenges public parks face these days? What has caused these concerns, and what steps need to be taken to address them?",
+          "ko": "요즘 공원이 직면한 문제 중 하나에 대해 알고 싶습니다. 요즘 공공 공원이 겪는 어려움은 무엇인가요? 무엇이 이러한 문제를 일으켰고, 이를 해결하기 위해 어떤 조치가 필요한가요?",
+          "type": "current_issue"
+        }
       ]
     },
     {
@@ -72,9 +298,36 @@
       "nameKo": "은행",
       "nameEn": "Bank",
       "questions": [
-        {"en": "Describe the banks in your country. What do they usually look like inside, and where are they located?", "ko": "당신 나라의 은행을 설명해 주세요. 보통 내부는 어떻게 생겼고, 어디에 위치해 있나요?", "type": "description"},
-        {"en": "What do you usually do at the bank? Describe in detail the steps to open a bank account.", "ko": "은행에 가면 주로 무엇을 하나요? 계좌를 개설하는 데 필요한 단계들을 자세히 설명해 주세요.", "type": "routine"},
-        {"en": "Tell me about the last time you went to a bank. When was it, who were you with, and what happened?", "ko": "가장 최근에 은행에 갔던 경험을 말해 주세요. 언제였고, 누구와 갔으며, 무슨 일이 있었나요?", "type": "past_experience"}
+        {
+          "en": "Describe the banks in your country. What do they usually look like inside, and where are they located?",
+          "ko": "당신 나라의 은행을 설명해 주세요. 보통 내부는 어떻게 생겼고, 어디에 위치해 있나요?",
+          "type": "description"
+        },
+        {
+          "en": "What do you usually do at the bank? Describe in detail the steps to open a bank account.",
+          "ko": "은행에 가면 주로 무엇을 하나요? 계좌를 개설하는 데 필요한 단계들을 자세히 설명해 주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about the last time you went to a bank. When was it, who were you with, and what happened?",
+          "ko": "가장 최근에 은행에 갔던 경험을 말해 주세요. 언제였고, 누구와 갔으며, 무슨 일이 있었나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Let's talk about the bank you go to. Where is it located and what is it like? What do you do from the moment you walk into the bank till you walk out? How are the people who work at the bank? Tell me everything that goes on when you visit the bank.",
+          "ko": "당신이 다니는 은행에 대해 이야기해봅시다. 어디에 위치해 있고 어떤 모습인가요? 은행에 들어가는 순간부터 나올 때까지 무엇을 하나요? 은행에서 일하는 사람들은 어떤가요? 은행에 방문할 때 일어나는 일을 전부 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Problems can occur when you're at the bank. Perhaps you could have forgotten to bring your ID. Talk about a problem you've personally had at a bank. What happened and how did you solve the problem?",
+          "ko": "은행에 있을 때 문제가 생길 수 있습니다. 아마 신분증을 가져오는 것을 잊었을 수도 있죠. 은행에서 개인적으로 겪었던 문제에 대해 이야기해주세요. 무슨 일이 있었고 그 문제를 어떻게 해결했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Banks have changed over the years. How do banks look different than they did in the past? What kinds of changes are the most evident? What kind of impact have those changes had on the customers? Give me all the details.",
+          "ko": "은행은 수년간 변해왔습니다. 은행이 과거와 비교해 어떻게 달라 보이나요? 어떤 변화가 가장 두드러지나요? 그 변화가 고객에게 어떤 영향을 미쳤나요? 자세히 전부 말해주세요.",
+          "type": "comparison"
+        }
       ]
     },
     {
@@ -82,13 +335,91 @@
       "nameKo": "음악, 악기",
       "nameEn": "Music & Instruments",
       "questions": [
-        {"en": "What kind of music do you like, and who is your favorite musician or singer?", "ko": "어떤 종류의 음악을 좋아하나요? 가장 좋아하는 뮤지션이나 가수는 누구인가요?", "type": "description"},
-        {"en": "When and where do you usually listen to music?", "ko": "주로 언제 어디서 음악을 듣나요?", "type": "routine"},
-        {"en": "Tell me about a memorable experience listening to live music or attending a concert.", "ko": "라이브 음악을 듣거나 콘서트에 갔던 기억에 남는 경험을 말해 주세요.", "type": "past_experience"},
-        {"en": "How has the way you listen to music changed compared to the past?", "ko": "음악을 듣는 방식이 과거와 비교해 어떻게 변했나요?", "type": "comparison"},
-        {"en": "Tell me about a musical instrument you can play and your experience with it.", "ko": "당신이 다룰 줄 아는 악기와 그 경험에 대해 말해 주세요.", "type": "general"},
-        {"en": "Describe your routine for practicing an instrument. When, where, and with whom do you play?", "ko": "악기 연습 루틴을 설명해 주세요. 언제, 어디서, 누구와 연주하나요?", "type": "routine"},
-        {"en": "How did you first start learning an instrument, and how has your interest changed over time?", "ko": "악기를 처음 배우게 된 계기는 무엇이고, 관심은 시간이 지나며 어떻게 변했나요?", "type": "comparison"}
+        {
+          "en": "What kind of music do you like, and who is your favorite musician or singer?",
+          "ko": "어떤 종류의 음악을 좋아하나요? 가장 좋아하는 뮤지션이나 가수는 누구인가요?",
+          "type": "description"
+        },
+        {
+          "en": "When and where do you usually listen to music?",
+          "ko": "주로 언제 어디서 음악을 듣나요?",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about a memorable experience listening to live music or attending a concert.",
+          "ko": "라이브 음악을 듣거나 콘서트에 갔던 기억에 남는 경험을 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "How has the way you listen to music changed compared to the past?",
+          "ko": "음악을 듣는 방식이 과거와 비교해 어떻게 변했나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Tell me about a musical instrument you can play and your experience with it.",
+          "ko": "당신이 다룰 줄 아는 악기와 그 경험에 대해 말해 주세요.",
+          "type": "general"
+        },
+        {
+          "en": "Describe your routine for practicing an instrument. When, where, and with whom do you play?",
+          "ko": "악기 연습 루틴을 설명해 주세요. 언제, 어디서, 누구와 연주하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "How did you first start learning an instrument, and how has your interest changed over time?",
+          "ko": "악기를 처음 배우게 된 계기는 무엇이고, 관심은 시간이 지나며 어떻게 변했나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Are there any changes in your music taste between the past and the present? If so, describe the differences between them in detail.",
+          "ko": "과거와 현재 사이에 음악 취향에 변화가 있나요? 있다면 그 차이를 자세히 설명해 주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "Choose two types of music you usually listen to and describe the differences between them. What are the characteristics of each type of music?",
+          "ko": "평소에 듣는 음악 두 종류를 골라 그 차이를 설명해 주세요. 각 음악 종류의 특징은 무엇인가요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Explain some electronic gadgets or equipment that people use to listen to music. Have you heard of any hot topics or trends regarding devices for listening to music?",
+          "ko": "사람들이 음악을 듣기 위해 사용하는 전자기기나 장비에 대해 설명해 주세요. 음악 감상 기기와 관련된 화제나 트렌드에 대해 들어본 적이 있나요?",
+          "type": "current_issue"
+        },
+        {
+          "en": "I'd like to know how you became interested in music, or what made you start listening to it.",
+          "ko": "당신이 어떻게 음악에 관심을 갖게 되었는지, 혹은 무엇 때문에 음악을 듣기 시작했는지 알고 싶습니다.",
+          "type": "general"
+        },
+        {
+          "en": "You indicated that you like to listen to music. What type of music do you like listening to? Plus, who is your favorite singer or composer? What is special about his or her music?",
+          "ko": "음악 듣는 것을 좋아한다고 하셨는데요. 어떤 종류의 음악을 즐겨 듣나요? 그리고 가장 좋아하는 가수나 작곡가는 누구인가요? 그 사람의 음악은 무엇이 특별한가요?",
+          "type": "description"
+        },
+        {
+          "en": "When and where do you like to listen to music? Why do you listen to music?",
+          "ko": "언제 그리고 어디에서 음악 듣는 것을 좋아하나요? 왜 음악을 듣나요?",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about a time when you went to listen to some live music. Perhaps it was at a concert or a live cafe. What was the mood like and how did you like the music you listened to there?",
+          "ko": "라이브 음악을 들으러 갔던 때에 대해 이야기해 주세요. 콘서트나 라이브 카페였을 수도 있겠네요. 분위기는 어땠고 그곳에서 들은 음악은 어땠나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Now, pick two singers or composers you like. What is special about their music? What are some similarities and differences between the two singers or composers?",
+          "ko": "이제 좋아하는 가수나 작곡가 두 명을 골라 주세요. 그들의 음악은 무엇이 특별한가요? 두 가수나 작곡가 사이의 비슷한 점과 다른 점은 무엇인가요?",
+          "type": "comparison"
+        },
+        {
+          "en": "What kind of music did you listen to when you were young? How was that music different from the music you listen to today? How has your interest in music changed over the years?",
+          "ko": "어렸을 때는 어떤 음악을 들었나요? 그 음악은 오늘날 듣는 음악과 어떻게 달랐나요? 음악에 대한 당신의 관심은 세월이 흐르며 어떻게 바뀌었나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Explain some of the new electronic gadgets or equipment that people who enjoy music are currently interested in. What hot topics or trends are they discussing? Describe some of the products that they are excited about and why.",
+          "ko": "음악을 즐기는 사람들이 요즘 관심을 갖는 새로운 전자 기기나 장비에 대해 설명해 주세요. 그들이 이야기하는 화제나 트렌드는 무엇인가요? 그들이 열광하는 제품들과 그 이유를 설명해 주세요.",
+          "type": "current_issue"
+        }
       ]
     },
     {
@@ -96,9 +427,21 @@
       "nameKo": "카페",
       "nameEn": "Cafe",
       "questions": [
-        {"en": "Tell me about a cafe in your neighborhood.", "ko": "동네에 있는 카페에 대해 말해 주세요.", "type": "description"},
-        {"en": "Tell me about a memorable experience you had at a cafe.", "ko": "카페에서 있었던 인상적인 경험을 말해 주세요.", "type": "past_experience"},
-        {"en": "Tell me about the first cafe you ever went to.", "ko": "맨 처음 갔던 카페에 대해 말해 주세요.", "type": "past_experience"}
+        {
+          "en": "Tell me about a cafe in your neighborhood.",
+          "ko": "동네에 있는 카페에 대해 말해 주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about a memorable experience you had at a cafe.",
+          "ko": "카페에서 있었던 인상적인 경험을 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Tell me about the first cafe you ever went to.",
+          "ko": "맨 처음 갔던 카페에 대해 말해 주세요.",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -106,9 +449,21 @@
       "nameKo": "미용실",
       "nameEn": "Hair Salon",
       "questions": [
-        {"en": "Describe a hair salon you like. What does it look like, and why do you like it?", "ko": "당신이 좋아하는 미용실을 설명해 주세요. 어떻게 생겼고, 왜 좋아하나요?", "type": "description"},
-        {"en": "How did you find your favorite hair designer?", "ko": "가장 좋아하는 헤어 디자이너를 어떻게 찾았나요?", "type": "past_experience"},
-        {"en": "Tell me about a memorable experience you had at a hair salon.", "ko": "미용실에서 있었던 기억에 남는 경험을 말해 주세요.", "type": "past_experience"}
+        {
+          "en": "Describe a hair salon you like. What does it look like, and why do you like it?",
+          "ko": "당신이 좋아하는 미용실을 설명해 주세요. 어떻게 생겼고, 왜 좋아하나요?",
+          "type": "description"
+        },
+        {
+          "en": "How did you find your favorite hair designer?",
+          "ko": "가장 좋아하는 헤어 디자이너를 어떻게 찾았나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Tell me about a memorable experience you had at a hair salon.",
+          "ko": "미용실에서 있었던 기억에 남는 경험을 말해 주세요.",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -116,8 +471,41 @@
       "nameKo": "친구, 동료",
       "nameEn": "Friends & Colleagues",
       "questions": [
-        {"en": "Tell me about a memorable experience with a friend — something challenging, unexpected, or interesting.", "ko": "친구와의 기억에 남는 경험을 말해 주세요 — 도전적이거나 예상치 못했거나 흥미로웠던 경험.", "type": "past_experience"},
-        {"en": "Can you tell me about one of your colleagues?", "ko": "당신의 동료 중 한 명에 대해 말해 줄 수 있나요?", "type": "description"}
+        {
+          "en": "Tell me about a memorable experience with a friend — something challenging, unexpected, or interesting.",
+          "ko": "친구와의 기억에 남는 경험을 말해 주세요 — 도전적이거나 예상치 못했거나 흥미로웠던 경험.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Can you tell me about one of your colleagues?",
+          "ko": "당신의 동료 중 한 명에 대해 말해 줄 수 있나요?",
+          "type": "description"
+        },
+        {
+          "en": "Describe a family member or a friend you have. What is he or she like? What is special about that person? Give me some details about that person.",
+          "ko": "당신의 가족이나 친구 한 명을 묘사해주세요. 그 사람은 어떤 사람인가요? 그 사람의 특별한 점은 무엇인가요? 그 사람에 대해 자세히 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Talk about a time when you visited a friend or a family member. What did you do when you visited them? What was memorable about that visit? Tell me everything from beginning to end.",
+          "ko": "친구나 가족을 방문했던 때에 대해 이야기해주세요. 방문했을 때 무엇을 했나요? 그 방문에서 기억에 남는 것은 무엇이었나요? 처음부터 끝까지 전부 말해주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Now, tell me about what you usually talk about with your family members or friends. What was the most recent thing that you talked about? Give me the details.",
+          "ko": "이제 가족이나 친구와 평소에 주로 무엇에 대해 이야기하는지 말해주세요. 가장 최근에 이야기한 것은 무엇이었나요? 자세히 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "What are some things that you typically do together? What was something that you did with them recently? Tell me everything about the activities you did with them.",
+          "ko": "함께 주로 하는 일에는 어떤 것들이 있나요? 최근에 그들과 함께 한 것은 무엇이었나요? 그들과 함께 한 활동에 대해 전부 말해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "Pick two of your family members or friends and tell me about their similarities and differences. Give me the details.",
+          "ko": "당신의 가족이나 친구 두 명을 골라 그들의 비슷한 점과 다른 점에 대해 말해주세요. 자세히 말해주세요.",
+          "type": "comparison"
+        }
       ]
     },
     {
@@ -125,7 +513,11 @@
       "nameKo": "바",
       "nameEn": "Bar",
       "questions": [
-        {"en": "Most bars have a special area for making drinks. Describe this area at a bar you like.", "ko": "대부분의 바에는 음료를 만드는 특별한 공간이 있습니다. 당신이 좋아하는 바의 이 공간을 설명해 주세요.", "type": "description"}
+        {
+          "en": "Most bars have a special area for making drinks. Describe this area at a bar you like.",
+          "ko": "대부분의 바에는 음료를 만드는 특별한 공간이 있습니다. 당신이 좋아하는 바의 이 공간을 설명해 주세요.",
+          "type": "description"
+        }
       ]
     },
     {
@@ -133,10 +525,41 @@
       "nameKo": "교통",
       "nameEn": "Transportation",
       "questions": [
-        {"en": "Tell me about public transportation in your country. What kinds are there, which is your favorite, and why?", "ko": "당신 나라의 대중교통에 대해 말해 주세요. 어떤 종류가 있고, 무엇을 가장 좋아하며, 그 이유는 무엇인가요?", "type": "description"},
-        {"en": "Tell me about a problem you experienced while using transportation.", "ko": "교통수단을 이용하다가 문제가 생겼던 경험을 말해 주세요.", "type": "past_experience"},
-        {"en": "How has the transportation you use changed compared to the past?", "ko": "당신이 이용하는 교통수단은 과거와 비교해 어떻게 변했나요?", "type": "comparison"},
-        {"en": "Tell me about an experience related to your car, such as deciding to buy one.", "ko": "차를 사기로 결정한 것처럼 자동차와 관련된 경험을 말해 주세요.", "type": "past_experience"}
+        {
+          "en": "Tell me about public transportation in your country. What kinds are there, which is your favorite, and why?",
+          "ko": "당신 나라의 대중교통에 대해 말해 주세요. 어떤 종류가 있고, 무엇을 가장 좋아하며, 그 이유는 무엇인가요?",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about a problem you experienced while using transportation.",
+          "ko": "교통수단을 이용하다가 문제가 생겼던 경험을 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "How has the transportation you use changed compared to the past?",
+          "ko": "당신이 이용하는 교통수단은 과거와 비교해 어떻게 변했나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Tell me about an experience related to your car, such as deciding to buy one.",
+          "ko": "차를 사기로 결정한 것처럼 자동차와 관련된 경험을 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "How do people in your country get around? What kind of transportation do people take? Do people drive, or do they use other means of transportation such as the train or bus? Tell me everything about how people get around.",
+          "ko": "당신 나라 사람들은 어떻게 이동하나요? 어떤 교통수단을 이용하나요? 사람들이 운전을 하나요, 아니면 기차나 버스 같은 다른 교통수단을 이용하나요? 사람들이 어떻게 이동하는지 전부 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Now, tell me how transportation has changed over the years. How is the way people get around different now compared to the past?",
+          "ko": "이제, 교통이 수년간 어떻게 변해왔는지 말해주세요. 사람들이 이동하는 방식이 과거와 비교해 지금 어떻게 다른가요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Tell me about a time when you had trouble due to a certain mode of transportation. Perhaps your car broke down or you got stuck in a traffic jam. What happened and how did you deal with the situation? Give me all the details.",
+          "ko": "특정 교통수단 때문에 곤란을 겪었던 때에 대해 말해주세요. 아마 차가 고장 났거나 교통 체증에 갇혔을 수도 있죠. 무슨 일이 있었고 그 상황을 어떻게 대처했나요? 자세히 전부 말해주세요.",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -144,7 +567,11 @@
       "nameKo": "헬스장",
       "nameEn": "Gym",
       "questions": [
-        {"en": "Describe the gym you go to. Which parts of your body do you usually work out?", "ko": "당신이 다니는 헬스장을 설명해 주세요. 주로 어느 부위를 운동하나요?", "type": "description"}
+        {
+          "en": "Describe the gym you go to. Which parts of your body do you usually work out?",
+          "ko": "당신이 다니는 헬스장을 설명해 주세요. 주로 어느 부위를 운동하나요?",
+          "type": "description"
+        }
       ]
     },
     {
@@ -152,9 +579,41 @@
       "nameKo": "재활용",
       "nameEn": "Recycling",
       "questions": [
-        {"en": "Tell me what recycling was like when you were a child. Was there a particular place where you took out the recyclables? Describe what it was like and what you did.", "ko": "어렸을 때 재활용은 어땠나요? 재활용품을 내다 버리는 특별한 장소가 있었나요? 어땠는지, 무엇을 했는지 설명해 주세요.", "type": "past_experience"},
-        {"en": "How do people in your country recycle? Please describe the recycling practices where you live.", "ko": "당신 나라의 사람들은 재활용을 어떻게 하나요? 당신이 사는 곳의 재활용 방식을 설명해 주세요.", "type": "description"},
-        {"en": "How do you personally recycle? Describe the way you sort and dispose of your recyclables.", "ko": "당신은 개인적으로 재활용을 어떻게 하나요? 재활용품을 분리하고 배출하는 방식을 설명해 주세요.", "type": "routine"}
+        {
+          "en": "Tell me what recycling was like when you were a child. Was there a particular place where you took out the recyclables? Describe what it was like and what you did.",
+          "ko": "어렸을 때 재활용은 어땠나요? 재활용품을 내다 버리는 특별한 장소가 있었나요? 어땠는지, 무엇을 했는지 설명해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "How do people in your country recycle? Please describe the recycling practices where you live.",
+          "ko": "당신 나라의 사람들은 재활용을 어떻게 하나요? 당신이 사는 곳의 재활용 방식을 설명해 주세요.",
+          "type": "description"
+        },
+        {
+          "en": "How do you personally recycle? Describe the way you sort and dispose of your recyclables.",
+          "ko": "당신은 개인적으로 재활용을 어떻게 하나요? 재활용품을 분리하고 배출하는 방식을 설명해 주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "I'd like to know about how recycling is practiced in your country. What do people specifically do? What is special about recycling where you live? Give me the details.",
+          "ko": "당신 나라에서 재활용이 어떻게 이루어지는지 알고 싶어요. 사람들이 구체적으로 무엇을 하나요? 당신이 사는 곳의 재활용에서 특별한 점은 무엇인가요? 자세히 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Now, tell me about how you personally recycle. Do you separate the recycling every day? Where do you take the recycling? Tell me everything about the ways you practice recycling in your daily life.",
+          "ko": "이제, 당신이 개인적으로 어떻게 재활용하는지 말해주세요. 매일 재활용을 분리하나요? 재활용품을 어디로 가져가나요? 일상 생활에서 재활용을 실천하는 방식에 대해 전부 말해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "How is recycling today different from when you were young? Are there any big differences? Are there any similarities? Tell me about how recycling has changed over the years.",
+          "ko": "오늘날의 재활용은 당신이 어렸을 때와 어떻게 다른가요? 큰 차이점이 있나요? 비슷한 점이 있나요? 재활용이 수년간 어떻게 변해왔는지 말해주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "Talk about some recycling issues that are mentioned in the news. What's the main issue that people talk about? Why is that? Tell me in detail.",
+          "ko": "뉴스에서 언급되는 재활용 관련 이슈에 대해 이야기해주세요. 사람들이 이야기하는 주요 이슈는 무엇인가요? 왜 그런가요? 자세히 말해주세요.",
+          "type": "current_issue"
+        }
       ]
     },
     {
@@ -162,11 +621,41 @@
       "nameKo": "직장, 일",
       "nameEn": "Work",
       "questions": [
-        {"en": "Why did you change jobs?", "ko": "왜 직장을 옮겼나요?", "type": "past_experience"},
-        {"en": "How did you find your current job?", "ko": "지금의 직장은 어떻게 찾았나요?", "type": "past_experience"},
-        {"en": "Why did you decide to work there?", "ko": "왜 그곳에서 일하기로 결심했나요?", "type": "past_experience"},
-        {"en": "Tell me about the many changes that have taken place in the workplace.", "ko": "직장에서 일어난 많은 변화에 대해 말해 주세요.", "type": "comparison"},
-        {"en": "Tell me about a profession that has changed a lot, or a new job that has recently emerged.", "ko": "많은 변화를 겪은 직업이나 최근에 새로 생겨난 직업에 대해 말해 주세요.", "type": "comparison"}
+        {
+          "en": "Why did you change jobs?",
+          "ko": "왜 직장을 옮겼나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "How did you find your current job?",
+          "ko": "지금의 직장은 어떻게 찾았나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Why did you decide to work there?",
+          "ko": "왜 그곳에서 일하기로 결심했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Tell me about the many changes that have taken place in the workplace.",
+          "ko": "직장에서 일어난 많은 변화에 대해 말해 주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "Tell me about a profession that has changed a lot, or a new job that has recently emerged.",
+          "ko": "많은 변화를 겪은 직업이나 최근에 새로 생겨난 직업에 대해 말해 주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "There are many companies people want to work for. Tell me about the company you want to work for. Why is that? What does the company provide as compensation? What is the most important thing when choosing a company to work for? Tell me everything in detail.",
+          "ko": "사람들이 일하고 싶어하는 기업은 많습니다. 당신이 일하고 싶은 기업에 대해 말해주세요. 왜 그런가요? 그 기업은 보상으로 무엇을 제공하나요? 일할 기업을 고를 때 가장 중요한 것은 무엇인가요? 자세히 전부 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "What kinds of effort have you made so far for your career? Tell me about any working experiences or individual effort that you have made for your future career.",
+          "ko": "당신의 커리어를 위해 지금까지 어떤 노력을 해왔나요? 미래의 커리어를 위해 해온 근무 경험이나 개인적인 노력에 대해 말해주세요.",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -174,10 +663,26 @@
       "nameKo": "날씨",
       "nameEn": "Weather",
       "questions": [
-        {"en": "What are the seasons like where you live? Please describe each one. What is your favorite kind of weather?", "ko": "당신이 사는 곳의 계절은 어떤가요? 각 계절을 설명해 주세요. 가장 좋아하는 날씨는 무엇인가요?", "type": "description"},
-        {"en": "What is the weather like where you live? Is it cold or hot? Please describe today's weather in detail.", "ko": "당신이 사는 곳의 날씨는 어떤가요? 춥나요, 덥나요? 오늘의 날씨를 자세히 말해 주세요.", "type": "description"},
-        {"en": "Compare the weather nowadays with the weather in the past. What has changed and how?", "ko": "요즘 날씨를 과거의 날씨와 비교해 주세요. 무엇이 어떻게 달라졌나요?", "type": "comparison"},
-        {"en": "Have you ever had a memorable experience caused by severe weather? What happened?", "ko": "심각한 날씨 때문에 겪었던 기억에 남는 경험이 있나요? 무슨 일이 있었나요?", "type": "past_experience"}
+        {
+          "en": "What are the seasons like where you live? Please describe each one. What is your favorite kind of weather?",
+          "ko": "당신이 사는 곳의 계절은 어떤가요? 각 계절을 설명해 주세요. 가장 좋아하는 날씨는 무엇인가요?",
+          "type": "description"
+        },
+        {
+          "en": "What is the weather like where you live? Is it cold or hot? Please describe today's weather in detail.",
+          "ko": "당신이 사는 곳의 날씨는 어떤가요? 춥나요, 덥나요? 오늘의 날씨를 자세히 말해 주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Compare the weather nowadays with the weather in the past. What has changed and how?",
+          "ko": "요즘 날씨를 과거의 날씨와 비교해 주세요. 무엇이 어떻게 달라졌나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Have you ever had a memorable experience caused by severe weather? What happened?",
+          "ko": "심각한 날씨 때문에 겪었던 기억에 남는 경험이 있나요? 무슨 일이 있었나요?",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -185,11 +690,251 @@
       "nameKo": "롤플레이",
       "nameEn": "Role Play",
       "questions": [
-        {"en": "I'll give you a situation to act out. There is a place you would like to visit. Ask the staff three or four questions to get information such as their operating hours, parking, and directions.", "ko": "상황극을 해 보겠습니다. 당신이 방문하고 싶은 장소가 있습니다. 운영 시간, 주차, 가는 방법 등에 대해 서너 가지 질문을 해 주세요.", "type": "roleplay"},
-        {"en": "You have found out that there are no rooms available at this hotel. Call your companion and leave a voice message explaining the situation.", "ko": "이 호텔에 이용 가능한 객실이 없다는 것을 알게 되었습니다. 일행에게 전화를 걸어 음성 메시지로 상황을 알려 주세요.", "type": "roleplay"},
-        {"en": "Have you ever bought an electronic device that had a problem when you received it? What was the problem, and how did you deal with it?", "ko": "전자제품을 구입했는데 받았을 때 문제가 있었던 적이 있나요? 무엇이 문제였고, 어떻게 처리했나요?", "type": "past_experience"},
-        {"en": "Have you ever bought furniture that had a problem when it was delivered? What was the problem, and how did you handle it?", "ko": "가구를 구입했는데 배송받았을 때 문제가 있었던 적이 있나요? 무엇이 문제였고, 어떻게 해결했나요?", "type": "past_experience"},
-        {"en": "Have you ever purchased a home appliance that had a problem when you received it? What was the problem, and how did you resolve it?", "ko": "가전제품을 구입했는데 받았을 때 문제가 있었던 적이 있나요? 무엇이 문제였고, 어떻게 처리했나요?", "type": "past_experience"}
+        {
+          "en": "I'll give you a situation to act out. There is a place you would like to visit. Ask the staff three or four questions to get information such as their operating hours, parking, and directions.",
+          "ko": "상황극을 해 보겠습니다. 당신이 방문하고 싶은 장소가 있습니다. 운영 시간, 주차, 가는 방법 등에 대해 서너 가지 질문을 해 주세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "You have found out that there are no rooms available at this hotel. Call your companion and leave a voice message explaining the situation.",
+          "ko": "이 호텔에 이용 가능한 객실이 없다는 것을 알게 되었습니다. 일행에게 전화를 걸어 음성 메시지로 상황을 알려 주세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "Have you ever bought an electronic device that had a problem when you received it? What was the problem, and how did you deal with it?",
+          "ko": "전자제품을 구입했는데 받았을 때 문제가 있었던 적이 있나요? 무엇이 문제였고, 어떻게 처리했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Have you ever bought furniture that had a problem when it was delivered? What was the problem, and how did you handle it?",
+          "ko": "가구를 구입했는데 배송받았을 때 문제가 있었던 적이 있나요? 무엇이 문제였고, 어떻게 해결했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Have you ever purchased a home appliance that had a problem when you received it? What was the problem, and how did you resolve it?",
+          "ko": "가전제품을 구입했는데 받았을 때 문제가 있었던 적이 있나요? 무엇이 문제였고, 어떻게 처리했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You want to buy tickets for a concert tonight. Call the theater and ask two or three questions about the ways to get tickets.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 오늘 밤 콘서트 티켓을 사고 싶습니다. 공연장에 전화해서 티켓을 구하는 방법에 대해 두세 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You would like to buy an MP3 player. Call your friend and ask about the MP3 player he or she uses. Ask three or four questions that will help you decide whether you want to buy the product your friend is using.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. MP3 플레이어를 사고 싶습니다. 친구에게 전화해서 그 친구가 쓰는 MP3 플레이어에 대해 물어보세요. 친구가 쓰는 제품을 살지 결정하는 데 도움이 될 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You have been invited to a friend's birthday party. The party will be held at a bar. Call your friend and ask three or four questions about the place that the party's being held at.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 친구의 생일 파티에 초대받았습니다. 파티는 바(술집)에서 열립니다. 친구에게 전화해서 파티가 열리는 장소에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You want to stay at a hotel on a trip. Call a hotel and ask three or four questions to find out whether you want to stay at that place.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 여행 중에 호텔에 묵고 싶습니다. 호텔에 전화해서 그곳에 묵을지 알아보기 위해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. Your friend wants to go to a park this weekend. Call your friend and ask him three or four questions about going to the park.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 친구가 이번 주말에 공원에 가고 싶어합니다. 친구에게 전화해서 공원에 가는 것에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You are planning to watch a movie with your friend. Call the theater and ask three or four questions about the movie and getting tickets for it.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 친구와 영화를 볼 계획입니다. 영화관에 전화해서 그 영화와 티켓 구매에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You would like to buy a new cell phone. Call a store and ask three or four questions about a new phone you would like to purchase.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 새 휴대전화를 사고 싶습니다. 매장에 전화해서 구매하고 싶은 새 휴대전화에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You are at a furniture store to buy a piece of furniture. Ask the clerk three or four questions about the furniture you would like to buy.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 가구를 사러 가구점에 있습니다. 사고 싶은 가구에 대해 점원에게 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You would like to find a house to live in. Call a management office or a real estate agency and ask three or four questions about getting a house to live in.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 살 집을 찾고 싶습니다. 관리 사무소나 부동산 중개소에 전화해서 살 집을 구하는 것에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You would like to order from a new coffee shop that has opened nearby. Call the coffee shop and ask three to four questions about their menu and how to order your coffee.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 근처에 새로 문을 연 커피숍에서 주문하고 싶습니다. 커피숍에 전화해서 메뉴와 커피 주문 방법에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. Your friend has a website that he or she likes to use. Call your friend and ask three or four questions to find out whether you want to use that website.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 친구가 즐겨 쓰는 웹사이트가 있습니다. 친구에게 전화해서 그 웹사이트를 사용할지 알아보기 위해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. Your friend wants to use a social networking site and needs some help. Call your friend and ask three or four questions to help that friend out.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 친구가 SNS를 사용하고 싶어하는데 도움이 필요합니다. 친구에게 전화해서 그 친구를 돕기 위해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You are at a clothing store to buy something for your trip. Ask a clerk three or four questions about the clothes you would like to buy.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 여행에 필요한 물건을 사러 옷 가게에 있습니다. 사고 싶은 옷에 대해 점원에게 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You are at a library to borrow a book. Call the librarian and ask three or four questions about the book you would like to borrow.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 책을 빌리러 도서관에 있습니다. 사서에게 전화해서 빌리고 싶은 책에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. One of your relatives is going on a trip. Their house is going to be empty and you have to watch the house while they are gone. Call your relative and ask three or four questions about what you have to do.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 친척 중 한 명이 여행을 갑니다. 그 집이 비게 되어 그들이 없는 동안 당신이 집을 봐줘야 합니다. 친척에게 전화해서 해야 할 일에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You are going for an interview at a company. Call the company and ask three or four questions about what you have to know for the interview.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 회사 면접을 보러 갑니다. 회사에 전화해서 면접을 위해 알아야 할 것에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You're planning to travel overseas. Call the travel agent and ask three or four questions to get information for your trip.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 해외여행을 계획하고 있습니다. 여행사에 전화해서 여행 정보를 얻기 위해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You need to make a reservation at a restaurant for an event that is coming up. Call the manager at the restaurant and ask three or four questions to make arrangements for the event.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 다가오는 행사를 위해 식당을 예약해야 합니다. 식당 매니저에게 전화해서 행사를 준비하기 위해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You would like to make an appointment to go see a doctor. Call the clinic and make arrangements to see the doctor. Ask three or four questions about your appointment.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 의사를 만나기 위해 예약을 하고 싶습니다. 병원에 전화해서 진료 예약을 잡으세요. 예약에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You and your friend are planning to go on a trip to the beach this weekend. Call your friend and ask three to four questions regarding the trip you are planning.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 당신과 친구가 이번 주말에 해변으로 여행을 갈 계획입니다. 친구에게 전화해서 계획 중인 여행에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You would like to visit a friend who lives overseas. Call your friend and ask three or four questions about the things you have to know about your visit.",
+          "ko": "상황을 하나 드리고 연기해보도록 하겠습니다. 해외에 사는 친구를 방문하고 싶습니다. 친구에게 전화해서 방문에 대해 알아야 할 것들에 대해 세네 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You bought the concert tickets for today but at the last minute, you are so sick that you can't even get out of bed. Call your friend, explain your situation and give two or three alternatives to your friend.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 오늘 콘서트 티켓을 샀는데 막판에 너무 아파서 침대에서 일어날 수조차 없습니다. 친구에게 전화해서 상황을 설명하고 친구에게 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You have received your new phone but the features are not what you expected. You would like to exchange it for a different phone. Call the store, explain the situation and make arrangements to get a new product.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 새 휴대전화를 받았는데 기능이 기대했던 것과 다릅니다. 다른 휴대전화로 교환하고 싶습니다. 매장에 전화해서 상황을 설명하고 새 제품을 받기 위한 조치를 취해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You are at your relative's house, but can't find the key to the door. You can't get into the house. Call your relative, explain your situation and ask two to three questions to solve the problem.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 친척 집에 왔는데 문 열쇠를 찾을 수가 없습니다. 집에 들어갈 수가 없습니다. 친척에게 전화해서 상황을 설명하고 문제를 해결하기 위해 두세 가지 질문을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You have borrowed your friend's MP3 player but broke it by accident. Call your friend, explain your situation and give two or three alternatives that will help solve the situation.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 친구의 MP3 플레이어를 빌렸는데 실수로 고장 냈습니다. 친구에게 전화해서 상황을 설명하고 상황 해결에 도움이 될 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You are on a social networking site that your friend recommended and cannot click anything on the website. Call your friend, explain your situation and ask for help.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 친구가 추천한 SNS 사이트에 있는데 웹사이트에서 아무것도 클릭할 수가 없습니다. 친구에게 전화해서 상황을 설명하고 도움을 요청해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You made a reservation for an event at a restaurant, but the event got canceled. Call the restaurant, explain your situation and give two or three alternatives.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 식당에 행사를 위한 예약을 했는데 행사가 취소되었습니다. 식당에 전화해서 상황을 설명하고 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You have a test coming up tomorrow and cannot make it to your friend's birthday party. Call your friend, explain your situation and give two or three alternatives regarding the situation.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 내일 시험이 있어서 친구의 생일 파티에 갈 수 없습니다. 친구에게 전화해서 상황을 설명하고 그 상황에 대해 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You found out that the park you wanted to go to will be closed this weekend for renovations. Call your friend, explain your situation and give two or three alternatives about what to do.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 가고 싶었던 공원이 이번 주말에 보수 공사로 문을 닫는다는 것을 알게 되었습니다. 친구에게 전화해서 상황을 설명하고 무엇을 할지에 대해 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You have just found out that the weather at the beach you were planning to go to is not going to be good this coming weekend. Call your friend, tell him or her about the weather and give two to three alternatives.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 가려고 계획했던 해변의 날씨가 이번 주말에 좋지 않을 것이라는 것을 방금 알게 되었습니다. 친구에게 전화해서 날씨에 대해 알려주고 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. Something has come up and you can't make it to your friend's house. Call your friend, explain your situation and give two or three alternatives to solve the problem.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 사정이 생겨서 친구 집에 갈 수가 없습니다. 친구에게 전화해서 상황을 설명하고 문제를 해결하기 위한 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. Something has come up and you cannot make it to your interview. Call the company, explain your situation and give two or three alternatives to make arrangements for a schedule change.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 사정이 생겨서 면접에 갈 수가 없습니다. 회사에 전화해서 상황을 설명하고 일정 변경을 위한 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. Something has come up and you have to change your doctor's appointment. Call the doctor's office, explain your situation and give two or three alternatives to deal with the situation.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 사정이 생겨서 병원 예약을 변경해야 합니다. 병원에 전화해서 상황을 설명하고 상황에 대처하기 위한 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. Something has come up and you can't pick up your friend at the airport. Call your friend, explain your situation and give two or three alternatives to solve the problem.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 사정이 생겨서 공항에 친구를 마중 나갈 수가 없습니다. 친구에게 전화해서 상황을 설명하고 문제를 해결하기 위한 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. One of the windows in your apartment is broken. Call the management office, explain your situation and give two or three alternatives to fix the problem.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 아파트 창문 중 하나가 깨졌습니다. 관리 사무소에 전화해서 상황을 설명하고 문제를 해결하기 위한 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You have checked into the hotel and gotten to your room, but the room is not cleaned up properly. Call the front desk, explain your situation and give two or three suggestions to solve the problem.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 호텔에 체크인하고 방에 들어갔는데 방이 제대로 청소되어 있지 않습니다. 프런트에 전화해서 상황을 설명하고 문제를 해결하기 위한 두세 가지 제안을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You have received the furniture you bought, but there is something wrong with it. Call the furniture store, explain the situation and ask for a way to get an exchange or your money back.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 구매한 가구를 받았는데 뭔가 문제가 있습니다. 가구점에 전화해서 상황을 설명하고 교환이나 환불 방법을 요청해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You have had your coffee delivered to your house. But when you got your coffee, you find out that you've got the wrong order. Call the manager of the coffee shop, explain your situation and give two or three alternatives to solve the problem.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 커피를 집으로 배달시켰습니다. 그런데 커피를 받고 보니 잘못된 주문이 왔습니다. 커피숍 매니저에게 전화해서 상황을 설명하고 문제를 해결하기 위한 두세 가지 대안을 제시해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You have signed up at the gym but you are not satisfied with it. Maybe the gym is not clean enough or there are too many people. Call the manager of the gym and make arrangements to get a refund.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 헬스클럽에 등록했는데 마음에 들지 않습니다. 헬스장이 충분히 깨끗하지 않거나 사람이 너무 많을 수도 있습니다. 헬스장 매니저에게 전화해서 환불을 받기 위한 조치를 취해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You bought some clothes at a store. But, there is something wrong with what you bought. Call the clothing store, explain the situation and ask for a way to get an exchange or your money back.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 가게에서 옷을 샀습니다. 그런데 산 물건에 뭔가 문제가 있습니다. 옷 가게에 전화해서 상황을 설명하고 교환이나 환불 방법을 요청해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You found out that you purchased the wrong tickets at the theater. Talk to the person at the box office about your situation and offer two or three suggestions to solve the problem.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 영화관에서 티켓을 잘못 샀다는 것을 알게 되었습니다. 매표소 직원에게 상황에 대해 이야기하고 문제를 해결하기 위한 두세 가지 제안을 해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You had to borrow a book for your paper at school, but a classmate has already borrowed the book. Call your professor, explain your situation and ask for two or three suggestions to solve the problem.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 학교 과제를 위해 책을 빌려야 했는데 같은 반 학생이 이미 그 책을 빌려갔습니다. 교수님께 전화해서 상황을 설명하고 문제를 해결하기 위한 두세 가지 제안을 요청해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. When you arrived at the airport, you found out that your flight was canceled. However, all of the other flights are fully booked. Explain the situation to your travel agent and suggest two or three options.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 공항에 도착했을 때 항공편이 취소되었다는 것을 알게 되었습니다. 그런데 다른 항공편은 모두 예약이 꽉 찼습니다. 여행사 직원에게 상황을 설명하고 두세 가지 방안을 제안해보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "I'm sorry, but there is a problem I need you to resolve. You are at the bar and want to pay for your drinks. But, you suddenly find out that you lost your wallet. Explain the situation to the bartender or waiter and make suggestions to solve the problem.",
+          "ko": "죄송하지만 해결해야 할 문제가 있습니다. 바에서 술값을 계산하려고 합니다. 그런데 갑자기 지갑을 잃어버렸다는 것을 알게 되었습니다. 바텐더나 종업원에게 상황을 설명하고 문제를 해결하기 위한 제안을 해보세요.",
+          "type": "roleplay"
+        }
       ]
     },
     {
@@ -197,11 +942,56 @@
       "nameKo": "영화, TV프로",
       "nameEn": "Movies & TV",
       "questions": [
-        {"en": "What kind of movies do you usually watch, and what are your favorite movies?", "ko": "당신은 주로 어떤 영화를 보나요? 어떤 영화를 좋아하나요?", "type": "description"},
-        {"en": "What do you usually do at the movie theater, and what do you do before and after a movie?", "ko": "영화관에서는 주로 무엇을 하나요? 영화가 시작하기 전이나 후에는 무엇을 하나요?", "type": "routine"},
-        {"en": "Tell me about your first experience watching TV and how TV programs have changed over time.", "ko": "처음 TV를 본 경험과 TV 프로그램이 어떻게 변해왔는지 말해 주세요.", "type": "past_experience"},
-        {"en": "What is your favorite TV program, and why do you like it?", "ko": "가장 좋아하는 TV 프로그램은 무엇이며, 그 이유는 무엇인가요?", "type": "description"},
-        {"en": "How did your interest in TV and movies begin, and how has it changed up to now?", "ko": "TV와 영화에 대한 관심은 어떻게 시작되었고, 지금까지 어떻게 변해왔나요?", "type": "comparison"}
+        {
+          "en": "What kind of movies do you usually watch, and what are your favorite movies?",
+          "ko": "당신은 주로 어떤 영화를 보나요? 어떤 영화를 좋아하나요?",
+          "type": "description"
+        },
+        {
+          "en": "What do you usually do at the movie theater, and what do you do before and after a movie?",
+          "ko": "영화관에서는 주로 무엇을 하나요? 영화가 시작하기 전이나 후에는 무엇을 하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about your first experience watching TV and how TV programs have changed over time.",
+          "ko": "처음 TV를 본 경험과 TV 프로그램이 어떻게 변해왔는지 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "What is your favorite TV program, and why do you like it?",
+          "ko": "가장 좋아하는 TV 프로그램은 무엇이며, 그 이유는 무엇인가요?",
+          "type": "description"
+        },
+        {
+          "en": "How did your interest in TV and movies begin, and how has it changed up to now?",
+          "ko": "TV와 영화에 대한 관심은 어떻게 시작되었고, 지금까지 어떻게 변해왔나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "You indicated that you like to go to the movies. What is your favorite genre? Why do you like that type of movie?",
+          "ko": "영화 보러 가는 것을 좋아한다고 하셨는데요. 가장 좋아하는 장르는 무엇인가요? 왜 그런 종류의 영화를 좋아하나요?",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about the movie theater you typically go to. What is it like? Describe a movie theater you often visit in as much detail as possible.",
+          "ko": "당신이 주로 가는 영화관에 대해 이야기해 주세요. 그곳은 어떤가요? 자주 가는 영화관을 최대한 자세히 묘사해 주세요.",
+          "type": "description"
+        },
+        {
+          "en": "What was the most memorable movie you've watched? What was it about? What was so special about that movie? Would you recommend that movie to other people?",
+          "ko": "지금까지 본 영화 중 가장 기억에 남는 영화는 무엇이었나요? 무엇에 관한 영화였나요? 그 영화는 무엇이 그렇게 특별했나요? 다른 사람들에게 그 영화를 추천하겠나요?",
+          "type": "description"
+        },
+        {
+          "en": "Could you compare the movies made today to the movies you saw while you were growing up? How have the movies changed over the years? What are some similarities and differences?",
+          "ko": "오늘날 만들어진 영화와 당신이 자라면서 봤던 영화를 비교해 줄 수 있나요? 영화는 세월이 흐르며 어떻게 바뀌었나요? 비슷한 점과 다른 점은 무엇인가요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Tell me about one of the actors who was in the news recently because of some issue. What was the issue about? How did the news affect your impression of that actor?",
+          "ko": "최근 어떤 이슈로 뉴스에 나온 배우 한 명에 대해 이야기해 주세요. 무슨 이슈였나요? 그 뉴스가 그 배우에 대한 당신의 인상에 어떤 영향을 주었나요?",
+          "type": "current_issue"
+        }
       ]
     },
     {
@@ -209,11 +999,56 @@
       "nameKo": "영양, 식품, 건강",
       "nameEn": "Nutrition, Food & Health",
       "questions": [
-        {"en": "You want to get professional help with your health. Call a nutritionist's office and ask three or four questions about their program.", "ko": "건강에 대해 전문적인 도움을 받고 싶습니다. 영양사 사무실에 전화해서 프로그램에 대해 서너 가지 질문을 하세요.", "type": "roleplay"},
-        {"en": "You made an appointment with a nutritionist, but your boss asked you to work late. Call the office, explain the situation, and suggest two or three alternatives.", "ko": "영양사와 상담 예약을 했는데 상사가 야근을 요구했습니다. 사무실에 전화해서 상황을 설명하고 두세 가지 대안을 제시하세요.", "type": "roleplay"},
-        {"en": "Tell me about a change you made in your life for the sake of your health.", "ko": "건강을 위해 당신의 삶에 준 변화에 대해 말해 주세요.", "type": "past_experience"},
-        {"en": "What efforts do you make to eat healthy food, and how do you keep yourself and your family healthy?", "ko": "건강한 음식을 먹기 위해 어떤 노력을 하나요? 자신과 가족을 어떻게 건강하게 관리하나요?", "type": "description"},
-        {"en": "Tell me about a memorable episode related to something you ate.", "ko": "무언가를 먹었을 때 음식과 관련해 기억에 남는 에피소드에 대해 말해 주세요.", "type": "past_experience"}
+        {
+          "en": "You want to get professional help with your health. Call a nutritionist's office and ask three or four questions about their program.",
+          "ko": "건강에 대해 전문적인 도움을 받고 싶습니다. 영양사 사무실에 전화해서 프로그램에 대해 서너 가지 질문을 하세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "You made an appointment with a nutritionist, but your boss asked you to work late. Call the office, explain the situation, and suggest two or three alternatives.",
+          "ko": "영양사와 상담 예약을 했는데 상사가 야근을 요구했습니다. 사무실에 전화해서 상황을 설명하고 두세 가지 대안을 제시하세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "Tell me about a change you made in your life for the sake of your health.",
+          "ko": "건강을 위해 당신의 삶에 준 변화에 대해 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "What efforts do you make to eat healthy food, and how do you keep yourself and your family healthy?",
+          "ko": "건강한 음식을 먹기 위해 어떤 노력을 하나요? 자신과 가족을 어떻게 건강하게 관리하나요?",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about a memorable episode related to something you ate.",
+          "ko": "무언가를 먹었을 때 음식과 관련해 기억에 남는 에피소드에 대해 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Many people try to eat healthy these days. What kinds of foods are healthy and why are they healthy for us?",
+          "ko": "요즘 많은 사람들이 건강하게 먹으려고 합니다. 어떤 종류의 음식이 건강에 좋고 왜 우리에게 건강한가요?",
+          "type": "description"
+        },
+        {
+          "en": "How has food shopping changed over the last 20 years? What are some of the trends or changes you have noticed when comparing shopping today with that of the past?",
+          "ko": "지난 20년 동안 식품 쇼핑은 어떻게 변했나요? 오늘날의 쇼핑을 과거와 비교했을 때 알아차린 트렌드나 변화에는 어떤 것들이 있나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Food can get contaminated because of bacteria. It can go bad or become toxic. Tell me about an incident you heard on the news regarding this issue. What was the problem? How was it dealt with?",
+          "ko": "음식은 박테리아로 인해 오염될 수 있습니다. 상하거나 독성을 띨 수 있습니다. 이 문제와 관련해 뉴스에서 들은 사건에 대해 말해주세요. 문제가 무엇이었나요? 어떻게 처리되었나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Tell me how you found out about eating healthy. Did your family eat healthy when you were growing up? Did your friend become healthier by eating healthy food? Describe in detail.",
+          "ko": "당신이 건강하게 먹는 것에 대해 어떻게 알게 되었는지 말해주세요. 당신이 자랄 때 가족이 건강하게 먹었나요? 친구가 건강한 음식을 먹고 더 건강해졌나요? 자세히 설명해주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Now, tell me about a memorable experience you had while eating something. It could be good or bad. What happened? Why was it so memorable or special?",
+          "ko": "이제 무언가를 먹으면서 겪은 기억에 남는 경험에 대해 말해주세요. 좋았을 수도 나빴을 수도 있습니다. 무슨 일이 있었나요? 왜 그렇게 기억에 남거나 특별했나요?",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -221,9 +1056,51 @@
       "nameKo": "레스토랑",
       "nameEn": "Restaurant",
       "questions": [
-        {"en": "Call a restaurant to make a reservation and ask a few questions about the booking.", "ko": "레스토랑에 전화해서 예약을 하고 예약에 관해 몇 가지 질문을 하세요.", "type": "roleplay"},
-        {"en": "You got lost on your way to the restaurant. Ask someone nearby for directions.", "ko": "식당에 가는 길에 길을 잃었습니다. 근처 사람에게 길을 물어보세요.", "type": "roleplay"},
-        {"en": "Tell me about a time when you had to cancel an appointment or reservation at the last minute.", "ko": "약속이나 예약을 임박해서 취소했던 경험에 대해 말해 주세요.", "type": "past_experience"}
+        {
+          "en": "Call a restaurant to make a reservation and ask a few questions about the booking.",
+          "ko": "레스토랑에 전화해서 예약을 하고 예약에 관해 몇 가지 질문을 하세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "You got lost on your way to the restaurant. Ask someone nearby for directions.",
+          "ko": "식당에 가는 길에 길을 잃었습니다. 근처 사람에게 길을 물어보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "Tell me about a time when you had to cancel an appointment or reservation at the last minute.",
+          "ko": "약속이나 예약을 임박해서 취소했던 경험에 대해 말해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "I would like to know about restaurants in your country. What do typical restaurants look like? What kind of food do they commonly serve? How are the people who work there? Give me all the details about a typical restaurant in your country.",
+          "ko": "당신 나라의 음식점에 대해 알고 싶습니다. 전형적인 음식점은 어떻게 생겼나요? 주로 어떤 음식을 제공하나요? 그곳에서 일하는 사람들은 어떤가요? 당신 나라의 전형적인 음식점에 대해 자세히 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about a restaurant you ate out at recently. What kind of restaurant was it? What was on their menu and what did you eat? Who did you go with? Did you like how the food tasted? Give me the details.",
+          "ko": "최근에 외식한 음식점에 대해 말해주세요. 어떤 종류의 음식점이었나요? 메뉴에 무엇이 있었고 무엇을 먹었나요? 누구와 함께 갔나요? 음식 맛은 마음에 들었나요? 자세히 말해주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Now, tell me about a restaurant you used to go to as a child. What was it like? What did you eat? Who did you go with? What do you remember most about that place? Tell me about that restaurant in as much detail as possible.",
+          "ko": "이제 어릴 때 다니던 음식점에 대해 말해주세요. 어땠나요? 무엇을 먹었나요? 누구와 함께 갔나요? 그곳에 대해 가장 기억에 남는 것은 무엇인가요? 그 음식점에 대해 최대한 자세히 말해주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "What are the latest trends people are talking about related to take-out or delivery food options? Perhaps it has to do with ordering online or an app. Discuss the changes that you have observed recently regarding take-out or delivery food options.",
+          "ko": "테이크아웃이나 배달 음식과 관련해 사람들이 이야기하는 최신 트렌드는 무엇인가요? 아마도 온라인 주문이나 앱과 관련이 있을 것입니다. 최근 테이크아웃이나 배달 음식에 대해 관찰한 변화에 대해 이야기해주세요.",
+          "type": "current_issue"
+        },
+        {
+          "en": "What do you usually do when you eat at a restaurant? Tell me everything you do from the first moment you walk in.",
+          "ko": "음식점에서 식사할 때 보통 무엇을 하나요? 들어서는 첫 순간부터 하는 모든 일을 말해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "Many restaurants are changing their menus to suit customers who are more health-conscious. Talk about the changes you notice about restaurants in your country related to this trend.",
+          "ko": "많은 음식점들이 건강을 더 중시하는 손님들에게 맞추기 위해 메뉴를 바꾸고 있습니다. 이 트렌드와 관련해 당신 나라의 음식점에서 알아차린 변화에 대해 이야기해주세요.",
+          "type": "current_issue"
+        }
       ]
     },
     {
@@ -231,8 +1108,16 @@
       "nameKo": "기술",
       "nameEn": "Technology",
       "questions": [
-        {"en": "Discuss technology with a friend. Call your friend, who is an AI expert, and ask a few questions for a tech report you are working on.", "ko": "친구와 기술에 관해 이야기를 나누세요. AI 전문가인 친구에게 전화해서 작성 중인 기술 리포트를 위해 몇 가지 질문을 하세요.", "type": "roleplay"},
-        {"en": "Tell me about your experience with a new and interesting product.", "ko": "새롭고 흥미로운 제품에 대한 경험을 말해 주세요.", "type": "past_experience"}
+        {
+          "en": "Discuss technology with a friend. Call your friend, who is an AI expert, and ask a few questions for a tech report you are working on.",
+          "ko": "친구와 기술에 관해 이야기를 나누세요. AI 전문가인 친구에게 전화해서 작성 중인 기술 리포트를 위해 몇 가지 질문을 하세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "Tell me about your experience with a new and interesting product.",
+          "ko": "새롭고 흥미로운 제품에 대한 경험을 말해 주세요.",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -240,9 +1125,21 @@
       "nameKo": "취업 인터뷰",
       "nameEn": "Job Interview",
       "questions": [
-        {"en": "I'd like to give you a situation to act out. You have a job interview coming up. Call the company and ask three or four questions to get the information you need before the interview.", "ko": "상황극을 하나 드리겠습니다. 곧 면접을 앞두고 있습니다. 회사에 전화를 걸어 면접 전에 필요한 정보를 얻기 위해 서너 가지 질문을 해 보세요.", "type": "roleplay"},
-        {"en": "Unfortunately, you are not able to attend the interview at the scheduled time. Call the company, explain your situation, and ask to reschedule the interview or arrange an alternative such as a video call.", "ko": "안타깝게도 예정된 시간에 면접에 참석할 수 없게 되었습니다. 회사에 전화해 상황을 설명하고, 면접 일정을 변경하거나 화상 면접 같은 다른 방법을 요청해 보세요.", "type": "roleplay"},
-        {"en": "Have you ever had to cancel a meeting or an appointment? What was it, why did you have to cancel it, and how did you handle the situation?", "ko": "미팅이나 약속을 취소해야 했던 경험이 있나요? 어떤 약속이었고, 왜 취소해야 했으며, 그 상황을 어떻게 처리했나요?", "type": "past_experience"}
+        {
+          "en": "I'd like to give you a situation to act out. You have a job interview coming up. Call the company and ask three or four questions to get the information you need before the interview.",
+          "ko": "상황극을 하나 드리겠습니다. 곧 면접을 앞두고 있습니다. 회사에 전화를 걸어 면접 전에 필요한 정보를 얻기 위해 서너 가지 질문을 해 보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "Unfortunately, you are not able to attend the interview at the scheduled time. Call the company, explain your situation, and ask to reschedule the interview or arrange an alternative such as a video call.",
+          "ko": "안타깝게도 예정된 시간에 면접에 참석할 수 없게 되었습니다. 회사에 전화해 상황을 설명하고, 면접 일정을 변경하거나 화상 면접 같은 다른 방법을 요청해 보세요.",
+          "type": "roleplay"
+        },
+        {
+          "en": "Have you ever had to cancel a meeting or an appointment? What was it, why did you have to cancel it, and how did you handle the situation?",
+          "ko": "미팅이나 약속을 취소해야 했던 경험이 있나요? 어떤 약속이었고, 왜 취소해야 했으며, 그 상황을 어떻게 처리했나요?",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -250,10 +1147,56 @@
       "nameKo": "조깅",
       "nameEn": "Jogging",
       "questions": [
-        {"en": "Describe a place where you usually go jogging. What does it look like, and why do you like jogging there?", "ko": "평소에 조깅을 하러 가는 장소를 설명해 주세요. 그곳은 어떻게 생겼고, 왜 그곳에서 조깅하는 것을 좋아하나요?", "type": "description"},
-        {"en": "How did you first become interested in jogging? When and why did you start, and how has your interest grown over time?", "ko": "조깅에 처음 어떻게 관심을 갖게 되었나요? 언제, 왜 시작했고 시간이 지나면서 관심이 어떻게 커졌나요?", "type": "past_experience"},
-        {"en": "Tell me about a memorable experience you had while jogging. When was it, where were you, and what made it so memorable?", "ko": "조깅하면서 겪은 기억에 남는 경험에 대해 말해 주세요. 언제였고, 어디였으며, 무엇이 그렇게 기억에 남게 했나요?", "type": "past_experience"},
-        {"en": "Compare jogging with another sport or physical activity that you enjoy. What do the two have in common, and how are they different?", "ko": "조깅을 당신이 즐기는 다른 스포츠나 운동과 비교해 보세요. 두 가지의 공통점은 무엇이고, 어떤 점이 다른가요?", "type": "comparison"}
+        {
+          "en": "Describe a place where you usually go jogging. What does it look like, and why do you like jogging there?",
+          "ko": "평소에 조깅을 하러 가는 장소를 설명해 주세요. 그곳은 어떻게 생겼고, 왜 그곳에서 조깅하는 것을 좋아하나요?",
+          "type": "description"
+        },
+        {
+          "en": "How did you first become interested in jogging? When and why did you start, and how has your interest grown over time?",
+          "ko": "조깅에 처음 어떻게 관심을 갖게 되었나요? 언제, 왜 시작했고 시간이 지나면서 관심이 어떻게 커졌나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Tell me about a memorable experience you had while jogging. When was it, where were you, and what made it so memorable?",
+          "ko": "조깅하면서 겪은 기억에 남는 경험에 대해 말해 주세요. 언제였고, 어디였으며, 무엇이 그렇게 기억에 남게 했나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Compare jogging with another sport or physical activity that you enjoy. What do the two have in common, and how are they different?",
+          "ko": "조깅을 당신이 즐기는 다른 스포츠나 운동과 비교해 보세요. 두 가지의 공통점은 무엇이고, 어떤 점이 다른가요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Where do you often go for jogging, walking, or hiking? Where is it located? Describe your favorite place in detail.",
+          "ko": "조깅, 걷기, 또는 하이킹을 하러 주로 어디에 가나요? 그곳은 어디에 있나요? 가장 좋아하는 장소를 자세히 설명해 주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Please describe a memorable experience you had while jogging, walking, or hiking. Explain what happened and why it is so memorable, with as many details as you can.",
+          "ko": "조깅, 걷기, 또는 하이킹을 하면서 겪은 기억에 남는 경험을 설명해 주세요. 무슨 일이 있었고 왜 그렇게 기억에 남는지 가능한 한 자세히 설명해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "How far do you normally jog, walk, or hike? How long does it usually take? Tell me about your typical routine from beginning to end.",
+          "ko": "보통 얼마나 멀리 조깅하거나 걷거나 하이킹하나요? 보통 얼마나 걸리나요? 당신의 일상적인 루틴을 처음부터 끝까지 이야기해 주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "What do you like about walking, jogging, or hiking? Why did you first become interested in it? How does it make you feel?",
+          "ko": "걷기, 조깅, 또는 하이킹의 어떤 점을 좋아하나요? 처음에 왜 관심을 갖게 되었나요? 그것은 당신에게 어떤 기분이 들게 하나요?",
+          "type": "general"
+        },
+        {
+          "en": "What do you usually wear and bring when you go walking, jogging, or hiking? Do you have any special gear that you always bring along?",
+          "ko": "걷기, 조깅, 또는 하이킹을 하러 갈 때 보통 무엇을 입고 무엇을 가져가나요? 항상 챙겨 가는 특별한 장비가 있나요?",
+          "type": "description"
+        },
+        {
+          "en": "Have you ever been unexpectedly injured while jogging, walking, or hiking?",
+          "ko": "조깅, 걷기, 또는 하이킹을 하다가 예기치 않게 다친 적이 있나요?",
+          "type": "past_experience"
+        }
       ]
     },
     {
@@ -261,8 +1204,393 @@
       "nameKo": "역사적 사건",
       "nameEn": "Historical Events",
       "questions": [
-        {"en": "Tell me about an important change or development that has taken place in your country. What were things like in the past, and how are they different now?", "ko": "당신의 나라에서 일어난 중요한 변화나 발전에 대해 말해 주세요. 과거에는 어땠고, 지금은 어떻게 달라졌나요?", "type": "comparison"},
-        {"en": "Tell me about a memorable historical event that happened in your country during your lifetime. What was the event, when did it happen, and why was it significant to you?", "ko": "당신이 살아오는 동안 당신의 나라에서 일어난 기억에 남는 역사적 사건에 대해 말해 주세요. 어떤 사건이었고, 언제 일어났으며, 왜 당신에게 중요했나요?", "type": "general"}
+        {
+          "en": "Tell me about an important change or development that has taken place in your country. What were things like in the past, and how are they different now?",
+          "ko": "당신의 나라에서 일어난 중요한 변화나 발전에 대해 말해 주세요. 과거에는 어땠고, 지금은 어떻게 달라졌나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "Tell me about a memorable historical event that happened in your country during your lifetime. What was the event, when did it happen, and why was it significant to you?",
+          "ko": "당신이 살아오는 동안 당신의 나라에서 일어난 기억에 남는 역사적 사건에 대해 말해 주세요. 어떤 사건이었고, 언제 일어났으며, 왜 당신에게 중요했나요?",
+          "type": "general"
+        }
+      ]
+    },
+    {
+      "id": "staycation",
+      "nameKo": "집에서 보내는 휴가",
+      "nameEn": "Staycation",
+      "questions": [
+        {
+          "en": "Why do you prefer staying at home?",
+          "ko": "당신은 왜 집에 있는 것을 더 좋아하나요?",
+          "type": "general"
+        },
+        {
+          "en": "Who do you meet when you have a vacation at home? What do you do with them?",
+          "ko": "집에서 휴가를 보낼 때 누구를 만나나요? 그들과 무엇을 하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about a memorable vacation you spent at home. What did you do and who were you with? Why is it so memorable?",
+          "ko": "집에서 보낸 기억에 남는 휴가에 대해 이야기해 주세요. 무엇을 했고 누구와 함께였나요? 왜 그렇게 기억에 남나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Why do you think people need vacations? What purposes do you think vacations serve for different people?",
+          "ko": "사람들에게 왜 휴가가 필요하다고 생각하나요? 휴가가 사람마다 어떤 목적을 가진다고 생각하나요?",
+          "type": "general"
+        },
+        {
+          "en": "What do people in your country normally do on their vacations? How has the way they spend vacations changed over the years?",
+          "ko": "당신 나라의 사람들은 보통 휴가에 무엇을 하나요? 사람들이 휴가를 보내는 방식은 수년에 걸쳐 어떻게 변해 왔나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "You indicated that you take vacations at home. Who do you meet when you spend vacations at home? What do you do with them? Plus, who do you want to meet in the future for your vacation? Why is that?",
+          "ko": "집에서 휴가를 보낸다고 하셨는데요. 집에서 휴가를 보낼 때 누구를 만나나요? 그들과 무엇을 하나요? 그리고 앞으로 휴가 때 누구를 만나고 싶나요? 그 이유는 무엇인가요?",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about what you did during your last vacation. How did your vacation start and how did it end? What did you do on each day? Tell me everything about the things you did on your last vacation at home.",
+          "ko": "지난 휴가 때 무엇을 했는지 이야기해 주세요. 휴가는 어떻게 시작해서 어떻게 끝났나요? 매일 무엇을 했나요? 집에서 보낸 지난 휴가에 한 일들을 모두 이야기해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Now, tell me about an unusual or unexpected experience you had during a vacation you spent at home. Why was it memorable? Who were you with? Where were you? What did you do? What are some things or events that you remember?",
+          "ko": "이제 집에서 보낸 휴가 중에 겪었던 특이하거나 예상치 못한 경험에 대해 이야기해 주세요. 왜 기억에 남나요? 누구와 함께 있었나요? 어디에 있었나요? 무엇을 했나요? 기억나는 일이나 사건은 무엇인가요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "You indicated that you take vacations at home. What do people in your country normally do on their vacations? How has the way they spend vacations changed over the years? Give me specific examples.",
+          "ko": "집에서 휴가를 보낸다고 하셨는데요. 당신 나라 사람들은 보통 휴가 때 무엇을 하나요? 휴가를 보내는 방식이 세월이 흐르며 어떻게 바뀌었나요? 구체적인 예를 들어 주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "Experts state that vacations are important for one's health and one's relationships with others. Take a minute to discuss your view on the importance of vacations.",
+          "ko": "전문가들은 휴가가 건강과 다른 사람들과의 관계에 중요하다고 말합니다. 잠시 휴가의 중요성에 대한 당신의 견해를 이야기해 주세요.",
+          "type": "general"
+        }
+      ]
+    },
+    {
+      "id": "travel",
+      "nameKo": "여행",
+      "nameEn": "Travel",
+      "questions": [
+        {
+          "en": "What are some things that you do to prepare for a trip?",
+          "ko": "여행을 준비하기 위해 어떤 일들을 하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "Where do you like to visit? Describe the place you would like to go and why you love going there. Who do you go with?",
+          "ko": "어디를 방문하는 것을 좋아하나요? 가고 싶은 장소와 그곳에 가는 것을 좋아하는 이유를 설명해 주세요. 누구와 함께 가나요?",
+          "type": "description"
+        },
+        {
+          "en": "Talk about an unforgettable thing that happened on a trip. Why was the experience so memorable?",
+          "ko": "여행 중에 있었던 잊지 못할 일에 대해 이야기해 주세요. 그 경험은 왜 그렇게 기억에 남나요?",
+          "type": "past_experience"
+        }
+      ]
+    },
+    {
+      "id": "camping",
+      "nameKo": "캠핑",
+      "nameEn": "Camping",
+      "questions": [
+        {
+          "en": "Tell me about the place you usually go camping. What does it look like? Why do you like to go there?",
+          "ko": "당신이 주로 캠핑하러 가는 장소에 대해 이야기해 주세요. 어떻게 생겼나요? 왜 그곳에 가는 것을 좋아하나요?",
+          "type": "description"
+        },
+        {
+          "en": "I would like to know what you usually bring when you go camping. Why do you take those things?",
+          "ko": "캠핑 갈 때 보통 무엇을 가져가는지 알고 싶습니다. 왜 그것들을 가져가나요?",
+          "type": "description"
+        },
+        {
+          "en": "Do you have any memorable experience from when you went camping? When was it? Who did you go with, and what happened?",
+          "ko": "캠핑을 갔을 때의 기억에 남는 경험이 있나요? 언제였나요? 누구와 갔고, 무슨 일이 있었나요?",
+          "type": "past_experience"
+        }
+      ]
+    },
+    {
+      "id": "beach",
+      "nameKo": "해변",
+      "nameEn": "Beach",
+      "questions": [
+        {
+          "en": "Where is your favorite beach and how often do you go there?",
+          "ko": "가장 좋아하는 해변은 어디이고, 얼마나 자주 가나요?",
+          "type": "description"
+        },
+        {
+          "en": "When was the last time you went to a beach? Where did you go? Who were you with, and what kind of activities did you do? Tell me all about it from beginning to end.",
+          "ko": "마지막으로 해변에 간 것은 언제였나요? 어디로 갔나요? 누구와 함께였고 어떤 활동을 했나요? 처음부터 끝까지 모두 이야기해 주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "You indicated that you like to go to the beach. Which beach do you like to go to? Where is it? What does it look like? How often do you go to this beach? How do people get there? Does it get crowded?",
+          "ko": "당신은 해변에 가는 것을 좋아한다고 했습니다. 어느 해변에 가는 것을 좋아하나요? 그곳은 어디에 있나요? 어떻게 생겼나요? 얼마나 자주 그 해변에 가나요? 사람들은 그곳에 어떻게 가나요? 붐비나요?",
+          "type": "description"
+        },
+        {
+          "en": "When you go to the beach, what do you usually do there? Who do you go with? Tell me everything about what you can do at the beach.",
+          "ko": "해변에 가면 보통 그곳에서 무엇을 하나요? 누구와 함께 가나요? 해변에서 할 수 있는 일에 대해 모두 말해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "Tell me about a particularly memorable trip to the beach. Who were you with? Which beach were you at? What did you do there? What made this trip to the beach so memorable or special? Tell me everything you did from the moment you arrived there.",
+          "ko": "특별히 기억에 남는 해변 여행에 대해 말해주세요. 누구와 함께 있었나요? 어느 해변에 있었나요? 그곳에서 무엇을 했나요? 무엇이 그 해변 여행을 그렇게 기억에 남거나 특별하게 만들었나요? 도착한 순간부터 한 모든 일을 말해주세요.",
+          "type": "past_experience"
+        }
+      ]
+    },
+    {
+      "id": "bicycle",
+      "nameKo": "자전거",
+      "nameEn": "Bicycle",
+      "questions": [
+        {
+          "en": "Describe the bicycle you ride in detail. When do you usually ride a bicycle? Where and how long do you ride?",
+          "ko": "당신이 타는 자전거를 자세히 설명해 주세요. 보통 언제 자전거를 타나요? 어디서, 얼마나 오래 타나요?",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about a memorable experience you had while riding a bicycle. What happened, and why is it so memorable?",
+          "ko": "자전거를 타면서 겪은 기억에 남는 경험에 대해 이야기해 주세요. 무슨 일이 있었고, 왜 그렇게 기억에 남나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Who taught you how to ride a bicycle? When was the first time you rode a bike?",
+          "ko": "누가 당신에게 자전거 타는 법을 가르쳐 주었나요? 처음 자전거를 탄 것은 언제였나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "What kind of things do you usually do before and after you ride a bicycle? Tell me about your typical day from beginning to end.",
+          "ko": "자전거를 타기 전과 후에 보통 어떤 일을 하나요? 당신의 하루 일과를 처음부터 끝까지 이야기해 주세요.",
+          "type": "routine"
+        }
+      ]
+    },
+    {
+      "id": "hotel",
+      "nameKo": "호텔",
+      "nameEn": "Hotel",
+      "questions": [
+        {
+          "en": "I'd like to know about hotels in your country. What are they like? Where are they located? Are they different from the hotels in other countries? Tell me about the hotels in your country in as much detail as possible.",
+          "ko": "당신 나라의 호텔에 대해 알고 싶어요. 어떤가요? 어디에 위치해 있나요? 다른 나라의 호텔과 다른가요? 당신 나라의 호텔에 대해 최대한 자세히 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about the things you do when you arrive at a hotel. What is the first thing you do? What do you do after that? Who do you talk to? Talk about all the things you do when you check into a hotel.",
+          "ko": "호텔에 도착했을 때 하는 일들에 대해 말해주세요. 가장 먼저 무엇을 하나요? 그 다음에는 무엇을 하나요? 누구와 이야기하나요? 호텔에 체크인할 때 하는 모든 일에 대해 말해보세요.",
+          "type": "routine"
+        },
+        {
+          "en": "There are many unique hotels around the world. Tell me about a memorable hotel you stayed at. Why was that hotel special? How did you pick that hotel in the first place? What do you remember most about your stay at that hotel?",
+          "ko": "세계에는 독특한 호텔이 많이 있습니다. 당신이 묵었던 기억에 남는 호텔에 대해 말해주세요. 그 호텔은 왜 특별했나요? 애초에 그 호텔은 어떻게 골랐나요? 그 호텔에서의 숙박에 대해 가장 기억에 남는 것은 무엇인가요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "I'd like to know about the view that you usually want at hotels. Do you prefer an ocean view or a city view? What are the things that you can see from the hotel? Tell me everything in detail.",
+          "ko": "호텔에서 보통 원하는 전망에 대해 알고 싶어요. 바다 전망을 선호하나요, 아니면 도시 전망을 선호하나요? 호텔에서 무엇을 볼 수 있나요? 모든 것을 자세히 말해주세요.",
+          "type": "description"
+        }
+      ]
+    },
+    {
+      "id": "furniture",
+      "nameKo": "가구",
+      "nameEn": "Furniture",
+      "questions": [
+        {
+          "en": "Tell me about how you use your furniture on a typical day. What kinds of things do you do with your furniture?",
+          "ko": "평소 하루 동안 가구를 어떻게 사용하는지 이야기해 주세요. 가구로 어떤 일들을 하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "How do you usually use your coffee table during the day?",
+          "ko": "하루 동안 커피 테이블을 주로 어떻게 사용하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "What do you typically keep on your nightstand, and how do you use it?",
+          "ko": "협탁에 보통 무엇을 두고, 그것을 어떻게 사용하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "How do you organize your sideboard for everyday use?",
+          "ko": "사이드보드(보조 서랍장)를 매일 사용하기 위해 어떻게 정리하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "What role does your kitchen island play in your daily routine?",
+          "ko": "주방 아일랜드는 당신의 일상에서 어떤 역할을 하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "How do you use your medicine cabinet during your morning or evening routine?",
+          "ko": "아침이나 저녁 루틴에서 약 보관함을 어떻게 사용하나요?",
+          "type": "routine"
+        },
+        {
+          "en": "What kind of furniture do you have at home? Tell me about each type of furniture. Plus, what is your favorite piece of furniture? Why do you like it? When did you get it?",
+          "ko": "집에 어떤 가구가 있나요? 각 종류의 가구에 대해 말해주세요. 그리고 가장 좋아하는 가구는 무엇인가요? 왜 좋아하나요? 언제 그것을 갖게 되었나요?",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about the furniture you had when you were young. How is it different from the furniture you have today? Give me specific examples of the differences.",
+          "ko": "어렸을 때 가지고 있던 가구에 대해 말해주세요. 오늘날 가지고 있는 가구와 어떻게 다른가요? 그 차이점에 대한 구체적인 예를 들어주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "Tell me about a time when you had problems with your furniture. Perhaps it got damaged for some reason. Tell me what exactly happened and how you solved the problem.",
+          "ko": "가구에 문제가 생겼던 때에 대해 말해주세요. 어쩌면 어떤 이유로 손상되었을 수도 있습니다. 정확히 무슨 일이 있었고 어떻게 문제를 해결했는지 말해주세요.",
+          "type": "past_experience"
+        }
+      ]
+    },
+    {
+      "id": "appointments",
+      "nameKo": "예약",
+      "nameEn": "Appointments",
+      "questions": [
+        {
+          "en": "Now, tell me about appointments you make in your life. What kinds of appointments are they and how do you make them? Talk about what happens at your appointments.",
+          "ko": "이제 당신이 살아가며 잡는 예약에 대해 말해주세요. 어떤 종류의 예약이며 어떻게 예약을 하나요? 예약한 곳에서 무슨 일이 일어나는지 이야기해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "Talk about an appointment you had in the past. What was the appointment about? Was it with a doctor or a dentist? Have you made an appointment with your hairdresser? What did you do to make the appointment and what actually happened when you got there?",
+          "ko": "과거에 잡았던 예약에 대해 이야기해주세요. 무엇에 관한 예약이었나요? 의사나 치과의사와의 예약이었나요? 미용사와 예약을 잡은 적이 있나요? 예약을 잡기 위해 무엇을 했고 그곳에 도착했을 때 실제로 무슨 일이 있었나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "Unexpected things can happen during an appointment. Talk about a memorable incident you experienced during an appointment. What exactly happened and how did you deal with the situation?",
+          "ko": "예약 중에는 예상치 못한 일이 일어날 수 있습니다. 예약 중에 겪었던 기억에 남는 사건에 대해 이야기해주세요. 정확히 무슨 일이 있었고 그 상황에 어떻게 대처했나요?",
+          "type": "past_experience"
+        }
+      ]
+    },
+    {
+      "id": "internet",
+      "nameKo": "인터넷",
+      "nameEn": "Internet",
+      "questions": [
+        {
+          "en": "Tell me about the technology you use in your daily life. How often do you use technology? How does technology help you? Tell me everything about the things you do with technology.",
+          "ko": "당신이 일상생활에서 사용하는 기술에 대해 말해주세요. 얼마나 자주 기술을 사용하나요? 기술이 당신에게 어떻게 도움이 되나요? 기술로 하는 일에 대해 모두 말해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "What kind of things do you do on the Internet? Do you find out about new things or do you shop for stuff online? Tell me about the most typical things that you do on the Internet.",
+          "ko": "인터넷에서 어떤 것들을 하나요? 새로운 것을 알아보나요, 아니면 온라인으로 물건을 사나요? 인터넷에서 하는 가장 전형적인 일에 대해 말해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "We all have things that we remember on the Internet. Talk about the memorable things that you have seen on the Internet. Why were they memorable?",
+          "ko": "우리 모두 인터넷에서 기억하는 것들이 있습니다. 인터넷에서 본 기억에 남는 것들에 대해 이야기해주세요. 왜 기억에 남았나요?",
+          "type": "past_experience"
+        },
+        {
+          "en": "How does Internet usage among people of different age groups differ from old to young? Why do they use the Internet? What do they do online?",
+          "ko": "노년층부터 젊은층까지 다양한 연령대의 사람들 사이에서 인터넷 사용은 어떻게 다른가요? 그들은 왜 인터넷을 사용하나요? 온라인에서 무엇을 하나요?",
+          "type": "comparison"
+        },
+        {
+          "en": "What kinds of concerns do people have about Internet use regarding security, privacy or safety? How have these concerns changed over time?",
+          "ko": "보안, 사생활, 안전과 관련해 사람들이 인터넷 사용에 대해 갖는 우려에는 어떤 것들이 있나요? 이러한 우려는 시간이 지나면서 어떻게 변했나요?",
+          "type": "current_issue"
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "nameKo": "산업",
+      "nameEn": "Industry",
+      "questions": [
+        {
+          "en": "Talk about one of the rising industries or companies in your country. Why is that industry or company famous and what is special about it? Do you personally want to work in that industry or for that company?",
+          "ko": "당신 나라에서 떠오르는 산업이나 기업 중 하나에 대해 이야기해주세요. 그 산업이나 기업이 왜 유명하고 무엇이 특별한가요? 당신은 개인적으로 그 산업이나 그 기업에서 일하고 싶나요?",
+          "type": "description"
+        },
+        {
+          "en": "Now, what kind of impact does the industry or company you mentioned before have on your country? What kind of benefits does it bring? Give me all the details.",
+          "ko": "이제, 앞서 언급한 산업이나 기업이 당신 나라에 어떤 영향을 미치나요? 어떤 이점을 가져다주나요? 자세히 전부 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Can you tell me about one promising or famous company in this particular industry? Tell me how the company started, and all the things that they did to become well-known.",
+          "ko": "이 특정 산업에서 유망하거나 유명한 기업 하나에 대해 말해줄 수 있나요? 그 기업이 어떻게 시작했고, 유명해지기 위해 무엇을 했는지 전부 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Tell me about a time that a product did not meet the expectations of the public. Maybe the gaming industry produced a new video game platform that did not perform well, or a new smartphone that had problems when it was first released. Tell me all about what happened in detail.",
+          "ko": "어떤 상품이 대중의 기대에 미치지 못했던 때에 대해 말해주세요. 예를 들어 게임 산업이 성능이 좋지 않은 새 비디오 게임 플랫폼을 내놓았거나, 처음 출시됐을 때 문제가 있었던 새 스마트폰일 수도 있습니다. 무슨 일이 있었는지 자세히 전부 말해주세요.",
+          "type": "past_experience"
+        }
+      ]
+    },
+    {
+      "id": "holidays",
+      "nameKo": "명절·모임",
+      "nameEn": "Holidays & Gatherings",
+      "questions": [
+        {
+          "en": "Tell me about some of the gatherings or celebrations that happen where you live.",
+          "ko": "당신이 사는 지역에서 열리는 모임이나 기념 행사에 대해 말해주세요.",
+          "type": "description"
+        },
+        {
+          "en": "Sometimes, when people get together for celebrations or gatherings, unexpected things happen. Tell me about something unexpected that happened at a celebration or a gathering in the area where you live.",
+          "ko": "사람들이 기념 행사나 모임을 위해 모이면 때때로 예상치 못한 일이 일어납니다. 당신이 사는 지역의 기념 행사나 모임에서 일어난 예상치 못한 일에 대해 말해주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "What kinds of concerns do you hear people express when they have gatherings and celebrations in your area? Do people complain about traffic, parking, noise, garbage or other problems? What do people in your area say about such celebrations?",
+          "ko": "당신의 지역에서 모임이나 기념 행사를 할 때 사람들이 표현하는 우려에는 어떤 것들이 있나요? 사람들이 교통, 주차, 소음, 쓰레기 또는 다른 문제에 대해 불평하나요? 당신 지역의 사람들은 그런 행사에 대해 뭐라고 말하나요?",
+          "type": "current_issue"
+        },
+        {
+          "en": "Tell me about a gathering or a celebration that was held in the area in which you live. Describe where the gathering was held, who was there, what the purpose of the gathering was, and what happened from beginning to end.",
+          "ko": "당신이 사는 지역에서 열렸던 모임이나 기념 행사에 대해 말해주세요. 모임이 어디에서 열렸는지, 누가 있었는지, 모임의 목적이 무엇이었는지, 그리고 처음부터 끝까지 무슨 일이 있었는지 설명해주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Gatherings and celebrations in small towns are often different from those in big cities. Tell me about some of the similarities and differences between the celebrations people have in small towns and in big cities in your country.",
+          "ko": "작은 마을의 모임과 기념 행사는 대도시의 것과 종종 다릅니다. 당신 나라의 작은 마을과 대도시에서 사람들이 하는 기념 행사의 유사점과 차이점에 대해 말해주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "What do you do for family holidays? Do you get together with your family? What do family members do together? What do you talk about? What kind of food is eaten? Tell me everything about your family's holiday traditions.",
+          "ko": "가족 명절에는 무엇을 하나요? 가족과 함께 모이나요? 가족 구성원들은 함께 무엇을 하나요? 무슨 이야기를 나누나요? 어떤 음식을 먹나요? 당신 가족의 명절 전통에 대해 모두 말해주세요.",
+          "type": "routine"
+        },
+        {
+          "en": "Talk about a memorable incident that happened during a holiday. Why was that incident unforgettable? Who was involved? Tell me everything from beginning to end regarding what happened.",
+          "ko": "명절에 있었던 기억에 남는 사건에 대해 이야기해주세요. 그 사건은 왜 잊을 수 없나요? 누가 관련되어 있었나요? 무슨 일이 있었는지 처음부터 끝까지 모두 말해주세요.",
+          "type": "past_experience"
+        },
+        {
+          "en": "Have holidays or holiday customs in your country changed over the years? Are they different from what they used to be? So, tell me about the changes holidays have gone through.",
+          "ko": "당신 나라의 명절이나 명절 풍습이 세월이 지나면서 변했나요? 예전과 다른가요? 명절이 겪어온 변화에 대해 말해주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "How do people celebrate those holidays? How are the holidays different? Please compare those two holidays.",
+          "ko": "사람들은 그 명절들을 어떻게 기념하나요? 그 명절들은 어떻게 다른가요? 그 두 명절을 비교해주세요.",
+          "type": "comparison"
+        },
+        {
+          "en": "What are some issues or concerns people have regarding holidays? What do people do to address those issues or concerns?",
+          "ko": "명절과 관련해 사람들이 갖는 문제나 걱정에는 어떤 것들이 있나요? 사람들은 그러한 문제나 걱정을 해결하기 위해 무엇을 하나요?",
+          "type": "current_issue"
+        }
       ]
     },
     {
@@ -270,60 +1598,330 @@
       "nameKo": "기출 모음 25.08",
       "nameEn": "Question Set · 2025.08",
       "questions": [
-        {"en": "You indicated in the survey that you like to spend vacation at home. Who do you like to meet when you stay home for vacation? Why do you like to meet those people?", "ko": "배경설문에서 당신은 휴가를 집에서 보내는 것을 선호한다고 언급하셨습니다. 휴가 동안 집에 있을 때 누구를 만나고 싶으신가요? 그분들을 만나고 싶은 이유는 무엇인가요?", "type": "description", "topicHint": "집에서 보내는 휴가"},
-        {"en": "What do you usually do when you stay home for vacation? Are there any particular things you like to do?", "ko": "집에서 휴가를 보낼 때는 주로 무엇을 하시나요? 특별히 선호하는 활동이 있나요?", "type": "routine", "topicHint": "집에서 보내는 휴가"},
-        {"en": "What did you do during your last vacation at home? How was your vacation each day? Tell me what you did on your last vacation at home.", "ko": "집에서 보낸 마지막 휴가에서는 무엇을 했나요? 매일의 휴가는 어떠했나요? 집에서 보낸 마지막 휴가에서 무엇을 했는지 설명해주세요.", "type": "past_experience", "topicHint": "집에서 보내는 휴가"},
-        {"en": "Tell me in detail about the changes you have observed concerning the relationship between your country and other countries. The changes might relate to economics, sports, art, culture, or politics. Describe those changes in detail.", "ko": "당신의 나라와 다른 나라들 간의 관계에 대한 변화에 대해 자세히 말씀해 주세요. 그 변화는 경제, 스포츠, 예술, 문화, 또는 정치와 관련이 있을 수 있습니다. 그런 변화들이 어떻게 나타났는지 구체적으로 설명해 주세요.", "type": "comparison", "topicHint": "이웃 국가"},
-        {"en": "Think about a specific historical event that affected the relationship between your country and one of its neighboring nations. It could be a treaty signed between countries, a cultural event, the visit of a minister or president, etc. Tell me in detail everything that happened concerning this event.", "ko": "당신의 나라와 인접 국가 간의 관계에 영향을 미쳤던 특정한 역사적 사건에 대해 생각해 주시기 바랍니다. 두 나라 사이에 체결된 조약일 수도 있고, 문화 행사나 장관 혹은 대통령의 방문일 수도 있습니다. 이 사건과 관련하여 일어난 모든 일들에 대해 자세히 말씀해 주세요.", "type": "past_experience", "topicHint": "이웃 국가"},
-        {"en": "You indicated that you like to listen to music. What type of music do you like listening to? Who is your favorite singer? Give me all the details.", "ko": "음악 듣는 것을 좋아한다고 하셨습니다. 어떤 종류의 음악을 듣는 것을 좋아하시나요? 가장 좋아하는 가수는 누구신가요? 모든 세부사항을 말씀해 주세요.", "type": "description", "topicHint": "음악"},
-        {"en": "What kind of music did you use to listen to when you were young? How was that music different from the music you listen to today? How has your interest in music changed over the years?", "ko": "어렸을 때는 어떤 종류의 음악을 즐겨 들으셨나요? 그 음악은 지금 들으시는 음악과 어떻게 달랐나요? 시간이 지나면서 음악에 대한 관심은 어떻게 변해왔는지 말씀해 주세요.", "type": "comparison", "topicHint": "음악"},
-        {"en": "When and where do you like to listen to music? Why do you listen to music?", "ko": "언제, 어디에서 음악 듣는 것을 좋아하시나요? 왜 음악을 들으시나요?", "type": "routine", "topicHint": "음악"},
-        {"en": "Tell me about the last concert you went to. How was the concert and how did you like the music you listened to there? Give me all the details.", "ko": "마지막으로 다녀오신 콘서트에 대해 말씀해 주세요. 그 콘서트는 어땠고, 그곳에서 들은 음악은 마음에 드셨나요? 모든 세부사항을 들려주세요.", "type": "past_experience", "topicHint": "음악"},
-        {"en": "You indicated in the survey that you like to go jogging. Where do you usually go for a jog? Who do you go with? When do you normally jog? What kinds of things can you see there? What is special about that place?", "ko": "조깅 하는 것을 좋아한다고 응답하셨습니다. 보통 어디로 조깅 하러 가십니까? 누구와 함께 가십니까? 언제 보통 조깅 하십니까? 그곳에서 어떤 것들을 볼 수 있습니까? 그 장소에 대해 특별한 것은 무엇입니까?", "type": "routine", "topicHint": "조깅"},
-        {"en": "How did you first become interested in jogging? What made you start jogging in the first place? What has changed since you started jogging?", "ko": "어떻게 처음 조깅에 관심을 갖게 되셨습니까? 무엇이 당신을 처음 조깅하기 시작하게 만들었습니까? 조깅을 시작한 이후 무엇이 바뀌었습니까?", "type": "past_experience", "topicHint": "조깅"},
-        {"en": "Tell me about a memorable or unexpected experience you had while jogging. What exactly happened? Who were you with? When did it happen? Why was it so memorable?", "ko": "조깅하는 동안 겪었던 기억에 남거나 예상치 못했던 경험에 대해 말해주세요. 정확히 무슨 일이 있었습니까? 누구와 함께였습니까? 언제 일어났습니까? 왜 그렇게 기억에 남습니까?", "type": "past_experience", "topicHint": "조깅"},
-        {"en": "Please describe some advantages of jogging. How is it different from other sports? What are the similarities and differences between jogging and other sports?", "ko": "조깅의 몇 가지 장점에 대해 설명해 주세요. 다른 스포츠와 어떻게 다릅니까? 조깅과 다른 스포츠의 유사점과 차이점은 무엇입니까?", "type": "comparison", "topicHint": "조깅"},
-        {"en": "Tell me about the weather where you live. How's the weather in each season? What is your favorite season? What kind of activities do you usually do in that season?", "ko": "당신이 사는 곳의 날씨에 대해 알려주세요. 각 계절의 날씨는 어떤가요? 가장 좋아하는 계절은 무엇인가요? 그 계절에 주로 어떤 활동을 하시나요?", "type": "description", "topicHint": "날씨"},
-        {"en": "How has the weather in your country changed over the years? Is the weather different from what it used to be? How has it changed? Give me all the details.", "ko": "당신의 나라에서 날씨가 지난 몇 년 동안 어떻게 변했나요? 예전과 비교했을 때 날씨가 달라졌나요? 어떻게 변했는지 자세히 설명해 주세요.", "type": "comparison", "topicHint": "날씨"},
-        {"en": "Tell me about a memorable experience that happened in a certain season. What happened? Why was it so memorable? Describe what happened from beginning to end.", "ko": "어느 계절에 있었던 기억에 남는 경험에 대해 이야기해 주세요. 어떤 일이 있었나요? 왜 그렇게 기억에 남는 경험인가요? 처음부터 끝까지 자세히 설명해 주세요.", "type": "past_experience", "topicHint": "날씨"},
-        {"en": "Tell me about the weather where you are today. What is happening right now?", "ko": "오늘 계신 곳의 날씨에 대해 말씀해 주세요. 지금 어떤 날씨인가요?", "type": "description", "topicHint": "날씨"},
-        {"en": "Let's talk about healthy people. What makes people healthy? What do they specifically do to stay healthy? Tell me everything about what healthy people do to keep fit.", "ko": "건강한 사람들에 대해 이야기해 봅시다. 무엇이 사람들을 건강하게 만들까요? 그들이 건강을 유지하기 위해 구체적으로 무엇을 하나요? 건강한 사람들이 건강을 유지하기 위해 하는 모든 것에 대해 말씀해 주세요.", "type": "description", "topicHint": "건강"},
-        {"en": "What are some health problems people can have these days? Tell me about the health problems in detail. And how can a health problem be fixed?", "ko": "요즘 사람들이 겪을 수 있는 건강 문제에는 어떤 것들이 있나요? 그 건강 문제들에 대해 자세히 말씀해 주세요. 그리고 건강 문제는 어떻게 해결할 수 있을까요?", "type": "current_issue", "topicHint": "건강"},
-        {"en": "Tell me about a time when you or someone you know did something new to become healthier. Maybe it was playing a sport or eating some healthy food. Tell me about the change in detail.", "ko": "당신이나 당신이 아는 누군가가 더 건강해지기 위해 새로운 무언가를 했던 때에 대해 말씀해 주세요. 아마 그것은 운동을 하는 것이거나 건강한 음식을 먹는 것일 수도 있습니다. 그 변화에 대해 자세히 말씀해 주세요.", "type": "past_experience", "topicHint": "건강"},
-        {"en": "Let's discuss public transit in your country. How do people typically get from place to place? What types of public transportation are most common? Please explain in detail how people usually travel.", "ko": "당신 나라의 대중교통에 대해 이야기해볼게요. 사람들은 보통 어떻게 이동하나요? 가장 흔하게 사용하는 대중교통 수단은 무엇인가요? 사람들이 주로 어떻게 이동하는지 자세히 설명해 주세요.", "type": "description", "topicHint": "교통"},
-        {"en": "What transportation do you use to get from place to place? Do you drive yourself or take buses or trains?", "ko": "당신은 이동할 때 어떤 교통수단을 이용하나요? 직접 운전하나요, 아니면 버스나 기차를 타나요?", "type": "routine", "topicHint": "교통"},
-        {"en": "When you were young, how did you usually travel? Were the modes of transport different from today? Tell me about how people got around your city or town back then.", "ko": "어렸을 때는 보통 어떻게 이동했나요? 지금과는 다른 교통수단을 이용했었나요? 그 당시 당신이 살던 도시나 마을에서 사람들이 어떻게 이동했는지 말해보세요.", "type": "comparison", "topicHint": "교통"},
-        {"en": "You are thinking of having a new hobby. Ask me three or four questions about my new hobby.", "ko": "당신은 새로운 취미를 가질 계획입니다. 내가 가진 취미에 대해 3~4개 질문을 해보세요.", "type": "roleplay", "topicHint": "롤플레이 (여가 시간)"},
-        {"en": "We were planning to do something together but you can't make it. Explain the situation and give me some alternatives.", "ko": "상대방과 같이 무엇을 하기로 했으나, 당신은 불가피하게 할 수 없는 상황입니다. 상황을 설명하고 대안을 제시하세요.", "type": "roleplay", "topicHint": "롤플레이 (여가 시간)"},
-        {"en": "What do you do in your free time? Did you have any memorable experiences in your free time? What did you do and who were you with? Tell me everything about what you did in your memorable free time.", "ko": "주로 여가 시간에 무엇을 하나요? 기억에 남는 경험이 있나요? 무엇을 하였고 누구와 함께 했나요? 가장 기억에 남는 여가 시간과 관련해 전부 이야기 해주세요.", "type": "past_experience", "topicHint": "롤플레이 (여가 시간)"},
-        {"en": "You want to meet up with your friend this weekend. Call your friend and ask some questions about what to do and when to meet with your friend.", "ko": "당신은 주말에 친구와 만나고 싶습니다. 친구에게 전화해 주말에 할 일을 정하고, 언제 만날지 약속을 정하세요.", "type": "roleplay", "topicHint": "롤플레이 (모임 약속)"},
-        {"en": "You are not able to meet your friend this weekend. Call your friend and give two to three alternatives to address the problem.", "ko": "당신은 주말에 친구와 만날 수 없게 되었습니다. 친구에게 전화해 상황을 해결하기 위한 2~3가지 대안을 제시하세요.", "type": "roleplay", "topicHint": "롤플레이 (모임 약속)"},
-        {"en": "Have you ever canceled your plans with someone? What happened? What made you cancel the plan or appointment? And what did you do to deal with the situation that unexpectedly took up your free time?", "ko": "당신은 누군가와 약속을 취소한 경험이 있나요? 무슨 일이 있었나요? 어떤 이유에서 약속을 취소 및 변경해야 했을까요? 당신의 여가시간에 발생한 예기치 못한 상황을 어떻게 대처했나요?", "type": "past_experience", "topicHint": "롤플레이 (모임 약속)"},
-        {"en": "You are going to take a yoga class. Ask three questions to a friend who is already taking yoga classes.", "ko": "당신은 요가 수업을 들으러 갈 예정입니다. 이미 요가 수업을 듣고 있는 친구에게 세 가지 질문을 해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (요가)"},
-        {"en": "You signed up for six yoga classes, but you won't be able to complete them within the given period. Explain to your yoga instructor why you cannot attend the classes and suggest three possible alternatives to resolve this issue.", "ko": "당신은 여섯 번의 요가 수업을 신청했지만, 주어진 기간 내에 모든 수업을 완료할 수 없을 것 같습니다. 수업에 참석할 수 없는 이유를 강사님께 설명드리고, 이 문제를 해결하기 위한 세 가지 대체 방안을 제시하세요.", "type": "roleplay", "topicHint": "롤플레이 (요가)"},
-        {"en": "Have you ever taken a yoga class before? If not, talk about another type of exercise you have done. What did you like and dislike about that exercise?", "ko": "요가 수업을 들어본 적이 있으신가요? 만약 없다면, 다른 종류의 운동에 대해 말씀해 주세요. 그 운동에서 좋았던 점과 싫었던 점은 무엇이었나요?", "type": "past_experience", "topicHint": "롤플레이 (요가)"},
-        {"en": "After arriving at the airport, you discover your flight is delayed for two hours. Talk to the person at the counter and ask them three to four questions regarding the delay.", "ko": "당신은 공항에 도착했는데, 비행기가 두 시간 지연되었다는 사실을 알게 됩니다. 카운터에 있는 사람에게 다가가 지연과 관련된 질문을 3~4가지 해보세요.", "type": "roleplay", "topicHint": "롤플레이 (항공편)"},
-        {"en": "Because your flight has been delayed, you won't be able to attend the business meeting. Call your client to explain and try to suggest some backup plans or alternatives.", "ko": "비행기가 지연돼서 당신은 비즈니스 미팅에 참석할 수 없게 되었어요. 고객에게 전화해서 상황을 설명하고, 대안이나 다른 방법을 제안해보세요.", "type": "roleplay", "topicHint": "롤플레이 (항공편)"},
-        {"en": "Think back to a time when you ran into trouble during a trip. What happened, and how did you deal with it? Be as specific as possible.", "ko": "여행 중에 곤란한 일을 겪었던 때를 떠올려보세요. 무슨 일을, 어떻게 해결했는지 말해주세요. 가급적 구체적으로 이야기 해보세요.", "type": "past_experience", "topicHint": "롤플레이 (항공편)"},
-        {"en": "Act out a situation where you need to rent a car for about a week. Call a rental agency and ask three to four questions to get the necessary information.", "ko": "당신이 일주일 정도 자동차를 빌려야 하는 상황을 말해보세요. 렌터카 회사에 전화해서 필요한 정보를 얻기 위해 3~4가지 질문을 해보세요.", "type": "roleplay", "topicHint": "롤플레이 (렌터카)"},
-        {"en": "There's a problem: the agency is unsure about non-US driver's licenses. Explain what your license indicates and why it qualifies as valid in the United States.", "ko": "문제가 조금 생겼어요. 렌터카 회사는 미국 외 국가의 운전면허증에 대해 잘 몰라서 차량을 빌려줄 수 있는지 확신이 없어요. 당신의 면허증에 어떤 정보가 적혀 있는지, 그리고 왜 미국에서 유효한지 설명해 주세요.", "type": "roleplay", "topicHint": "롤플레이 (렌터카)"},
-        {"en": "Have you ever had any issues while on an international trip? What happened, and who was involved? Please tell me everything in detail.", "ko": "해외 여행 중에 문제가 생긴 적이 있나요? 무슨 일이 있었고, 누구와 관련되어 있었는지 자세하게 이야기해 주세요.", "type": "past_experience", "topicHint": "롤플레이 (렌터카)"},
-        {"en": "How is traveling today different from the past? What are some difficulties people go through regarding trips? Has traveling become more difficult in any way? If so, tell me why.", "ko": "현대의 여행과 과거 여행의 다른 점은 무엇인가요? 왜 종종 여행과 관련해 어려움을 겪는 사람들이 있을까요? 여행이 어떤 형태로라도 더 어려워졌나요? 그렇다면, 이유를 설명해주세요.", "type": "comparison", "topicHint": "여행"},
-        {"en": "What are some concerns or issues people have related to traveling? What do people do to address those issues or concerns?", "ko": "사람들이 여행과 관련하여 가지는 걱정이나 문제는 무엇인가요? 사람들은 이러한 문제나 걱정을 어떻게 해결하나요?", "type": "current_issue", "topicHint": "여행"},
-        {"en": "Pick two popular parks that you know of, and tell me about their similarities and differences. Which one is your favorite and why?", "ko": "당신이 알고 있는 인기 있는 공원 두 곳을 골라, 그 공통점과 차이점에 대해 말씀해 주세요. 어느 공원을 가장 좋아하시나요? 그 이유는 무엇인가요?", "type": "comparison", "topicHint": "공원"},
-        {"en": "I'd like to know about one of the issues today's parks face. What are the challenges public parks face these days? Discuss what has caused these concerns. What kind of steps need to be taken to address these issues?", "ko": "오늘날 공원이 직면한 문제 중 하나에 대해 알고 싶습니다. 현재 공공 공원들이 겪고 있는 어려움은 무엇인가요? 이러한 문제들이 발생한 원인은 무엇인지 논의해 주세요. 이러한 문제를 해결하기 위해 어떤 조치가 필요할까요?", "type": "current_issue", "topicHint": "공원"},
-        {"en": "Pick two of your favorite musicians or composers. What are their similarities and differences? Give me all the details.", "ko": "좋아하시는 뮤지션이나 작곡가 두 명을 골라 주세요. 두 사람의 공통점과 차이점은 무엇인가요? 모든 세부사항을 말씀해 주세요.", "type": "comparison", "topicHint": "음악"},
-        {"en": "What are some electronic gadgets or devices that people who like music are interested in these days? How are they useful and what do people like about them? What is special about that device?", "ko": "요즘 음악을 좋아하는 사람들이 관심을 가지는 전자 기기나 장치는 어떤 것들이 있나요? 그런 기기들은 어떻게 유용하며, 사람들이 그것의 어떤 점을 좋아하나요? 그 기기만의 특별한 점은 무엇인가요?", "type": "description", "topicHint": "음악"},
-        {"en": "What do you eat on a regular day? Do your eating habits differ on weekdays and weekends? Tell me everything that you eat in detail.", "ko": "평소에 무엇을 먹나요? 당신이 주중과 주말에 먹는 음식은 다른 편인가요? 당신이 먹는 것에 대해 모든 것을 말해주세요.", "type": "routine", "topicHint": "음식"},
-        {"en": "Tell me how you found out about eating healthy. Did your family eat healthy food when you were growing up? Did your friend become healthier by eating healthy food? Describe in detail how you started to eat healthy.", "ko": "건강하게 먹는 것에 대해 어떻게 알게 되었는지 말해주세요. 어릴 때 가족은 건강한 음식을 먹었나요? 친구가 건강한 음식을 먹고 더 건강해진 적이 있나요? 당신이 어떻게 건강하게 먹기 시작했는지 자세히 설명해주세요.", "type": "past_experience", "topicHint": "음식"},
-        {"en": "Describe a memorable moment you had involving food. It could be a positive or negative experience. What took place, and what made it so unforgettable or meaningful? Share every detail you can.", "ko": "음식과 관련된 기억에 남는 순간에 대해 이야기해주세요. 좋은 경험이었을 수도 있고, 나쁜 경험이었을 수도 있어요. 어떤 일이 있었고, 왜 그렇게 잊을 수 없거나 의미 있는 경험이 되었는지 알려주세요. 가능한 모든 세부사항을 공유해주세요.", "type": "past_experience", "topicHint": "음식"},
-        {"en": "How has the way people bought food changed over the years? Where did people buy food in the past, and where do they buy it now?", "ko": "사람들이 음식을 사는 방식은 시간이 지나면서 어떻게 변해왔나요? 예전에는 사람들은 어디에서 음식을 샀고, 지금은 어디에서 사는지 말해주세요.", "type": "comparison", "topicHint": "음식"},
-        {"en": "There can sometimes be news reports about food. Food can get contaminated because of bacteria. It can go bad or become toxic. Tell me about an incident you heard on the news regarding this issue. What was the problem? How was it dealt with?", "ko": "가끔 음식과 관련된 뉴스 보도를 접할 때가 있어요. 음식이 박테리아 때문에 오염되거나 상해서 유해해질 수 있죠. 이와 관련해서 뉴스에서 들었던 사건에 대해 이야기해주세요. 어떤 문제가 있었고, 그 문제를 어떻게 해결했는지 말해주세요.", "type": "current_issue", "topicHint": "음식"},
-        {"en": "I'd like to know about restaurants in your country. What kind of food do they serve? What do they look like? What is special about those restaurants? Describe typical restaurants in as much detail as possible.", "ko": "당신 나라에 있는 식당들에 대해 알고 싶어요. 어떤 종류의 음식을 파나요? 식당은 어떤 모습인가요? 그 식당들만의 특별한 점은 무엇인가요? 일반적인 식당들에 대해 가능한 한 자세히 설명해주세요.", "type": "description", "topicHint": "식당"},
-        {"en": "Could you tell me about a restaurant you visited last time? What was it like? What did you eat there? Who did you go with? What do you remember about that restaurant and why was it special? Give me all the details.", "ko": "마지막으로 방문했던 식당에 대해 이야기해주세요. 그 식당은 어땠나요? 거기서 무엇을 먹었나요? 누구와 함께 갔나요? 그 식당에서 기억나는 점은 무엇이고, 왜 특별했나요? 모든 세부사항을 말해주세요.", "type": "past_experience", "topicHint": "식당"},
-        {"en": "Describe for me a restaurant that you remember from your childhood. What was the restaurant like? Was it different from the restaurants you visit today?", "ko": "어릴 때 기억에 남는 식당에 대해 이야기해주세요. 그 식당은 어떤 곳이었나요? 지금 다니는 식당들과는 어떤 점이 달랐나요?", "type": "past_experience", "topicHint": "식당"},
-        {"en": "Many restaurants are changing their menus to suit customers who are more health-conscious. Talk about the changes you notice about restaurants in your country related to this trend.", "ko": "요즘은 건강을 더 신경 쓰는 손님들을 위해 많은 식당들이 메뉴를 바꾸고 있어요. 당신 나라 식당들이 이와 관련해서 어떻게 변하고 있는지 이야기해주세요.", "type": "comparison", "topicHint": "식당"},
-        {"en": "Chain restaurants such as McDonald's have a set menu you can expect. On the other hand, small local restaurants have their own menus, and you may not be able to know what to expect. Talk about your experience of going to a chain restaurant and a local restaurant.", "ko": "맥도날드 같은 체인점 식당은 언제 가도 정해진 메뉴가 있어서 무엇을 먹을지 미리 알 수 있어요. 반면에, 동네의 작은 식당들은 각자 고유한 메뉴가 있어서 무엇이 나올지 예상하기 어려울 때도 있어요. 체인점 식당과 동네 식당에 갔던 경험에 대해 이야기해주세요.", "type": "comparison", "topicHint": "식당"}
+        {
+          "en": "You indicated in the survey that you like to spend vacation at home. Who do you like to meet when you stay home for vacation? Why do you like to meet those people?",
+          "ko": "배경설문에서 당신은 휴가를 집에서 보내는 것을 선호한다고 언급하셨습니다. 휴가 동안 집에 있을 때 누구를 만나고 싶으신가요? 그분들을 만나고 싶은 이유는 무엇인가요?",
+          "type": "description",
+          "topicHint": "집에서 보내는 휴가"
+        },
+        {
+          "en": "What do you usually do when you stay home for vacation? Are there any particular things you like to do?",
+          "ko": "집에서 휴가를 보낼 때는 주로 무엇을 하시나요? 특별히 선호하는 활동이 있나요?",
+          "type": "routine",
+          "topicHint": "집에서 보내는 휴가"
+        },
+        {
+          "en": "What did you do during your last vacation at home? How was your vacation each day? Tell me what you did on your last vacation at home.",
+          "ko": "집에서 보낸 마지막 휴가에서는 무엇을 했나요? 매일의 휴가는 어떠했나요? 집에서 보낸 마지막 휴가에서 무엇을 했는지 설명해주세요.",
+          "type": "past_experience",
+          "topicHint": "집에서 보내는 휴가"
+        },
+        {
+          "en": "Tell me in detail about the changes you have observed concerning the relationship between your country and other countries. The changes might relate to economics, sports, art, culture, or politics. Describe those changes in detail.",
+          "ko": "당신의 나라와 다른 나라들 간의 관계에 대한 변화에 대해 자세히 말씀해 주세요. 그 변화는 경제, 스포츠, 예술, 문화, 또는 정치와 관련이 있을 수 있습니다. 그런 변화들이 어떻게 나타났는지 구체적으로 설명해 주세요.",
+          "type": "comparison",
+          "topicHint": "이웃 국가"
+        },
+        {
+          "en": "Think about a specific historical event that affected the relationship between your country and one of its neighboring nations. It could be a treaty signed between countries, a cultural event, the visit of a minister or president, etc. Tell me in detail everything that happened concerning this event.",
+          "ko": "당신의 나라와 인접 국가 간의 관계에 영향을 미쳤던 특정한 역사적 사건에 대해 생각해 주시기 바랍니다. 두 나라 사이에 체결된 조약일 수도 있고, 문화 행사나 장관 혹은 대통령의 방문일 수도 있습니다. 이 사건과 관련하여 일어난 모든 일들에 대해 자세히 말씀해 주세요.",
+          "type": "past_experience",
+          "topicHint": "이웃 국가"
+        },
+        {
+          "en": "You indicated that you like to listen to music. What type of music do you like listening to? Who is your favorite singer? Give me all the details.",
+          "ko": "음악 듣는 것을 좋아한다고 하셨습니다. 어떤 종류의 음악을 듣는 것을 좋아하시나요? 가장 좋아하는 가수는 누구신가요? 모든 세부사항을 말씀해 주세요.",
+          "type": "description",
+          "topicHint": "음악"
+        },
+        {
+          "en": "What kind of music did you use to listen to when you were young? How was that music different from the music you listen to today? How has your interest in music changed over the years?",
+          "ko": "어렸을 때는 어떤 종류의 음악을 즐겨 들으셨나요? 그 음악은 지금 들으시는 음악과 어떻게 달랐나요? 시간이 지나면서 음악에 대한 관심은 어떻게 변해왔는지 말씀해 주세요.",
+          "type": "comparison",
+          "topicHint": "음악"
+        },
+        {
+          "en": "When and where do you like to listen to music? Why do you listen to music?",
+          "ko": "언제, 어디에서 음악 듣는 것을 좋아하시나요? 왜 음악을 들으시나요?",
+          "type": "routine",
+          "topicHint": "음악"
+        },
+        {
+          "en": "Tell me about the last concert you went to. How was the concert and how did you like the music you listened to there? Give me all the details.",
+          "ko": "마지막으로 다녀오신 콘서트에 대해 말씀해 주세요. 그 콘서트는 어땠고, 그곳에서 들은 음악은 마음에 드셨나요? 모든 세부사항을 들려주세요.",
+          "type": "past_experience",
+          "topicHint": "음악"
+        },
+        {
+          "en": "You indicated in the survey that you like to go jogging. Where do you usually go for a jog? Who do you go with? When do you normally jog? What kinds of things can you see there? What is special about that place?",
+          "ko": "조깅 하는 것을 좋아한다고 응답하셨습니다. 보통 어디로 조깅 하러 가십니까? 누구와 함께 가십니까? 언제 보통 조깅 하십니까? 그곳에서 어떤 것들을 볼 수 있습니까? 그 장소에 대해 특별한 것은 무엇입니까?",
+          "type": "routine",
+          "topicHint": "조깅"
+        },
+        {
+          "en": "How did you first become interested in jogging? What made you start jogging in the first place? What has changed since you started jogging?",
+          "ko": "어떻게 처음 조깅에 관심을 갖게 되셨습니까? 무엇이 당신을 처음 조깅하기 시작하게 만들었습니까? 조깅을 시작한 이후 무엇이 바뀌었습니까?",
+          "type": "past_experience",
+          "topicHint": "조깅"
+        },
+        {
+          "en": "Tell me about a memorable or unexpected experience you had while jogging. What exactly happened? Who were you with? When did it happen? Why was it so memorable?",
+          "ko": "조깅하는 동안 겪었던 기억에 남거나 예상치 못했던 경험에 대해 말해주세요. 정확히 무슨 일이 있었습니까? 누구와 함께였습니까? 언제 일어났습니까? 왜 그렇게 기억에 남습니까?",
+          "type": "past_experience",
+          "topicHint": "조깅"
+        },
+        {
+          "en": "Please describe some advantages of jogging. How is it different from other sports? What are the similarities and differences between jogging and other sports?",
+          "ko": "조깅의 몇 가지 장점에 대해 설명해 주세요. 다른 스포츠와 어떻게 다릅니까? 조깅과 다른 스포츠의 유사점과 차이점은 무엇입니까?",
+          "type": "comparison",
+          "topicHint": "조깅"
+        },
+        {
+          "en": "Tell me about the weather where you live. How's the weather in each season? What is your favorite season? What kind of activities do you usually do in that season?",
+          "ko": "당신이 사는 곳의 날씨에 대해 알려주세요. 각 계절의 날씨는 어떤가요? 가장 좋아하는 계절은 무엇인가요? 그 계절에 주로 어떤 활동을 하시나요?",
+          "type": "description",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "How has the weather in your country changed over the years? Is the weather different from what it used to be? How has it changed? Give me all the details.",
+          "ko": "당신의 나라에서 날씨가 지난 몇 년 동안 어떻게 변했나요? 예전과 비교했을 때 날씨가 달라졌나요? 어떻게 변했는지 자세히 설명해 주세요.",
+          "type": "comparison",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "Tell me about a memorable experience that happened in a certain season. What happened? Why was it so memorable? Describe what happened from beginning to end.",
+          "ko": "어느 계절에 있었던 기억에 남는 경험에 대해 이야기해 주세요. 어떤 일이 있었나요? 왜 그렇게 기억에 남는 경험인가요? 처음부터 끝까지 자세히 설명해 주세요.",
+          "type": "past_experience",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "Tell me about the weather where you are today. What is happening right now?",
+          "ko": "오늘 계신 곳의 날씨에 대해 말씀해 주세요. 지금 어떤 날씨인가요?",
+          "type": "description",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "Let's talk about healthy people. What makes people healthy? What do they specifically do to stay healthy? Tell me everything about what healthy people do to keep fit.",
+          "ko": "건강한 사람들에 대해 이야기해 봅시다. 무엇이 사람들을 건강하게 만들까요? 그들이 건강을 유지하기 위해 구체적으로 무엇을 하나요? 건강한 사람들이 건강을 유지하기 위해 하는 모든 것에 대해 말씀해 주세요.",
+          "type": "description",
+          "topicHint": "건강"
+        },
+        {
+          "en": "What are some health problems people can have these days? Tell me about the health problems in detail. And how can a health problem be fixed?",
+          "ko": "요즘 사람들이 겪을 수 있는 건강 문제에는 어떤 것들이 있나요? 그 건강 문제들에 대해 자세히 말씀해 주세요. 그리고 건강 문제는 어떻게 해결할 수 있을까요?",
+          "type": "current_issue",
+          "topicHint": "건강"
+        },
+        {
+          "en": "Tell me about a time when you or someone you know did something new to become healthier. Maybe it was playing a sport or eating some healthy food. Tell me about the change in detail.",
+          "ko": "당신이나 당신이 아는 누군가가 더 건강해지기 위해 새로운 무언가를 했던 때에 대해 말씀해 주세요. 아마 그것은 운동을 하는 것이거나 건강한 음식을 먹는 것일 수도 있습니다. 그 변화에 대해 자세히 말씀해 주세요.",
+          "type": "past_experience",
+          "topicHint": "건강"
+        },
+        {
+          "en": "Let's discuss public transit in your country. How do people typically get from place to place? What types of public transportation are most common? Please explain in detail how people usually travel.",
+          "ko": "당신 나라의 대중교통에 대해 이야기해볼게요. 사람들은 보통 어떻게 이동하나요? 가장 흔하게 사용하는 대중교통 수단은 무엇인가요? 사람들이 주로 어떻게 이동하는지 자세히 설명해 주세요.",
+          "type": "description",
+          "topicHint": "교통"
+        },
+        {
+          "en": "What transportation do you use to get from place to place? Do you drive yourself or take buses or trains?",
+          "ko": "당신은 이동할 때 어떤 교통수단을 이용하나요? 직접 운전하나요, 아니면 버스나 기차를 타나요?",
+          "type": "routine",
+          "topicHint": "교통"
+        },
+        {
+          "en": "When you were young, how did you usually travel? Were the modes of transport different from today? Tell me about how people got around your city or town back then.",
+          "ko": "어렸을 때는 보통 어떻게 이동했나요? 지금과는 다른 교통수단을 이용했었나요? 그 당시 당신이 살던 도시나 마을에서 사람들이 어떻게 이동했는지 말해보세요.",
+          "type": "comparison",
+          "topicHint": "교통"
+        },
+        {
+          "en": "You are thinking of having a new hobby. Ask me three or four questions about my new hobby.",
+          "ko": "당신은 새로운 취미를 가질 계획입니다. 내가 가진 취미에 대해 3~4개 질문을 해보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (여가 시간)"
+        },
+        {
+          "en": "We were planning to do something together but you can't make it. Explain the situation and give me some alternatives.",
+          "ko": "상대방과 같이 무엇을 하기로 했으나, 당신은 불가피하게 할 수 없는 상황입니다. 상황을 설명하고 대안을 제시하세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (여가 시간)"
+        },
+        {
+          "en": "What do you do in your free time? Did you have any memorable experiences in your free time? What did you do and who were you with? Tell me everything about what you did in your memorable free time.",
+          "ko": "주로 여가 시간에 무엇을 하나요? 기억에 남는 경험이 있나요? 무엇을 하였고 누구와 함께 했나요? 가장 기억에 남는 여가 시간과 관련해 전부 이야기 해주세요.",
+          "type": "past_experience",
+          "topicHint": "롤플레이 (여가 시간)"
+        },
+        {
+          "en": "You want to meet up with your friend this weekend. Call your friend and ask some questions about what to do and when to meet with your friend.",
+          "ko": "당신은 주말에 친구와 만나고 싶습니다. 친구에게 전화해 주말에 할 일을 정하고, 언제 만날지 약속을 정하세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (모임 약속)"
+        },
+        {
+          "en": "You are not able to meet your friend this weekend. Call your friend and give two to three alternatives to address the problem.",
+          "ko": "당신은 주말에 친구와 만날 수 없게 되었습니다. 친구에게 전화해 상황을 해결하기 위한 2~3가지 대안을 제시하세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (모임 약속)"
+        },
+        {
+          "en": "Have you ever canceled your plans with someone? What happened? What made you cancel the plan or appointment? And what did you do to deal with the situation that unexpectedly took up your free time?",
+          "ko": "당신은 누군가와 약속을 취소한 경험이 있나요? 무슨 일이 있었나요? 어떤 이유에서 약속을 취소 및 변경해야 했을까요? 당신의 여가시간에 발생한 예기치 못한 상황을 어떻게 대처했나요?",
+          "type": "past_experience",
+          "topicHint": "롤플레이 (모임 약속)"
+        },
+        {
+          "en": "You are going to take a yoga class. Ask three questions to a friend who is already taking yoga classes.",
+          "ko": "당신은 요가 수업을 들으러 갈 예정입니다. 이미 요가 수업을 듣고 있는 친구에게 세 가지 질문을 해 보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (요가)"
+        },
+        {
+          "en": "You signed up for six yoga classes, but you won't be able to complete them within the given period. Explain to your yoga instructor why you cannot attend the classes and suggest three possible alternatives to resolve this issue.",
+          "ko": "당신은 여섯 번의 요가 수업을 신청했지만, 주어진 기간 내에 모든 수업을 완료할 수 없을 것 같습니다. 수업에 참석할 수 없는 이유를 강사님께 설명드리고, 이 문제를 해결하기 위한 세 가지 대체 방안을 제시하세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (요가)"
+        },
+        {
+          "en": "Have you ever taken a yoga class before? If not, talk about another type of exercise you have done. What did you like and dislike about that exercise?",
+          "ko": "요가 수업을 들어본 적이 있으신가요? 만약 없다면, 다른 종류의 운동에 대해 말씀해 주세요. 그 운동에서 좋았던 점과 싫었던 점은 무엇이었나요?",
+          "type": "past_experience",
+          "topicHint": "롤플레이 (요가)"
+        },
+        {
+          "en": "After arriving at the airport, you discover your flight is delayed for two hours. Talk to the person at the counter and ask them three to four questions regarding the delay.",
+          "ko": "당신은 공항에 도착했는데, 비행기가 두 시간 지연되었다는 사실을 알게 됩니다. 카운터에 있는 사람에게 다가가 지연과 관련된 질문을 3~4가지 해보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (항공편)"
+        },
+        {
+          "en": "Because your flight has been delayed, you won't be able to attend the business meeting. Call your client to explain and try to suggest some backup plans or alternatives.",
+          "ko": "비행기가 지연돼서 당신은 비즈니스 미팅에 참석할 수 없게 되었어요. 고객에게 전화해서 상황을 설명하고, 대안이나 다른 방법을 제안해보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (항공편)"
+        },
+        {
+          "en": "Think back to a time when you ran into trouble during a trip. What happened, and how did you deal with it? Be as specific as possible.",
+          "ko": "여행 중에 곤란한 일을 겪었던 때를 떠올려보세요. 무슨 일을, 어떻게 해결했는지 말해주세요. 가급적 구체적으로 이야기 해보세요.",
+          "type": "past_experience",
+          "topicHint": "롤플레이 (항공편)"
+        },
+        {
+          "en": "Act out a situation where you need to rent a car for about a week. Call a rental agency and ask three to four questions to get the necessary information.",
+          "ko": "당신이 일주일 정도 자동차를 빌려야 하는 상황을 말해보세요. 렌터카 회사에 전화해서 필요한 정보를 얻기 위해 3~4가지 질문을 해보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (렌터카)"
+        },
+        {
+          "en": "There's a problem: the agency is unsure about non-US driver's licenses. Explain what your license indicates and why it qualifies as valid in the United States.",
+          "ko": "문제가 조금 생겼어요. 렌터카 회사는 미국 외 국가의 운전면허증에 대해 잘 몰라서 차량을 빌려줄 수 있는지 확신이 없어요. 당신의 면허증에 어떤 정보가 적혀 있는지, 그리고 왜 미국에서 유효한지 설명해 주세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (렌터카)"
+        },
+        {
+          "en": "Have you ever had any issues while on an international trip? What happened, and who was involved? Please tell me everything in detail.",
+          "ko": "해외 여행 중에 문제가 생긴 적이 있나요? 무슨 일이 있었고, 누구와 관련되어 있었는지 자세하게 이야기해 주세요.",
+          "type": "past_experience",
+          "topicHint": "롤플레이 (렌터카)"
+        },
+        {
+          "en": "How is traveling today different from the past? What are some difficulties people go through regarding trips? Has traveling become more difficult in any way? If so, tell me why.",
+          "ko": "현대의 여행과 과거 여행의 다른 점은 무엇인가요? 왜 종종 여행과 관련해 어려움을 겪는 사람들이 있을까요? 여행이 어떤 형태로라도 더 어려워졌나요? 그렇다면, 이유를 설명해주세요.",
+          "type": "comparison",
+          "topicHint": "여행"
+        },
+        {
+          "en": "What are some concerns or issues people have related to traveling? What do people do to address those issues or concerns?",
+          "ko": "사람들이 여행과 관련하여 가지는 걱정이나 문제는 무엇인가요? 사람들은 이러한 문제나 걱정을 어떻게 해결하나요?",
+          "type": "current_issue",
+          "topicHint": "여행"
+        },
+        {
+          "en": "Pick two popular parks that you know of, and tell me about their similarities and differences. Which one is your favorite and why?",
+          "ko": "당신이 알고 있는 인기 있는 공원 두 곳을 골라, 그 공통점과 차이점에 대해 말씀해 주세요. 어느 공원을 가장 좋아하시나요? 그 이유는 무엇인가요?",
+          "type": "comparison",
+          "topicHint": "공원"
+        },
+        {
+          "en": "I'd like to know about one of the issues today's parks face. What are the challenges public parks face these days? Discuss what has caused these concerns. What kind of steps need to be taken to address these issues?",
+          "ko": "오늘날 공원이 직면한 문제 중 하나에 대해 알고 싶습니다. 현재 공공 공원들이 겪고 있는 어려움은 무엇인가요? 이러한 문제들이 발생한 원인은 무엇인지 논의해 주세요. 이러한 문제를 해결하기 위해 어떤 조치가 필요할까요?",
+          "type": "current_issue",
+          "topicHint": "공원"
+        },
+        {
+          "en": "Pick two of your favorite musicians or composers. What are their similarities and differences? Give me all the details.",
+          "ko": "좋아하시는 뮤지션이나 작곡가 두 명을 골라 주세요. 두 사람의 공통점과 차이점은 무엇인가요? 모든 세부사항을 말씀해 주세요.",
+          "type": "comparison",
+          "topicHint": "음악"
+        },
+        {
+          "en": "What are some electronic gadgets or devices that people who like music are interested in these days? How are they useful and what do people like about them? What is special about that device?",
+          "ko": "요즘 음악을 좋아하는 사람들이 관심을 가지는 전자 기기나 장치는 어떤 것들이 있나요? 그런 기기들은 어떻게 유용하며, 사람들이 그것의 어떤 점을 좋아하나요? 그 기기만의 특별한 점은 무엇인가요?",
+          "type": "description",
+          "topicHint": "음악"
+        },
+        {
+          "en": "What do you eat on a regular day? Do your eating habits differ on weekdays and weekends? Tell me everything that you eat in detail.",
+          "ko": "평소에 무엇을 먹나요? 당신이 주중과 주말에 먹는 음식은 다른 편인가요? 당신이 먹는 것에 대해 모든 것을 말해주세요.",
+          "type": "routine",
+          "topicHint": "음식"
+        },
+        {
+          "en": "Tell me how you found out about eating healthy. Did your family eat healthy food when you were growing up? Did your friend become healthier by eating healthy food? Describe in detail how you started to eat healthy.",
+          "ko": "건강하게 먹는 것에 대해 어떻게 알게 되었는지 말해주세요. 어릴 때 가족은 건강한 음식을 먹었나요? 친구가 건강한 음식을 먹고 더 건강해진 적이 있나요? 당신이 어떻게 건강하게 먹기 시작했는지 자세히 설명해주세요.",
+          "type": "past_experience",
+          "topicHint": "음식"
+        },
+        {
+          "en": "Describe a memorable moment you had involving food. It could be a positive or negative experience. What took place, and what made it so unforgettable or meaningful? Share every detail you can.",
+          "ko": "음식과 관련된 기억에 남는 순간에 대해 이야기해주세요. 좋은 경험이었을 수도 있고, 나쁜 경험이었을 수도 있어요. 어떤 일이 있었고, 왜 그렇게 잊을 수 없거나 의미 있는 경험이 되었는지 알려주세요. 가능한 모든 세부사항을 공유해주세요.",
+          "type": "past_experience",
+          "topicHint": "음식"
+        },
+        {
+          "en": "How has the way people bought food changed over the years? Where did people buy food in the past, and where do they buy it now?",
+          "ko": "사람들이 음식을 사는 방식은 시간이 지나면서 어떻게 변해왔나요? 예전에는 사람들은 어디에서 음식을 샀고, 지금은 어디에서 사는지 말해주세요.",
+          "type": "comparison",
+          "topicHint": "음식"
+        },
+        {
+          "en": "There can sometimes be news reports about food. Food can get contaminated because of bacteria. It can go bad or become toxic. Tell me about an incident you heard on the news regarding this issue. What was the problem? How was it dealt with?",
+          "ko": "가끔 음식과 관련된 뉴스 보도를 접할 때가 있어요. 음식이 박테리아 때문에 오염되거나 상해서 유해해질 수 있죠. 이와 관련해서 뉴스에서 들었던 사건에 대해 이야기해주세요. 어떤 문제가 있었고, 그 문제를 어떻게 해결했는지 말해주세요.",
+          "type": "current_issue",
+          "topicHint": "음식"
+        },
+        {
+          "en": "I'd like to know about restaurants in your country. What kind of food do they serve? What do they look like? What is special about those restaurants? Describe typical restaurants in as much detail as possible.",
+          "ko": "당신 나라에 있는 식당들에 대해 알고 싶어요. 어떤 종류의 음식을 파나요? 식당은 어떤 모습인가요? 그 식당들만의 특별한 점은 무엇인가요? 일반적인 식당들에 대해 가능한 한 자세히 설명해주세요.",
+          "type": "description",
+          "topicHint": "식당"
+        },
+        {
+          "en": "Could you tell me about a restaurant you visited last time? What was it like? What did you eat there? Who did you go with? What do you remember about that restaurant and why was it special? Give me all the details.",
+          "ko": "마지막으로 방문했던 식당에 대해 이야기해주세요. 그 식당은 어땠나요? 거기서 무엇을 먹었나요? 누구와 함께 갔나요? 그 식당에서 기억나는 점은 무엇이고, 왜 특별했나요? 모든 세부사항을 말해주세요.",
+          "type": "past_experience",
+          "topicHint": "식당"
+        },
+        {
+          "en": "Describe for me a restaurant that you remember from your childhood. What was the restaurant like? Was it different from the restaurants you visit today?",
+          "ko": "어릴 때 기억에 남는 식당에 대해 이야기해주세요. 그 식당은 어떤 곳이었나요? 지금 다니는 식당들과는 어떤 점이 달랐나요?",
+          "type": "past_experience",
+          "topicHint": "식당"
+        },
+        {
+          "en": "Many restaurants are changing their menus to suit customers who are more health-conscious. Talk about the changes you notice about restaurants in your country related to this trend.",
+          "ko": "요즘은 건강을 더 신경 쓰는 손님들을 위해 많은 식당들이 메뉴를 바꾸고 있어요. 당신 나라 식당들이 이와 관련해서 어떻게 변하고 있는지 이야기해주세요.",
+          "type": "comparison",
+          "topicHint": "식당"
+        },
+        {
+          "en": "Chain restaurants such as McDonald's have a set menu you can expect. On the other hand, small local restaurants have their own menus, and you may not be able to know what to expect. Talk about your experience of going to a chain restaurant and a local restaurant.",
+          "ko": "맥도날드 같은 체인점 식당은 언제 가도 정해진 메뉴가 있어서 무엇을 먹을지 미리 알 수 있어요. 반면에, 동네의 작은 식당들은 각자 고유한 메뉴가 있어서 무엇이 나올지 예상하기 어려울 때도 있어요. 체인점 식당과 동네 식당에 갔던 경험에 대해 이야기해주세요.",
+          "type": "comparison",
+          "topicHint": "식당"
+        }
       ]
     },
     {
@@ -331,28 +1929,138 @@
       "nameKo": "기출 모음 25.09",
       "nameEn": "Question Set · 2025.09",
       "questions": [
-        {"en": "I would like to know where you live. Describe your house in detail. What does it look like? How many rooms do you have? Which is your favorite room at home? And what do you usually do there?", "ko": "당신이 살고 있는 곳에 대해 말해보세요. 집의 모습과 구조를 자세히 설명하고, 방이 몇 개 있는지 이야기해보세요. 집에서 가장 좋아하는 방은 어디인지, 그곳에서 주로 무엇을 하는지도 말해보세요.", "type": "description", "topicHint": "집"},
-        {"en": "Tell me about the things that you normally do at home. What are your responsibilities at home? And what do your family members do at home? Give me all the details.", "ko": "당신이 집에서 평소에 하는 일에 대해 이야기해보세요. 집에서 맡고 있는 책임은 무엇인지, 가족들은 집에서 어떤 일을 하는지도 설명해보세요. 가능한 한 자세히 말해보세요.", "type": "routine", "topicHint": "집"},
-        {"en": "Tell me about the house or apartment you lived in when you were young. How was it different from your current place? What are the differences and the similarities? Give me all the details.", "ko": "어릴 적에 살았던 집이나 아파트에 대해 이야기해보세요. 지금 거주하는 곳과 어떤 점이 다른지, 차이점과 공통점은 무엇인지 설명해보세요. 가능한 한 자세히 말해보세요.", "type": "comparison", "topicHint": "집"},
-        {"en": "Talk about general housing changes compared to the past. What do you think is the most evident? Give me all the details.", "ko": "과거와 비교했을 때 주거 형태가 어떻게 변해왔는지 이야기해보세요. 그중 가장 두드러진 변화는 무엇이라고 생각하는지 설명하고, 가능한 한 자세히 말해보세요.", "type": "comparison", "topicHint": "집"},
-        {"en": "What are some current social issues related to housing in your country? Why do these problems occur and how do people deal with the situation?", "ko": "당신의 나라에서 주거와 관련된 사회적 이슈에는 어떤 것들이 있는지 이야기해보세요. 이러한 문제가 왜 발생하는지, 사람들이 이 상황에 어떻게 대응하는지 설명해보세요.", "type": "current_issue", "topicHint": "집"},
-        {"en": "There have been a lot of changes in the workplace. What are the noticeable changes you've observed?", "ko": "직장에서 많은 변화가 있었습니다. 그중에서 당신이 눈에 띄게 관찰한 변화에는 어떤 것들이 있는지 이야기해보세요.", "type": "current_issue", "topicHint": "일터"},
-        {"en": "What kinds of professions have changed a lot? There might be new professions and new policies related to these jobs. Please describe in detail.", "ko": "많은 변화를 겪은 직업에는 어떤 것들이 있는지 이야기해보세요. 새롭게 생겨난 직업이나 이와 관련된 새로운 정책이 있을 수도 있습니다. 이에 대해 자세히 설명해보세요.", "type": "current_issue", "topicHint": "일터"},
-        {"en": "Let's start the interview. Tell me something about yourself.", "ko": "인터뷰를 시작하겠습니다. 당신에 대해 이야기해 주세요.", "type": "general", "topicHint": "자기소개"},
-        {"en": "Tell me about the weather where you live. What are the seasons? What is the weather like in each season? Which season do you personally like? Tell me everything about the weather.", "ko": "당신이 사는 곳의 날씨에 대해 이야기해보세요. 계절은 어떻게 되나요? 각 계절의 날씨는 어떤가요? 당신이 개인적으로 좋아하는 계절은 무엇인가요? 날씨에 대해 모두 이야기해 주세요.", "type": "description", "topicHint": "날씨"},
-        {"en": "How has the weather changed over the years in your country? How has the climate changed from when you were little?", "ko": "당신 나라의 날씨는 지난 몇 년간 어떻게 변해왔나요? 당신이 어렸을 때와 비교해 기후가 어떻게 변했나요?", "type": "comparison", "topicHint": "날씨"},
-        {"en": "Tell me about a memorable incident related to severe weather. What was the problem, and how did you deal with that situation? What made that incident unforgettable?", "ko": "악천후와 관련된 기억에 남는 사건에 대해 이야기해보세요. 무엇이 문제였고, 그 상황에 어떻게 대처했나요? 그 사건이 왜 잊을 수 없는 경험이 되었나요?", "type": "past_experience", "topicHint": "날씨"},
-        {"en": "You indicated in the survey that you like to go on a trip domestically. Which place is your favorite in your country? Why do you like that place? Give me all the details.", "ko": "설문에서 국내 여행을 좋아한다고 하셨습니다. 당신 나라에서 가장 좋아하는 곳은 어디인가요? 왜 그곳을 좋아하나요? 자세히 이야기해 주세요.", "type": "description", "topicHint": "국내여행"},
-        {"en": "Talk about a trip you went on in your childhood. What do you remember about that trip? Where did you go, and whom did you go with? What made the trip special?", "ko": "어린 시절에 다녀온 여행에 대해 이야기해보세요. 그 여행에서 무엇이 기억나나요? 어디에 갔고, 누구와 함께 갔나요? 무엇이 그 여행을 특별하게 만들었나요?", "type": "past_experience", "topicHint": "여행"},
-        {"en": "Unexpected things can happen on trips. Talk about an unforgettable incident that happened on a trip. Why was the experience so memorable? Give me all the details.", "ko": "여행에서는 예상치 못한 일이 일어날 수 있습니다. 여행 중에 있었던 잊을 수 없는 사건에 대해 이야기해보세요. 그 경험이 왜 그렇게 기억에 남나요? 자세히 이야기해 주세요.", "type": "past_experience", "topicHint": "여행"},
-        {"en": "Tell me about transportation in your country. What kind of transportation do people use?", "ko": "당신 나라의 교통수단에 대해 이야기해보세요. 사람들은 어떤 교통수단을 이용하나요?", "type": "description", "topicHint": "교통수단"},
-        {"en": "What kind of transportation do you use to get around? Do you use public transportation or do you drive?", "ko": "당신은 이동할 때 어떤 교통수단을 이용하나요? 대중교통을 이용하나요, 아니면 운전을 하나요?", "type": "routine", "topicHint": "교통수단"},
-        {"en": "Transportation systems have changed a lot over the years. Are there any changes to transportation in your country since you were young? What are the differences between the past and present?", "ko": "교통 시스템은 지난 몇 년간 많이 변해왔습니다. 당신이 어렸을 때와 비교해 당신 나라의 교통에 변화가 있었나요? 과거와 현재의 차이점은 무엇인가요?", "type": "comparison", "topicHint": "교통수단"},
-        {"en": "Your friend just came back from a trip to the United States. Ask your friend three questions about the trip.", "ko": "당신의 친구가 막 미국 여행에서 돌아왔습니다. 그 여행에 대해 친구에게 세 가지 질문을 해보세요.", "type": "roleplay", "topicHint": "롤플레이 (여행)"},
-        {"en": "Your friend just came back from a trip to the U.S. You were supposed to meet in the evening to look at the pictures together, but you cannot make it. Call your friend and explain the situation.", "ko": "당신의 친구가 막 미국 여행에서 돌아왔습니다. 저녁에 만나서 함께 사진을 보기로 했지만, 당신은 갈 수 없게 되었습니다. 친구에게 전화해서 상황을 설명해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (여행)"},
-        {"en": "Tell me about a memorable trip you have taken. Where did you go and what made it so special?", "ko": "당신이 다녀온 기억에 남는 여행에 대해 이야기해보세요. 어디에 갔고 무엇이 그 여행을 특별하게 만들었나요?", "type": "past_experience", "topicHint": "여행"},
-        {"en": "You indicated in the survey that you go shopping. Going shopping has changed a great deal over the years. Talk about the most significant changes in shopping over the years.", "ko": "설문에서 쇼핑을 한다고 하셨습니다. 쇼핑은 지난 몇 년간 크게 변해왔습니다. 지난 몇 년간 쇼핑에서 가장 큰 변화에 대해 이야기해보세요.", "type": "comparison", "topicHint": "쇼핑"},
-        {"en": "What kinds of products and services do you hear shoppers talk about the most these days? Why do you think they are generating so much interest? Tell me in detail about those products. What are people saying about them and why?", "ko": "요즘 쇼핑객들이 가장 많이 이야기하는 제품과 서비스는 무엇인가요? 왜 그것들이 그렇게 많은 관심을 끈다고 생각하나요? 그 제품들에 대해 자세히 이야기해 주세요. 사람들이 그것들에 대해 무엇이라고 말하며 그 이유는 무엇인가요?", "type": "current_issue", "topicHint": "쇼핑"}
+        {
+          "en": "I would like to know where you live. Describe your house in detail. What does it look like? How many rooms do you have? Which is your favorite room at home? And what do you usually do there?",
+          "ko": "당신이 살고 있는 곳에 대해 말해보세요. 집의 모습과 구조를 자세히 설명하고, 방이 몇 개 있는지 이야기해보세요. 집에서 가장 좋아하는 방은 어디인지, 그곳에서 주로 무엇을 하는지도 말해보세요.",
+          "type": "description",
+          "topicHint": "집"
+        },
+        {
+          "en": "Tell me about the things that you normally do at home. What are your responsibilities at home? And what do your family members do at home? Give me all the details.",
+          "ko": "당신이 집에서 평소에 하는 일에 대해 이야기해보세요. 집에서 맡고 있는 책임은 무엇인지, 가족들은 집에서 어떤 일을 하는지도 설명해보세요. 가능한 한 자세히 말해보세요.",
+          "type": "routine",
+          "topicHint": "집"
+        },
+        {
+          "en": "Tell me about the house or apartment you lived in when you were young. How was it different from your current place? What are the differences and the similarities? Give me all the details.",
+          "ko": "어릴 적에 살았던 집이나 아파트에 대해 이야기해보세요. 지금 거주하는 곳과 어떤 점이 다른지, 차이점과 공통점은 무엇인지 설명해보세요. 가능한 한 자세히 말해보세요.",
+          "type": "comparison",
+          "topicHint": "집"
+        },
+        {
+          "en": "Talk about general housing changes compared to the past. What do you think is the most evident? Give me all the details.",
+          "ko": "과거와 비교했을 때 주거 형태가 어떻게 변해왔는지 이야기해보세요. 그중 가장 두드러진 변화는 무엇이라고 생각하는지 설명하고, 가능한 한 자세히 말해보세요.",
+          "type": "comparison",
+          "topicHint": "집"
+        },
+        {
+          "en": "What are some current social issues related to housing in your country? Why do these problems occur and how do people deal with the situation?",
+          "ko": "당신의 나라에서 주거와 관련된 사회적 이슈에는 어떤 것들이 있는지 이야기해보세요. 이러한 문제가 왜 발생하는지, 사람들이 이 상황에 어떻게 대응하는지 설명해보세요.",
+          "type": "current_issue",
+          "topicHint": "집"
+        },
+        {
+          "en": "There have been a lot of changes in the workplace. What are the noticeable changes you've observed?",
+          "ko": "직장에서 많은 변화가 있었습니다. 그중에서 당신이 눈에 띄게 관찰한 변화에는 어떤 것들이 있는지 이야기해보세요.",
+          "type": "current_issue",
+          "topicHint": "일터"
+        },
+        {
+          "en": "What kinds of professions have changed a lot? There might be new professions and new policies related to these jobs. Please describe in detail.",
+          "ko": "많은 변화를 겪은 직업에는 어떤 것들이 있는지 이야기해보세요. 새롭게 생겨난 직업이나 이와 관련된 새로운 정책이 있을 수도 있습니다. 이에 대해 자세히 설명해보세요.",
+          "type": "current_issue",
+          "topicHint": "일터"
+        },
+        {
+          "en": "Let's start the interview. Tell me something about yourself.",
+          "ko": "인터뷰를 시작하겠습니다. 당신에 대해 이야기해 주세요.",
+          "type": "general",
+          "topicHint": "자기소개"
+        },
+        {
+          "en": "Tell me about the weather where you live. What are the seasons? What is the weather like in each season? Which season do you personally like? Tell me everything about the weather.",
+          "ko": "당신이 사는 곳의 날씨에 대해 이야기해보세요. 계절은 어떻게 되나요? 각 계절의 날씨는 어떤가요? 당신이 개인적으로 좋아하는 계절은 무엇인가요? 날씨에 대해 모두 이야기해 주세요.",
+          "type": "description",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "How has the weather changed over the years in your country? How has the climate changed from when you were little?",
+          "ko": "당신 나라의 날씨는 지난 몇 년간 어떻게 변해왔나요? 당신이 어렸을 때와 비교해 기후가 어떻게 변했나요?",
+          "type": "comparison",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "Tell me about a memorable incident related to severe weather. What was the problem, and how did you deal with that situation? What made that incident unforgettable?",
+          "ko": "악천후와 관련된 기억에 남는 사건에 대해 이야기해보세요. 무엇이 문제였고, 그 상황에 어떻게 대처했나요? 그 사건이 왜 잊을 수 없는 경험이 되었나요?",
+          "type": "past_experience",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "You indicated in the survey that you like to go on a trip domestically. Which place is your favorite in your country? Why do you like that place? Give me all the details.",
+          "ko": "설문에서 국내 여행을 좋아한다고 하셨습니다. 당신 나라에서 가장 좋아하는 곳은 어디인가요? 왜 그곳을 좋아하나요? 자세히 이야기해 주세요.",
+          "type": "description",
+          "topicHint": "국내여행"
+        },
+        {
+          "en": "Talk about a trip you went on in your childhood. What do you remember about that trip? Where did you go, and whom did you go with? What made the trip special?",
+          "ko": "어린 시절에 다녀온 여행에 대해 이야기해보세요. 그 여행에서 무엇이 기억나나요? 어디에 갔고, 누구와 함께 갔나요? 무엇이 그 여행을 특별하게 만들었나요?",
+          "type": "past_experience",
+          "topicHint": "여행"
+        },
+        {
+          "en": "Unexpected things can happen on trips. Talk about an unforgettable incident that happened on a trip. Why was the experience so memorable? Give me all the details.",
+          "ko": "여행에서는 예상치 못한 일이 일어날 수 있습니다. 여행 중에 있었던 잊을 수 없는 사건에 대해 이야기해보세요. 그 경험이 왜 그렇게 기억에 남나요? 자세히 이야기해 주세요.",
+          "type": "past_experience",
+          "topicHint": "여행"
+        },
+        {
+          "en": "Tell me about transportation in your country. What kind of transportation do people use?",
+          "ko": "당신 나라의 교통수단에 대해 이야기해보세요. 사람들은 어떤 교통수단을 이용하나요?",
+          "type": "description",
+          "topicHint": "교통수단"
+        },
+        {
+          "en": "What kind of transportation do you use to get around? Do you use public transportation or do you drive?",
+          "ko": "당신은 이동할 때 어떤 교통수단을 이용하나요? 대중교통을 이용하나요, 아니면 운전을 하나요?",
+          "type": "routine",
+          "topicHint": "교통수단"
+        },
+        {
+          "en": "Transportation systems have changed a lot over the years. Are there any changes to transportation in your country since you were young? What are the differences between the past and present?",
+          "ko": "교통 시스템은 지난 몇 년간 많이 변해왔습니다. 당신이 어렸을 때와 비교해 당신 나라의 교통에 변화가 있었나요? 과거와 현재의 차이점은 무엇인가요?",
+          "type": "comparison",
+          "topicHint": "교통수단"
+        },
+        {
+          "en": "Your friend just came back from a trip to the United States. Ask your friend three questions about the trip.",
+          "ko": "당신의 친구가 막 미국 여행에서 돌아왔습니다. 그 여행에 대해 친구에게 세 가지 질문을 해보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (여행)"
+        },
+        {
+          "en": "Your friend just came back from a trip to the U.S. You were supposed to meet in the evening to look at the pictures together, but you cannot make it. Call your friend and explain the situation.",
+          "ko": "당신의 친구가 막 미국 여행에서 돌아왔습니다. 저녁에 만나서 함께 사진을 보기로 했지만, 당신은 갈 수 없게 되었습니다. 친구에게 전화해서 상황을 설명해 보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (여행)"
+        },
+        {
+          "en": "Tell me about a memorable trip you have taken. Where did you go and what made it so special?",
+          "ko": "당신이 다녀온 기억에 남는 여행에 대해 이야기해보세요. 어디에 갔고 무엇이 그 여행을 특별하게 만들었나요?",
+          "type": "past_experience",
+          "topicHint": "여행"
+        },
+        {
+          "en": "You indicated in the survey that you go shopping. Going shopping has changed a great deal over the years. Talk about the most significant changes in shopping over the years.",
+          "ko": "설문에서 쇼핑을 한다고 하셨습니다. 쇼핑은 지난 몇 년간 크게 변해왔습니다. 지난 몇 년간 쇼핑에서 가장 큰 변화에 대해 이야기해보세요.",
+          "type": "comparison",
+          "topicHint": "쇼핑"
+        },
+        {
+          "en": "What kinds of products and services do you hear shoppers talk about the most these days? Why do you think they are generating so much interest? Tell me in detail about those products. What are people saying about them and why?",
+          "ko": "요즘 쇼핑객들이 가장 많이 이야기하는 제품과 서비스는 무엇인가요? 왜 그것들이 그렇게 많은 관심을 끈다고 생각하나요? 그 제품들에 대해 자세히 이야기해 주세요. 사람들이 그것들에 대해 무엇이라고 말하며 그 이유는 무엇인가요?",
+          "type": "current_issue",
+          "topicHint": "쇼핑"
+        }
       ]
     },
     {
@@ -360,24 +2068,114 @@
       "nameKo": "기출 모음 25.10",
       "nameEn": "Question Set · 2025.10",
       "questions": [
-        {"en": "I'd like to give you a situation and ask you to act it out. You read about a professional nutritionist that helps people improve their diet. Call the nutritionist's office and ask 3 or 4 questions to get more information.", "ko": "당신은 식단 개선을 돕는 전문 영양사에 대해 알게 되었습니다. 그 영양사 사무실에 전화해서, 더 많은 정보를 얻기 위해 질문 3-4가지를 해보세요.", "type": "roleplay", "topicHint": "롤플레이 (영양사)"},
-        {"en": "You have an appointment to meet with a nutritionist to help you make your diet healthier. However, on the day of the meeting, your boss asks you to work late. Call the nutritionist, explain the situation and offer two to three alternatives.", "ko": "당신은 건강한 식단을 위해 영양사와 상담 예약을 했습니다. 하지만 약속 당일, 상사가 야근을 요청했습니다. 영양사에게 전화해서 상황을 설명하고, 2-3가지 대안을 제시해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (영양사)"},
-        {"en": "Describe a time when you made a significant change to your diet or exercise routine. What led this change to happen? How did it work out eventually? Describe what happened in detail from beginning to end.", "ko": "당신의 식단이나 운동 습관을 크게 바꿨던 경험이 있나요? 왜 그렇게 바꾸기로 결심했는지, 그리고 그 결과는 어땠는지 처음부터 끝까지 자세히 이야기해 주세요.", "type": "past_experience", "topicHint": "건강"},
-        {"en": "I'd like to give you a situation and ask you to act it out. You want to have a family dinner at a restaurant. Call the restaurant and ask three to four questions to make a reservation.", "ko": "당신은 가족 저녁 식사를 위해 식당에 예약하려고 합니다. 식당에 전화해서, 예약에 필요한 질문 3-4가지를 해보세요.", "type": "roleplay", "topicHint": "롤플레이 (식당)"},
-        {"en": "I'm sorry, but there's a situation I need you to resolve. You're on your way to the restaurant you have a reservation at, but you get lost. You walk into a nearby store to ask for directions. Please ask three or four questions to find out how to get there.", "ko": "당신은 예약해 둔 식당에 가는 길인데, 그만 길을 잃었습니다. 근처 가게에 들어가서 길을 물어보려고 합니다. 식당에 도착하는 방법을 알기 위해 질문 3-4가지를 해보세요.", "type": "roleplay", "topicHint": "롤플레이 (식당)"},
-        {"en": "Have you ever canceled your reservation or appointment at the last minute? What happened exactly? And what did you do to solve the problem? Give me as much detail as possible.", "ko": "예약이나 약속을 마지막 순간에 취소해 본 경험이 있나요? 정확히 무슨 일이 있었고, 그 문제를 해결하기 위해 어떻게 행동했는지 가능한 한 자세히 설명해 주세요.", "type": "past_experience", "topicHint": "롤플레이 (식당)"},
-        {"en": "Let's start the interview. Tell me something about yourself.", "ko": "인터뷰를 시작하겠습니다. 당신에 대해 이야기해 주세요.", "type": "general", "topicHint": "자기소개"},
-        {"en": "Tell me about the foods eaten in your country. What kinds of foods do people eat? What is a typical dish? What's your favorite food and why?", "ko": "당신 나라에서 먹는 음식에 대해 이야기해보세요. 사람들은 어떤 종류의 음식을 먹나요? 대표적인 음식은 무엇인가요? 당신이 가장 좋아하는 음식은 무엇이고 그 이유는 무엇인가요?", "type": "description", "topicHint": "음식"},
-        {"en": "What kinds of food do you usually eat? Where do you usually eat them? Do you eat at home or at restaurants more often?", "ko": "당신은 평소 어떤 음식을 먹나요? 주로 어디에서 먹나요? 집에서 더 자주 먹나요, 아니면 식당에서 더 자주 먹나요?", "type": "routine", "topicHint": "음식"},
-        {"en": "Can you describe a memorable meal that you have had? Who were you with? What did you eat? Give me a detailed description of a recent meal you have had.", "ko": "기억에 남는 식사에 대해 설명해 줄 수 있나요? 누구와 함께 있었나요? 무엇을 먹었나요? 최근에 한 식사에 대해 자세히 설명해 주세요.", "type": "past_experience", "topicHint": "음식"},
-        {"en": "Tell me about the weather where you live. What are the seasons? What is the weather like in each season? Which season do you personally like? Tell me everything about the weather.", "ko": "당신이 사는 곳의 날씨에 대해 이야기해보세요. 계절은 어떻게 되나요? 각 계절의 날씨는 어떤가요? 당신이 개인적으로 좋아하는 계절은 무엇인가요? 날씨에 대해 모두 이야기해 주세요.", "type": "description", "topicHint": "날씨"},
-        {"en": "How has the weather changed over the years in your country? How has the climate changed from when you were little?", "ko": "당신 나라의 날씨는 지난 몇 년간 어떻게 변해왔나요? 당신이 어렸을 때와 비교해 기후가 어떻게 변했나요?", "type": "comparison", "topicHint": "날씨"},
-        {"en": "Tell me about a memorable incident related to severe weather. What was the problem, and how did you deal with that situation? What made that incident unforgettable?", "ko": "악천후와 관련된 기억에 남는 사건에 대해 이야기해보세요. 무엇이 문제였고, 그 상황에 어떻게 대처했나요? 그 사건이 왜 잊을 수 없는 경험이 되었나요?", "type": "past_experience", "topicHint": "날씨"},
-        {"en": "I would like to talk about where you live. Please tell me what kind of place it is, what you like or dislike about it, and how long you've lived there.", "ko": "당신이 사는 곳에 대해 이야기하고 싶습니다. 어떤 곳인지, 그곳에 대해 좋아하거나 싫어하는 점은 무엇인지, 그리고 그곳에 얼마나 오래 살았는지 이야기해 주세요.", "type": "description", "topicHint": "집"},
-        {"en": "Tell me about a house or apartment where you grew up. What did your home and the surrounding area look like when you were young?", "ko": "당신이 자란 집이나 아파트에 대해 이야기해보세요. 어렸을 때 당신의 집과 주변 지역은 어떤 모습이었나요?", "type": "past_experience", "topicHint": "집"},
-        {"en": "Talk about a special memory you had with your family members at home.", "ko": "집에서 가족과 함께한 특별한 추억에 대해 이야기해보세요.", "type": "past_experience", "topicHint": "집"},
-        {"en": "How has the style of homes changed over the 5 or 10 years where you live? Are the homes being built today different from homes built 10 years ago? What developments or changes have you noticed?", "ko": "당신이 사는 곳에서 지난 5년 또는 10년간 집의 형태가 어떻게 변했나요? 오늘날 지어지는 집은 10년 전에 지어진 집과 다른가요? 어떤 발전이나 변화를 느꼈나요?", "type": "comparison", "topicHint": "집"},
-        {"en": "Housing has become a prevalent topic in the news. Discuss some of the issues that people in your area are discussing in regard to home and housing. Identify some of the greatest challenges or problems. What are individuals and different organizations doing to address these concerns?", "ko": "주거는 뉴스에서 흔한 주제가 되었습니다. 당신 지역 사람들이 집과 주거와 관련해 이야기하는 이슈들에 대해 논의해보세요. 가장 큰 어려움이나 문제는 무엇이었는지 밝혀보세요. 개인과 여러 단체들은 이러한 우려를 해결하기 위해 무엇을 하고 있나요?", "type": "current_issue", "topicHint": "집"}
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You read about a professional nutritionist that helps people improve their diet. Call the nutritionist's office and ask 3 or 4 questions to get more information.",
+          "ko": "당신은 식단 개선을 돕는 전문 영양사에 대해 알게 되었습니다. 그 영양사 사무실에 전화해서, 더 많은 정보를 얻기 위해 질문 3-4가지를 해보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (영양사)"
+        },
+        {
+          "en": "You have an appointment to meet with a nutritionist to help you make your diet healthier. However, on the day of the meeting, your boss asks you to work late. Call the nutritionist, explain the situation and offer two to three alternatives.",
+          "ko": "당신은 건강한 식단을 위해 영양사와 상담 예약을 했습니다. 하지만 약속 당일, 상사가 야근을 요청했습니다. 영양사에게 전화해서 상황을 설명하고, 2-3가지 대안을 제시해 보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (영양사)"
+        },
+        {
+          "en": "Describe a time when you made a significant change to your diet or exercise routine. What led this change to happen? How did it work out eventually? Describe what happened in detail from beginning to end.",
+          "ko": "당신의 식단이나 운동 습관을 크게 바꿨던 경험이 있나요? 왜 그렇게 바꾸기로 결심했는지, 그리고 그 결과는 어땠는지 처음부터 끝까지 자세히 이야기해 주세요.",
+          "type": "past_experience",
+          "topicHint": "건강"
+        },
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You want to have a family dinner at a restaurant. Call the restaurant and ask three to four questions to make a reservation.",
+          "ko": "당신은 가족 저녁 식사를 위해 식당에 예약하려고 합니다. 식당에 전화해서, 예약에 필요한 질문 3-4가지를 해보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (식당)"
+        },
+        {
+          "en": "I'm sorry, but there's a situation I need you to resolve. You're on your way to the restaurant you have a reservation at, but you get lost. You walk into a nearby store to ask for directions. Please ask three or four questions to find out how to get there.",
+          "ko": "당신은 예약해 둔 식당에 가는 길인데, 그만 길을 잃었습니다. 근처 가게에 들어가서 길을 물어보려고 합니다. 식당에 도착하는 방법을 알기 위해 질문 3-4가지를 해보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (식당)"
+        },
+        {
+          "en": "Have you ever canceled your reservation or appointment at the last minute? What happened exactly? And what did you do to solve the problem? Give me as much detail as possible.",
+          "ko": "예약이나 약속을 마지막 순간에 취소해 본 경험이 있나요? 정확히 무슨 일이 있었고, 그 문제를 해결하기 위해 어떻게 행동했는지 가능한 한 자세히 설명해 주세요.",
+          "type": "past_experience",
+          "topicHint": "롤플레이 (식당)"
+        },
+        {
+          "en": "Let's start the interview. Tell me something about yourself.",
+          "ko": "인터뷰를 시작하겠습니다. 당신에 대해 이야기해 주세요.",
+          "type": "general",
+          "topicHint": "자기소개"
+        },
+        {
+          "en": "Tell me about the foods eaten in your country. What kinds of foods do people eat? What is a typical dish? What's your favorite food and why?",
+          "ko": "당신 나라에서 먹는 음식에 대해 이야기해보세요. 사람들은 어떤 종류의 음식을 먹나요? 대표적인 음식은 무엇인가요? 당신이 가장 좋아하는 음식은 무엇이고 그 이유는 무엇인가요?",
+          "type": "description",
+          "topicHint": "음식"
+        },
+        {
+          "en": "What kinds of food do you usually eat? Where do you usually eat them? Do you eat at home or at restaurants more often?",
+          "ko": "당신은 평소 어떤 음식을 먹나요? 주로 어디에서 먹나요? 집에서 더 자주 먹나요, 아니면 식당에서 더 자주 먹나요?",
+          "type": "routine",
+          "topicHint": "음식"
+        },
+        {
+          "en": "Can you describe a memorable meal that you have had? Who were you with? What did you eat? Give me a detailed description of a recent meal you have had.",
+          "ko": "기억에 남는 식사에 대해 설명해 줄 수 있나요? 누구와 함께 있었나요? 무엇을 먹었나요? 최근에 한 식사에 대해 자세히 설명해 주세요.",
+          "type": "past_experience",
+          "topicHint": "음식"
+        },
+        {
+          "en": "Tell me about the weather where you live. What are the seasons? What is the weather like in each season? Which season do you personally like? Tell me everything about the weather.",
+          "ko": "당신이 사는 곳의 날씨에 대해 이야기해보세요. 계절은 어떻게 되나요? 각 계절의 날씨는 어떤가요? 당신이 개인적으로 좋아하는 계절은 무엇인가요? 날씨에 대해 모두 이야기해 주세요.",
+          "type": "description",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "How has the weather changed over the years in your country? How has the climate changed from when you were little?",
+          "ko": "당신 나라의 날씨는 지난 몇 년간 어떻게 변해왔나요? 당신이 어렸을 때와 비교해 기후가 어떻게 변했나요?",
+          "type": "comparison",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "Tell me about a memorable incident related to severe weather. What was the problem, and how did you deal with that situation? What made that incident unforgettable?",
+          "ko": "악천후와 관련된 기억에 남는 사건에 대해 이야기해보세요. 무엇이 문제였고, 그 상황에 어떻게 대처했나요? 그 사건이 왜 잊을 수 없는 경험이 되었나요?",
+          "type": "past_experience",
+          "topicHint": "날씨"
+        },
+        {
+          "en": "I would like to talk about where you live. Please tell me what kind of place it is, what you like or dislike about it, and how long you've lived there.",
+          "ko": "당신이 사는 곳에 대해 이야기하고 싶습니다. 어떤 곳인지, 그곳에 대해 좋아하거나 싫어하는 점은 무엇인지, 그리고 그곳에 얼마나 오래 살았는지 이야기해 주세요.",
+          "type": "description",
+          "topicHint": "집"
+        },
+        {
+          "en": "Tell me about a house or apartment where you grew up. What did your home and the surrounding area look like when you were young?",
+          "ko": "당신이 자란 집이나 아파트에 대해 이야기해보세요. 어렸을 때 당신의 집과 주변 지역은 어떤 모습이었나요?",
+          "type": "past_experience",
+          "topicHint": "집"
+        },
+        {
+          "en": "Talk about a special memory you had with your family members at home.",
+          "ko": "집에서 가족과 함께한 특별한 추억에 대해 이야기해보세요.",
+          "type": "past_experience",
+          "topicHint": "집"
+        },
+        {
+          "en": "How has the style of homes changed over the 5 or 10 years where you live? Are the homes being built today different from homes built 10 years ago? What developments or changes have you noticed?",
+          "ko": "당신이 사는 곳에서 지난 5년 또는 10년간 집의 형태가 어떻게 변했나요? 오늘날 지어지는 집은 10년 전에 지어진 집과 다른가요? 어떤 발전이나 변화를 느꼈나요?",
+          "type": "comparison",
+          "topicHint": "집"
+        },
+        {
+          "en": "Housing has become a prevalent topic in the news. Discuss some of the issues that people in your area are discussing in regard to home and housing. Identify some of the greatest challenges or problems. What are individuals and different organizations doing to address these concerns?",
+          "ko": "주거는 뉴스에서 흔한 주제가 되었습니다. 당신 지역 사람들이 집과 주거와 관련해 이야기하는 이슈들에 대해 논의해보세요. 가장 큰 어려움이나 문제는 무엇이었는지 밝혀보세요. 개인과 여러 단체들은 이러한 우려를 해결하기 위해 무엇을 하고 있나요?",
+          "type": "current_issue",
+          "topicHint": "집"
+        }
       ]
     },
     {
@@ -385,24 +2183,114 @@
       "nameKo": "기출 모음 25.11",
       "nameEn": "Question Set · 2025.11",
       "questions": [
-        {"en": "I'd like to give you a situation and ask you to act it out. You're writing a report on the technology industry. Your friend is an expert in this industry. Call him and ask 3 or 4 questions to know more about this industry.", "ko": "당신은 지금 기술 산업에 대한 보고서를 쓰고 있는데, 마침 친구가 이 분야 전문가입니다. 그 친구에게 전화해서 업계에 대한 정보를 3-4가지 질문해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (기술 리포트)"},
-        {"en": "There is a problem which I need you to resolve. Your friend agreed to meet with you to share insights about the industry they work in. However, just a few days before the scheduled meeting, a family emergency comes up. Call your friend, explain what happened, and suggest two or three other ways you could still learn about the industry later.", "ko": "당신이 해결해야 할 문제가 생겼네요. 업계 전문가인 친구가 만나서 정보를 주기로 했는데, 약속 며칠 전 당신에게 급한 집안일이 생겼습니다. 지금 친구에게 전화해서 상황을 설명하고, 나중에라도 정보를 얻을 수 있는 다른 대안 2-3가지를 제시해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (기술 리포트)"},
-        {"en": "Think back to a time when you discovered a new and exciting product. It could be anything like a smartphone, a video game, a car, or something else that caught your interest. Describe how you first came across it, what the product was, and walk me through everything you did from start to finish in as much detail as you can.", "ko": "당신이 발견했던 새롭고 흥미로운 제품에 대한 경험을 이야기해 주세요. 그 제품을 어떻게 알게 되었고 무엇이었는지, 그리고 그와 관련해 했던 모든 일을 처음부터 끝까지 자세히 설명해 주시겠어요?", "type": "past_experience", "topicHint": "제품 (기술)"},
-        {"en": "You have an upcoming interview at a company you are interested in. Before the interview, make a phone call to the company and ask several questions to get more information about the company's work environment, role expectations, or other relevant details.", "ko": "당신은 관심 있는 회사에 곧 면접을 보러 갈 예정입니다. 면접 전에 그 회사에 미리 전화를 걸어서, 근무 환경이나 기대하는 역할, 혹은 기타 관련 세부 사항에 대해 궁금한 점 몇 가지를 질문해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (면접)"},
-        {"en": "Unfortunately, an unexpected emergency has come up, and you won't be able to attend your scheduled job interview. Call the company to explain your situation and suggest a few alternative dates or times to reschedule the interview.", "ko": "예상치 못한 긴급 상황이 생겨서 예정된 면접에 참석할 수 없게 되었습니다. 지금 바로 회사에 전화해서 당신의 상황을 설명하고, 면접 일정을 다시 잡기 위한 2-3가지 대안 날짜나 시간을 제안해 보세요.", "type": "roleplay", "topicHint": "롤플레이 (면접)"},
-        {"en": "Have you ever had to cancel a meeting or an appointment before? What was the reason, and what steps did you take to handle the situation?", "ko": "혹시 회의나 약속을 취소해야 했던 경험이 있으신가요? 무슨 이유 때문이었으며, 그 상황을 해결하기 위해 어떤 조치를 취했는지 말씀해 주세요.", "type": "past_experience", "topicHint": "롤플레이 (면접)"},
-        {"en": "Let's start the interview. Tell me something about yourself.", "ko": "인터뷰를 시작하겠습니다. 당신에 대해 이야기해 주세요.", "type": "general", "topicHint": "자기소개"},
-        {"en": "I'd like to know about your experience with musical instruments. Tell me about any instrument you can play. What specific instrument is it, and when or how did you first learn to play it? What kinds of music do you typically enjoy playing on that instrument? Provide as many details as possible about your history with it.", "ko": "당신이 악기를 다룬 경험에 대해 알고 싶습니다. 당신이 연주할 수 있는 악기에 대해 이야기해보세요. 구체적으로 어떤 악기이며, 언제 어떻게 처음 배우게 되었나요? 그 악기로 주로 어떤 종류의 음악을 즐겨 연주하나요? 그 악기와 관련된 경험을 가능한 한 자세히 이야기해 주세요.", "type": "description", "topicHint": "악기"},
-        {"en": "Discuss your typical routine or practice sessions with this instrument. When and where do you spend time playing? How often and with whom do you play? Provide as many details as you can.", "ko": "이 악기로 하는 일상적인 연습 루틴에 대해 이야기해보세요. 언제 어디에서 연주하며 시간을 보내나요? 얼마나 자주, 누구와 함께 연주하나요? 가능한 한 자세히 이야기해 주세요.", "type": "routine", "topicHint": "악기"},
-        {"en": "Discuss your initial interest in playing this instrument. What classes did you take? Who was your teacher? Briefly explain your interest in playing this instrument from your childhood until now.", "ko": "이 악기를 연주하게 된 처음의 계기에 대해 이야기해보세요. 어떤 수업을 들었나요? 선생님은 누구였나요? 어린 시절부터 지금까지 이 악기 연주에 대한 관심을 간단히 설명해 주세요.", "type": "past_experience", "topicHint": "악기"},
-        {"en": "Please tell me about your first time watching TV shows. How have TV shows changed since then?", "ko": "당신이 처음 TV 프로그램을 본 경험에 대해 이야기해 주세요. 그 이후로 TV 프로그램은 어떻게 변했나요?", "type": "comparison", "topicHint": "TV"},
-        {"en": "Please talk about your favorite TV show you enjoy watching. Describe what kind of program it is. What makes this show special to you? Tell me everything in detail.", "ko": "당신이 즐겨 보는 가장 좋아하는 TV 프로그램에 대해 이야기해보세요. 어떤 종류의 프로그램인지 설명해 주세요. 이 프로그램이 당신에게 특별한 이유는 무엇인가요? 모두 자세히 이야기해 주세요.", "type": "description", "topicHint": "TV"},
-        {"en": "Tell me how you first became interested in watching TV or movies, and how that interest has changed or developed from the first time until today.", "ko": "당신이 TV나 영화를 보는 것에 처음 관심을 갖게 된 계기와, 처음 관심을 가진 때부터 오늘날까지 그 관심이 어떻게 변하거나 발전해왔는지 이야기해 주세요.", "type": "comparison", "topicHint": "TV/영화"},
-        {"en": "You indicated that you like to listen to music. What type of music do you like listening to? Who is your favorite singer? Give me all the details.", "ko": "당신은 음악 듣는 것을 좋아한다고 하셨습니다. 어떤 종류의 음악을 즐겨 듣나요? 가장 좋아하는 가수는 누구인가요? 자세히 이야기해 주세요.", "type": "description", "topicHint": "음악"},
-        {"en": "What kind of music did you use to listen to when you were young? How was that music different from the music you listen to today? How has your interest in music changed over the years?", "ko": "어렸을 때 어떤 음악을 즐겨 들었나요? 그 음악은 오늘날 당신이 듣는 음악과 어떻게 달랐나요? 음악에 대한 당신의 관심은 지난 몇 년간 어떻게 변해왔나요?", "type": "comparison", "topicHint": "음악"},
-        {"en": "Tell me about the last concert you went to. How was the concert and how did you like the music you listened to there? Give me all the details.", "ko": "당신이 마지막으로 다녀온 콘서트에 대해 이야기해보세요. 콘서트는 어땠고, 그곳에서 들은 음악은 마음에 들었나요? 자세히 이야기해 주세요.", "type": "past_experience", "topicHint": "음악/콘서트"},
-        {"en": "Thinking about the current situation in your country, what do you believe is the single most significant challenge, whether economic, social, or cultural, that your country is facing right now?", "ko": "당신 나라의 현재 상황을 생각할 때, 경제적이든 사회적이든 문화적이든, 당신 나라가 지금 직면한 가장 중요한 단 하나의 과제는 무엇이라고 생각하나요?", "type": "current_issue", "topicHint": "사회 이슈"},
-        {"en": "Thinking about your country's relationship and interactions with other countries, could you describe one specific event from recent years, perhaps from the world of culture, economics, or even art, that you personally found especially impactful or memorable?", "ko": "당신 나라와 다른 나라들의 관계 및 교류를 생각할 때, 최근 몇 년간 문화, 경제, 혹은 예술 분야에서 당신이 개인적으로 특히 인상적이거나 기억에 남았던 구체적인 사건 하나를 설명해 줄 수 있나요?", "type": "current_issue", "topicHint": "사회 이슈"}
+        {
+          "en": "I'd like to give you a situation and ask you to act it out. You're writing a report on the technology industry. Your friend is an expert in this industry. Call him and ask 3 or 4 questions to know more about this industry.",
+          "ko": "당신은 지금 기술 산업에 대한 보고서를 쓰고 있는데, 마침 친구가 이 분야 전문가입니다. 그 친구에게 전화해서 업계에 대한 정보를 3-4가지 질문해 보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (기술 리포트)"
+        },
+        {
+          "en": "There is a problem which I need you to resolve. Your friend agreed to meet with you to share insights about the industry they work in. However, just a few days before the scheduled meeting, a family emergency comes up. Call your friend, explain what happened, and suggest two or three other ways you could still learn about the industry later.",
+          "ko": "당신이 해결해야 할 문제가 생겼네요. 업계 전문가인 친구가 만나서 정보를 주기로 했는데, 약속 며칠 전 당신에게 급한 집안일이 생겼습니다. 지금 친구에게 전화해서 상황을 설명하고, 나중에라도 정보를 얻을 수 있는 다른 대안 2-3가지를 제시해 보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (기술 리포트)"
+        },
+        {
+          "en": "Think back to a time when you discovered a new and exciting product. It could be anything like a smartphone, a video game, a car, or something else that caught your interest. Describe how you first came across it, what the product was, and walk me through everything you did from start to finish in as much detail as you can.",
+          "ko": "당신이 발견했던 새롭고 흥미로운 제품에 대한 경험을 이야기해 주세요. 그 제품을 어떻게 알게 되었고 무엇이었는지, 그리고 그와 관련해 했던 모든 일을 처음부터 끝까지 자세히 설명해 주시겠어요?",
+          "type": "past_experience",
+          "topicHint": "제품 (기술)"
+        },
+        {
+          "en": "You have an upcoming interview at a company you are interested in. Before the interview, make a phone call to the company and ask several questions to get more information about the company's work environment, role expectations, or other relevant details.",
+          "ko": "당신은 관심 있는 회사에 곧 면접을 보러 갈 예정입니다. 면접 전에 그 회사에 미리 전화를 걸어서, 근무 환경이나 기대하는 역할, 혹은 기타 관련 세부 사항에 대해 궁금한 점 몇 가지를 질문해 보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (면접)"
+        },
+        {
+          "en": "Unfortunately, an unexpected emergency has come up, and you won't be able to attend your scheduled job interview. Call the company to explain your situation and suggest a few alternative dates or times to reschedule the interview.",
+          "ko": "예상치 못한 긴급 상황이 생겨서 예정된 면접에 참석할 수 없게 되었습니다. 지금 바로 회사에 전화해서 당신의 상황을 설명하고, 면접 일정을 다시 잡기 위한 2-3가지 대안 날짜나 시간을 제안해 보세요.",
+          "type": "roleplay",
+          "topicHint": "롤플레이 (면접)"
+        },
+        {
+          "en": "Have you ever had to cancel a meeting or an appointment before? What was the reason, and what steps did you take to handle the situation?",
+          "ko": "혹시 회의나 약속을 취소해야 했던 경험이 있으신가요? 무슨 이유 때문이었으며, 그 상황을 해결하기 위해 어떤 조치를 취했는지 말씀해 주세요.",
+          "type": "past_experience",
+          "topicHint": "롤플레이 (면접)"
+        },
+        {
+          "en": "Let's start the interview. Tell me something about yourself.",
+          "ko": "인터뷰를 시작하겠습니다. 당신에 대해 이야기해 주세요.",
+          "type": "general",
+          "topicHint": "자기소개"
+        },
+        {
+          "en": "I'd like to know about your experience with musical instruments. Tell me about any instrument you can play. What specific instrument is it, and when or how did you first learn to play it? What kinds of music do you typically enjoy playing on that instrument? Provide as many details as possible about your history with it.",
+          "ko": "당신이 악기를 다룬 경험에 대해 알고 싶습니다. 당신이 연주할 수 있는 악기에 대해 이야기해보세요. 구체적으로 어떤 악기이며, 언제 어떻게 처음 배우게 되었나요? 그 악기로 주로 어떤 종류의 음악을 즐겨 연주하나요? 그 악기와 관련된 경험을 가능한 한 자세히 이야기해 주세요.",
+          "type": "description",
+          "topicHint": "악기"
+        },
+        {
+          "en": "Discuss your typical routine or practice sessions with this instrument. When and where do you spend time playing? How often and with whom do you play? Provide as many details as you can.",
+          "ko": "이 악기로 하는 일상적인 연습 루틴에 대해 이야기해보세요. 언제 어디에서 연주하며 시간을 보내나요? 얼마나 자주, 누구와 함께 연주하나요? 가능한 한 자세히 이야기해 주세요.",
+          "type": "routine",
+          "topicHint": "악기"
+        },
+        {
+          "en": "Discuss your initial interest in playing this instrument. What classes did you take? Who was your teacher? Briefly explain your interest in playing this instrument from your childhood until now.",
+          "ko": "이 악기를 연주하게 된 처음의 계기에 대해 이야기해보세요. 어떤 수업을 들었나요? 선생님은 누구였나요? 어린 시절부터 지금까지 이 악기 연주에 대한 관심을 간단히 설명해 주세요.",
+          "type": "past_experience",
+          "topicHint": "악기"
+        },
+        {
+          "en": "Please tell me about your first time watching TV shows. How have TV shows changed since then?",
+          "ko": "당신이 처음 TV 프로그램을 본 경험에 대해 이야기해 주세요. 그 이후로 TV 프로그램은 어떻게 변했나요?",
+          "type": "comparison",
+          "topicHint": "TV"
+        },
+        {
+          "en": "Please talk about your favorite TV show you enjoy watching. Describe what kind of program it is. What makes this show special to you? Tell me everything in detail.",
+          "ko": "당신이 즐겨 보는 가장 좋아하는 TV 프로그램에 대해 이야기해보세요. 어떤 종류의 프로그램인지 설명해 주세요. 이 프로그램이 당신에게 특별한 이유는 무엇인가요? 모두 자세히 이야기해 주세요.",
+          "type": "description",
+          "topicHint": "TV"
+        },
+        {
+          "en": "Tell me how you first became interested in watching TV or movies, and how that interest has changed or developed from the first time until today.",
+          "ko": "당신이 TV나 영화를 보는 것에 처음 관심을 갖게 된 계기와, 처음 관심을 가진 때부터 오늘날까지 그 관심이 어떻게 변하거나 발전해왔는지 이야기해 주세요.",
+          "type": "comparison",
+          "topicHint": "TV/영화"
+        },
+        {
+          "en": "You indicated that you like to listen to music. What type of music do you like listening to? Who is your favorite singer? Give me all the details.",
+          "ko": "당신은 음악 듣는 것을 좋아한다고 하셨습니다. 어떤 종류의 음악을 즐겨 듣나요? 가장 좋아하는 가수는 누구인가요? 자세히 이야기해 주세요.",
+          "type": "description",
+          "topicHint": "음악"
+        },
+        {
+          "en": "What kind of music did you use to listen to when you were young? How was that music different from the music you listen to today? How has your interest in music changed over the years?",
+          "ko": "어렸을 때 어떤 음악을 즐겨 들었나요? 그 음악은 오늘날 당신이 듣는 음악과 어떻게 달랐나요? 음악에 대한 당신의 관심은 지난 몇 년간 어떻게 변해왔나요?",
+          "type": "comparison",
+          "topicHint": "음악"
+        },
+        {
+          "en": "Tell me about the last concert you went to. How was the concert and how did you like the music you listened to there? Give me all the details.",
+          "ko": "당신이 마지막으로 다녀온 콘서트에 대해 이야기해보세요. 콘서트는 어땠고, 그곳에서 들은 음악은 마음에 들었나요? 자세히 이야기해 주세요.",
+          "type": "past_experience",
+          "topicHint": "음악/콘서트"
+        },
+        {
+          "en": "Thinking about the current situation in your country, what do you believe is the single most significant challenge, whether economic, social, or cultural, that your country is facing right now?",
+          "ko": "당신 나라의 현재 상황을 생각할 때, 경제적이든 사회적이든 문화적이든, 당신 나라가 지금 직면한 가장 중요한 단 하나의 과제는 무엇이라고 생각하나요?",
+          "type": "current_issue",
+          "topicHint": "사회 이슈"
+        },
+        {
+          "en": "Thinking about your country's relationship and interactions with other countries, could you describe one specific event from recent years, perhaps from the world of culture, economics, or even art, that you personally found especially impactful or memorable?",
+          "ko": "당신 나라와 다른 나라들의 관계 및 교류를 생각할 때, 최근 몇 년간 문화, 경제, 혹은 예술 분야에서 당신이 개인적으로 특히 인상적이거나 기억에 남았던 구체적인 사건 하나를 설명해 줄 수 있나요?",
+          "type": "current_issue",
+          "topicHint": "사회 이슈"
+        }
       ]
     }
   ]
