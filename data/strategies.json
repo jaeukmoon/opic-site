@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "title": "OPIc 답변 전략",
+    "updated": "2026-07-05"
+  },
+  "sections": [
+    {
+      "id": "structure",
+      "nameKo": "답변 문단 구조 (기본 뼈대)",
+      "nameEn": "Answer Structure",
+      "desc": "대부분의 주제 답변에 쓰는 공통 흐름. 두괄식으로 핵심을 먼저 말하고, 예시로 살을 붙이고, 깨달음으로 마무리한다.",
+      "rows": [
+        {"step": "MP · Main Point", "ko": "핵심을 먼저. 30초 안에 What(무엇) · Feeling(감정) · Why(이유)를 던진다.", "en": "OK, I'm gonna tell you about it. / That's a pretty tough question, but…"},
+        {"step": "EX · Examples", "ko": "서로 다른 예시 2개 이상. 자세한 묘사와 감정을 넣어 길이를 늘린다. 과거를 잠깐 스쳐 현재와 비교(Quick comparison)해도 좋다.", "en": ""},
+        {"step": "Back to MP", "ko": "연결사로 핵심으로 복귀. 그래도 이게 최고다, 하는 식.", "en": "But on top of that… / Anyway…"},
+        {"step": "깨달음 · Realization", "ko": "답의 교훈/깨달음을 한 줄로.", "en": "I've realized / found / noticed / learned that ~ · And you know what? That's what I realized."},
+        {"step": "Conclusion", "ko": "짧게 닫는다.", "en": "Yeah, that's pretty much all I have to say."}
+      ]
+    },
+    {
+      "id": "types",
+      "nameKo": "질문 유형별 접근법",
+      "nameEn": "By Question Type",
+      "desc": "유형마다 두괄식의 순서와 채우는 방식이 조금씩 다르다.",
+      "rows": [
+        {"step": "묘사 · Description", "ko": "두괄식: 좋아하는 것(MP) → 그것이 주는 기분(Feeling) → 이유(Why).", "en": ""},
+        {"step": "과거경험 · Past Experience", "ko": "두괄식: 언제·누구랑(MP) → 이유(Why) → 기분(Feeling). 시간·숫자 디테일과 6하원칙이 중요. 흐름: MP → 감정/필러 → 자유 서술 → 마무리.", "en": ""},
+        {"step": "루틴·습관 · Routine / Habit", "ko": "MP에서는 What(무엇을 하는지)이 가장 중요. 행동 예시로 보여주고 whenever를 자주 쓴다. 흐름: What·Why → 행동 예시 → 오감 묘사 → 깨달음 → 마무리.", "en": ""},
+        {"step": "비교 · Comparison", "ko": "시간 비교(과거↔현재): MP(현재만) → 과거 → 현재 → 결론. 비시간 비교: 두 대상을 반대 키워드로 대조(예: 대도시=계획적 ↔ 소도시=즉흥적).", "en": ""},
+        {"step": "롤플레이 · Role Play", "ko": "보통 3문제 세트: ① 정보 요청(질문 3~4개) → ② 문제 상황 해결(상황 설명 + 대안 2~3개 제시) → ③ 관련 과거경험. 전화 통화하듯 자연스럽게.", "en": ""},
+        {"step": "시사이슈 · Current Issue", "ko": "문제 제시 → 원인 → 사람들의 대응/해결. 개인 경험보다 일반론으로 폭넓게.", "en": ""}
+      ]
+    },
+    {
+      "id": "techniques",
+      "nameKo": "고득점 테크닉",
+      "nameEn": "High-score Techniques",
+      "desc": "답을 길고 자연스럽게 만드는 장치들.",
+      "rows": [
+        {"step": "Quick / Non-time comparison", "ko": "현재를 말하다 과거나 반대 사례를 잠깐 끼워 답을 풍부하게. MP와 반대되는 내용을 짧게 대조하고 다시 MP로.", "en": ""},
+        {"step": "99:1", "ko": "좋아하는 것 위주(MP)로 말하고, 싫은 점 딱 1가지만 살짝 얹는다.", "en": "One thing I don't like about it is ~"},
+        {"step": "Controlled singular", "ko": "여러 개를 물으면 '정말 많다'고 먼저 인정(질문을 이해했음을 보여줌)한 뒤, 그중 하나만 집중해서 설명.", "en": ""},
+        {"step": "Direct / Indirect quotation", "ko": "직접화법과 간접화법을 섞어 생동감을 준다.", "en": "I was like, \"How much is this?\" / I asked how much it was."},
+        {"step": "감정 확장", "ko": "나의 감정뿐 아니라 친구·가족 등 타인의 감정까지 묘사하면 답이 풍부해진다.", "en": ""}
+      ]
+    },
+    {
+      "id": "expressions",
+      "nameKo": "유용한 표현",
+      "nameEn": "Useful Expressions",
+      "desc": "막힐 때, 이어갈 때, 닫을 때 쓰는 일반 표현들.",
+      "rows": [
+        {"step": "시작 (막힐 때)", "ko": "자연스러운 오프닝으로 생각할 시간을 번다.", "en": "Where do I begin? · That's a pretty tough question for me, but… · I think I have the perfect story. · ~ immediately comes to mind."},
+        {"step": "필러 · Fillers", "ko": "스크립트 없이 말하는 느낌을 준다.", "en": "you know · But you know what? · I mean… · like, like, like · To be honest / I think / I guess · by the way · or so"},
+        {"step": "전환 · Transition", "ko": "내용을 매끄럽게 잇는다.", "en": "And on top of that · Also · But honestly"},
+        {"step": "깨달음 · Realization", "ko": "마무리 직전 교훈을 얹는다.", "en": "I've realized / found / noticed / learned that ~"},
+        {"step": "마무리 · Conclusion", "ko": "짧게 닫는다.", "en": "That's pretty much all I have to say. · To sum up / To wrap up… · That's how I view ~ these days. · It is what it is, I guess."}
+      ]
+    }
+  ]
+}

@@ -124,6 +124,41 @@
     white-space: nowrap;
   }
   .badge.hint { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+  .tabs { max-width: 1100px; margin: 0 auto; padding: 14px 20px 0; display: flex; gap: 8px; }
+  .tab {
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--muted);
+    border-radius: 10px 10px 0 0;
+    padding: 8px 18px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  .tab.active { background: var(--card); color: var(--accent); border-bottom-color: var(--card); }
+  body.tab-strategy #search, body.tab-strategy #koToggle { display: none; }
+  .strategy-wrap { max-width: 900px; margin: 0 auto; padding: 20px; }
+  .strat-block {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 18px;
+  }
+  .strat-block h2 {
+    font-size: 1.05rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    display: inline-block;
+  }
+  .strat-block h2 .en { color: var(--muted); font-weight: normal; font-size: 0.85rem; margin-left: 8px; }
+  .strat-desc { color: var(--muted); font-size: 0.9rem; margin: 8px 0 14px; }
+  .strat-row { padding: 10px 0; border-top: 1px solid var(--border); }
+  .strat-row:first-of-type { border-top: none; }
+  .strat-step { font-weight: 700; color: var(--accent); font-size: 0.92rem; margin-bottom: 3px; }
+  .strat-ko { font-size: 0.95rem; }
+  .strat-en { font-size: 0.86rem; color: var(--muted); margin-top: 5px; font-family: ui-monospace, "Cascadia Code", Consolas, monospace; }
   .empty { color: var(--muted); padding: 40px 0; text-align: center; }
   footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 24px; }
   @media (max-width: 720px) {
@@ -143,11 +178,20 @@
     <button id="themeToggle" class="btn" title="테마 전환">◐</button>
   </div>
 </header>
-<div class="layout">
-  <nav id="topicNav"></nav>
-  <main id="content"><div class="empty">Loading...</div></main>
+<div class="tabs">
+  <button id="tab-questions" class="tab active">질문 은행</button>
+  <button id="tab-strategy" class="tab">답변 전략</button>
 </div>
-<footer>questions only · 답변 없음 · personal study use</footer>
+<div id="view-questions">
+  <div class="layout">
+    <nav id="topicNav"></nav>
+    <main id="content"><div class="empty">Loading...</div></main>
+  </div>
+</div>
+<div id="view-strategy" hidden>
+  <div class="strategy-wrap" id="strategyContent"><div class="empty">Loading...</div></div>
+</div>
+<footer>personal study use</footer>
 <script>
 let DATA = null;
 let activeTopic = 'all';
@@ -227,7 +271,38 @@ if (localStorage.getItem('opic-hideko') === '1') {
   document.body.classList.add('hide-ko');
   document.getElementById('koToggle').classList.remove('on');
 }
+
+let STRAT = null;
+async function loadStrategy() {
+  const res = await fetch('data/strategies.json');
+  STRAT = await res.json();
+  const el = document.getElementById('strategyContent');
+  let html = '';
+  for (const s of STRAT.sections) {
+    html += `<section class="strat-block"><h2>${esc(s.nameKo)}<span class="en">${esc(s.nameEn || '')}</span></h2>`;
+    if (s.desc) html += `<p class="strat-desc">${esc(s.desc)}</p>`;
+    for (const r of s.rows) {
+      html += `<div class="strat-row"><div class="strat-step">${esc(r.step)}</div><div class="strat-ko">${esc(r.ko)}</div>` +
+              (r.en ? `<div class="strat-en">${esc(r.en)}</div>` : '') + `</div>`;
+    }
+    html += `</section>`;
+  }
+  el.innerHTML = html;
+}
+
+function switchTab(which) {
+  const q = which === 'questions';
+  document.getElementById('view-questions').hidden = !q;
+  document.getElementById('view-strategy').hidden = q;
+  document.getElementById('tab-questions').classList.toggle('active', q);
+  document.getElementById('tab-strategy').classList.toggle('active', !q);
+  document.body.classList.toggle('tab-strategy', !q);
+}
+document.getElementById('tab-questions').addEventListener('click', () => switchTab('questions'));
+document.getElementById('tab-strategy').addEventListener('click', () => switchTab('strategy'));
+
 load();
+loadStrategy();
 </script>
 </body>
 </html>
