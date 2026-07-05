@@ -124,6 +124,7 @@
     white-space: nowrap;
   }
   .badge.hint { background: transparent; color: var(--muted); border: 1px solid var(--border); }
+  .badge.src { background: transparent; color: #0e9f6e; border: 1px solid #0e9f6e88; }
   .tabs { max-width: 1100px; margin: 0 auto; padding: 14px 20px 0; display: flex; gap: 8px; }
   .tab {
     border: 1px solid var(--border);
@@ -337,10 +338,11 @@ function render() {
     qs.forEach((q, i) => {
       const badge = q.type ? `<span class="badge">${TYPE_LABEL[q.type] || q.type}</span>` : '';
       const hint = q.topicHint ? `<span class="badge hint">${esc(q.topicHint)}</span>` : '';
+      const src = q.src ? `<span class="badge src" title="기출 시점">기출 ${esc(q.src)}</span>` : '';
       const key = hashKey(q.en);
       const has = (ANSWERS[key] && ANSWERS[key].trim()) ? ' has-answer' : '';
       html += `<div class="q" data-qkey="${key}" data-qtype="${esc(q.type || '')}">` +
-              `<div class="q-head"><span class="num">Q${i + 1}</span><span class="en">${esc(q.en)}${badge}${hint}</span></div>` +
+              `<div class="q-head"><span class="num">Q${i + 1}</span><span class="en">${esc(q.en)}${badge}${hint}${src}</span></div>` +
               (q.ko ? `<div class="ko">${esc(q.ko)}</div>` : '') +
               `<button class="ans-toggle${has}">✏️ 내 답변</button>` +
               `<div class="ans-box" hidden></div>` +
