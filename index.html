@@ -170,6 +170,43 @@
   }
   .strat-skeleton > div { padding: 1px 0; }
   .strat-skeleton .lbl { color: var(--accent); font-weight: 600; }
+  body.tab-strategy .ans-ctl { display: none; }
+  .ans-toggle {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--muted);
+    border-radius: 6px;
+    padding: 3px 10px;
+    cursor: pointer;
+  }
+  .ans-toggle.has-answer { color: var(--accent); border-color: var(--accent); font-weight: 600; }
+  .ans-box { margin-top: 8px; }
+  .ans-box textarea {
+    width: 100%;
+    min-height: 96px;
+    resize: vertical;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--text);
+    padding: 9px 11px;
+    font-size: 0.92rem;
+    font-family: inherit;
+    line-height: 1.7;
+  }
+  .ans-tools { display: flex; gap: 6px; margin-top: 6px; align-items: center; }
+  .ans-tools button {
+    font-size: 0.78rem;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--muted);
+    border-radius: 6px;
+    padding: 2px 9px;
+    cursor: pointer;
+  }
+  .ans-saved { font-size: 0.75rem; color: var(--muted); margin-left: auto; }
   .empty { color: var(--muted); padding: 40px 0; text-align: center; }
   footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 24px; }
   @media (max-width: 720px) {
@@ -185,6 +222,8 @@
   <h1>OPIc Question Bank</h1>
   <div class="controls">
     <input id="search" type="search" placeholder="문제 검색 (영/한)...">
+    <button id="exportBtn" class="btn ans-ctl" title="내 답변 파일로 내보내기">⬇ 내보내기</button>
+    <label class="btn ans-ctl" title="내 답변 파일에서 가져오기">⬆ 가져오기<input id="importFile" type="file" accept="application/json" hidden></label>
     <button id="koToggle" class="btn on" title="한글 번역 표시/숨김">한글</button>
     <button id="themeToggle" class="btn" title="테마 전환">◐</button>
   </div>
@@ -202,7 +241,7 @@
 <div id="view-strategy" hidden>
   <div class="strategy-wrap" id="strategyContent"><div class="empty">Loading...</div></div>
 </div>
-<footer>personal study use</footer>
+<footer>내 답변은 이 브라우저에만 저장돼요 · 서버 전송 없음 · personal study use</footer>
 <script>
 let DATA = null;
 let activeTopic = 'all';
@@ -216,6 +255,12 @@ const TYPE_LABEL = {
   current_issue: '시사이슈',
   general: '일반'
 };
+
+let ANSWERS = {};
+try { ANSWERS = JSON.parse(localStorage.getItem('opic-answers') || '{}') || {}; } catch (e) { ANSWERS = {}; }
+let SKEL = {};
+function hashKey(s) { let h = 5381; for (let i = 0; i < s.length; i++) h = ((h * 33) ^ s.charCodeAt(i)) >>> 0; return h.toString(36); }
+function saveAnswers() { try { localStorage.setItem('opic-answers', JSON.stringify(ANSWERS)); } catch (e) {} }
 
 async function load() {
   const res = await fetch('data/questions.json');
@@ -257,8 +302,14 @@ function render() {
     qs.forEach((q, i) => {
       const badge = q.type ? `<span class="badge">${TYPE_LABEL[q.type] || q.type}</span>` : '';
       const hint = q.topicHint ? `<span class="badge hint">${esc(q.topicHint)}</span>` : '';
-      html += `<div class="q"><div class="q-head"><span class="num">Q${i + 1}</span><span class="en">${esc(q.en)}${badge}${hint}</span></div>` +
-              (q.ko ? `<div class="ko">${esc(q.ko)}</div>` : '') + `</div>`;
+      const key = hashKey(q.en);
+      const has = (ANSWERS[key] && ANSWERS[key].trim()) ? ' has-answer' : '';
+      html += `<div class="q" data-qkey="${key}" data-qtype="${esc(q.type || '')}">` +
+              `<div class="q-head"><span class="num">Q${i + 1}</span><span class="en">${esc(q.en)}${badge}${hint}</span></div>` +
+              (q.ko ? `<div class="ko">${esc(q.ko)}</div>` : '') +
+              `<button class="ans-toggle${has}">✏️ 내 답변</button>` +
+              `<div class="ans-box" hidden></div>` +
+              `</div>`;
     });
     html += `</section>`;
   }
@@ -287,6 +338,8 @@ let STRAT = null;
 async function loadStrategy() {
   const res = await fetch('data/strategies.json');
   STRAT = await res.json();
+  SKEL = {};
+  for (const s of STRAT.sections) for (const r of (s.rows || [])) if (r.type && r.skeleton) SKEL[r.type] = r.skeleton;
   const el = document.getElementById('strategyContent');
   let html = '';
   for (const s of STRAT.sections) {
@@ -313,6 +366,73 @@ function switchTab(which) {
 }
 document.getElementById('tab-questions').addEventListener('click', () => switchTab('questions'));
 document.getElementById('tab-strategy').addEventListener('click', () => switchTab('strategy'));
+
+document.getElementById('content').addEventListener('click', (e) => {
+  const btn = e.target.closest('.ans-toggle');
+  if (!btn) return;
+  const qEl = btn.closest('.q');
+  const box = qEl.querySelector('.ans-box');
+  if (!box.hidden) { box.hidden = true; return; }
+  box.hidden = false;
+  if (box.dataset.built) return;
+  box.dataset.built = '1';
+  const key = qEl.dataset.qkey;
+  const type = qEl.dataset.qtype;
+  const ta = document.createElement('textarea');
+  ta.placeholder = '여기에 내 답변을 작성하세요…';
+  ta.value = ANSWERS[key] || '';
+  ta.addEventListener('input', () => {
+    ANSWERS[key] = ta.value;
+    saveAnswers();
+    btn.classList.toggle('has-answer', !!ta.value.trim());
+  });
+  const tools = document.createElement('div');
+  tools.className = 'ans-tools';
+  const skelBtn = document.createElement('button');
+  skelBtn.textContent = '골격 넣기';
+  skelBtn.addEventListener('click', () => {
+    const sk = SKEL[type];
+    if (sk && !ta.value.trim()) { ta.value = sk.join('\n'); ta.dispatchEvent(new Event('input')); }
+    ta.focus();
+  });
+  if (!SKEL[type]) skelBtn.style.display = 'none';
+  const clrBtn = document.createElement('button');
+  clrBtn.textContent = '지우기';
+  clrBtn.addEventListener('click', () => { ta.value = ''; ta.dispatchEvent(new Event('input')); ta.focus(); });
+  const saved = document.createElement('span');
+  saved.className = 'ans-saved';
+  saved.textContent = '자동 저장됨';
+  tools.append(skelBtn, clrBtn, saved);
+  box.append(ta, tools);
+  ta.focus();
+});
+
+document.getElementById('exportBtn').addEventListener('click', () => {
+  const blob = new Blob([JSON.stringify(ANSWERS, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'opic-my-answers.json';
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(a.href);
+});
+document.getElementById('importFile').addEventListener('change', (e) => {
+  const f = e.target.files && e.target.files[0];
+  if (!f) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const obj = JSON.parse(reader.result);
+      if (obj && typeof obj === 'object' && !Array.isArray(obj)) {
+        Object.assign(ANSWERS, obj);
+        saveAnswers();
+        render();
+        alert('내 답변을 가져왔어요.');
+      } else { alert('올바른 답변 파일이 아니에요.'); }
+    } catch (err) { alert('가져오기 실패: 올바른 JSON 파일이 아니에요.'); }
+    e.target.value = '';
+  };
+  reader.readAsText(f);
+});
 
 load();
 loadStrategy();
